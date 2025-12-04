@@ -1,0 +1,35 @@
+Max rain: 107.0
+Min rain: 0.0
+Mean rain: 0.52
+Null values: 2547
+Số lần >= 50mm/h: 26, Xác suất: 0.0003
+Số lần >= 100mm/h: 1, Xác suất: 0.0000
+Số lần >= 150mm/h: 0, Xác suất: 0.0000
+Số lần >= 200mm/h: 0, Xác suất: 0.0000
+
+Rain by day (sample):
+Ngay
+2008-01-01    8.9
+2008-01-02    7.1
+2008-01-03    0.7
+2008-01-04    0.7
+2008-01-05    1.7
+Name: Luong_mua_mm, dtype: float64
+
+Rain by month (sample):
+Nam   Thang
+2008  1        124.0
+      2         93.0
+      3         94.9
+      4        111.8
+      5        318.1
+Name: Luong_mua_mm, dtype: float64
+
+Rain by season (sample):
+Nam   Mua   
+2008  Autumn    2828.5
+      Spring     524.8
+      Summer     573.3
+      Winter     685.6
+2009  Autumn    1909.0
+Name: Luong_mua_mm, dtype: float64

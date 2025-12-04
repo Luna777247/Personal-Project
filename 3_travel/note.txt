@@ -1,0 +1,42 @@
+Dùng API này để lấy dữ liệu và lưu vào collection places trong mongo atlas:
+textQuery = type + "in" + city
+trong đó type = [hotel, restaurant, attraction] , city = [Bangkok (Thái Lan), Istanbul (Thổ Nhĩ Kỳ) 
+London (Anh), Hong Kong , Mecca (Ả Rập Saudi) , Antalya (Thổ Nhĩ Kỳ), Dubai (UAE) ,Macau (Trung Quốc) 
+Paris (Pháp) , Kuala Lumpur (Malaysia)]
+import requests
+
+url = "https://google-map-places-new-v2.p.rapidapi.com/v1/places:searchText"
+
+payload = {
+	"textQuery": "restaurants",
+	"languageCode": "",
+	"regionCode": "",
+	"rankPreference": 0,
+	"includedType": "",
+	"openNow": True,
+	"minRating": 0,
+	"maxResultCount": 1,
+	"priceLevels": [],
+	"strictTypeFiltering": True,
+	"locationBias": { "circle": {
+			"center": {
+				"latitude": 40,
+				"longitude": -110
+			},
+			"radius": 10000
+		} },
+	"evOptions": {
+		"minimumChargingRateKw": 0,
+		"connectorTypes": []
+	}
+}
+headers = {
+	"x-rapidapi-key": "02ad4fd6f3msh1f0390da51ae627p19a5cfjsn7f2b23cadfdb",
+	"x-rapidapi-host": "google-map-places-new-v2.p.rapidapi.com",
+	"Content-Type": "application/json",
+	"X-Goog-FieldMask": "*"
+}
+
+response = requests.post(url, json=payload, headers=headers)
+
+print(response.json())

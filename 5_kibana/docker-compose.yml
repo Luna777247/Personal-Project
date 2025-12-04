@@ -1,0 +1,42 @@
+# version: "3.8"
+
+networks:
+  elastic:
+    driver: bridge
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.1.4
+    container_name: es01
+    environment:
+      - discovery.type=single-node          # single-node cho dev/test
+      - bootstrap.memory_lock=true
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m       # bộ nhớ JVM
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "9200:9200"                          # REST API
+      - "9300:9300"                          # inter-node (nếu multi-node)
+    networks:
+      - elastic
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:9.1.4
+    container_name: kib01
+    depends_on:
+      - elasticsearch
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      # - SERVER_NAME=kibana.example.org      # tùy chỉnh tên server
+    ports:
+      - "5601:5601"                          # giao diện web Kibana
+    networks:
+      - elastic
+
+volumes:
+  es_data:
+    driver: local

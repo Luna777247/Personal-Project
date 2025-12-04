@@ -1,0 +1,15 @@
+*.mkv
+*.mp4
+*.avi
+*.mov
+*.h5
+*.pkl
+*.model
+*.bin
+__pycache__/
+*.pyc
+.env
+token.pickle
+password.txt
+*.log
+.DS_Store
