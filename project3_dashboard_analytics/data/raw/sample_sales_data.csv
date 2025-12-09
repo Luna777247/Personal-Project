@@ -1,0 +1,11 @@
+date,user_id,category,revenue,order_id,user_type,session_duration
+2023-01-01,1,Electronics,299.99,O001,new,120
+2023-01-02,2,Clothing,89.50,O002,new,95
+2023-01-03,1,Electronics,149.99,O003,returning,110
+2023-01-04,3,Books,25.00,O004,new,85
+2023-01-05,2,Clothing,120.00,O005,returning,130
+2023-01-06,4,Electronics,499.99,O006,new,150
+2023-01-07,1,Books,15.99,O007,returning,90
+2023-01-08,5,Clothing,75.00,O008,new,100
+2023-01-09,3,Electronics,199.99,O009,returning,125
+2023-01-10,2,Books,30.00,O010,returning,95

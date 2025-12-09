@@ -1,0 +1,20 @@
+{
+  "weather_sample": {
+    "city": "London",
+    "temperature": 15.5,
+    "humidity": 72.0,
+    "pressure": 1013.0,
+    "weather_description": "scattered clouds",
+    "timestamp": "2023-12-09T10:00:00"
+  },
+  "financial_sample": {
+    "symbol": "IBM",
+    "date": "2023-12-08",
+    "open": 160.50,
+    "high": 162.30,
+    "low": 159.80,
+    "close": 161.20,
+    "volume": 2456789,
+    "timestamp": "2023-12-09T10:00:00"
+  }
+}
