@@ -1,5 +1,4 @@
 import psycopg2
-import pandas as pd
 from config.database_config import DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD
 
 def create_connection():

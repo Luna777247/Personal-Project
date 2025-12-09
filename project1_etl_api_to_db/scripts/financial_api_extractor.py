@@ -1,5 +1,4 @@
 import requests
-import pandas as pd
 from datetime import datetime
 from config.api_config import FINANCIAL_API_KEY, FINANCIAL_BASE_URL
 

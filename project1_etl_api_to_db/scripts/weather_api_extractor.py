@@ -1,5 +1,4 @@
 import requests
-import pandas as pd
 from datetime import datetime
 from config.api_config import WEATHER_API_KEY, WEATHER_BASE_URL
 
