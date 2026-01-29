@@ -1,0 +1,579 @@
+{
+  "destination": "Hanoi",
+  "duration_days": 3,
+  "user_preferences": {
+    "interests": [
+      "culture",
+      "food",
+      "history"
+    ],
+    "budget_range": "medium",
+    "travel_party": "couple",
+    "accommodation_type": "hotel"
+  },
+  "daily_itineraries": [
+    {
+      "day_number": 1,
+      "date": "2025-12-16",
+      "blocks": [
+        {
+          "block_type": "breakfast",
+          "time_range": "07:00 - 08:00",
+          "places": [
+            {
+              "place_id": "ChIJ7bUfGJ2rNTERbx8290NldO8",
+              "name": "ORIANA VIETNAMESE RESTAURANT and VEGETARIAN",
+              "rating": 4.9,
+              "avg_price_usd": 29.0,
+              "arrival_time": "07:00",
+              "departure_time": "07:45",
+              "visit_duration_hours": 0.75,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 1.88,
+                "travel_time_hours": 0.05,
+                "cost_usd": 0.75
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "morning",
+          "time_range": "08:00 - 11:00",
+          "places": [
+            {
+              "place_id": "ChIJSUAxoJyrNTERIKrXQVu7e3k",
+              "name": "Hanoi Walking",
+              "rating": 5.0,
+              "avg_price_usd": 19.0,
+              "arrival_time": "08:03",
+              "departure_time": "09:03",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 1.94,
+                "travel_time_hours": 0.06,
+                "cost_usd": 0.77
+              }
+            },
+            {
+              "place_id": "ChIJb84HLb-rNTERHlS-hFuXkwk",
+              "name": "Ha Giang Loop Tour",
+              "rating": 4.9,
+              "avg_price_usd": 7.0,
+              "arrival_time": "09:06",
+              "departure_time": "10:06",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.44,
+                "travel_time_hours": 0.09,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "lunch",
+          "time_range": "11:00 - 13:00",
+          "places": [
+            {
+              "place_id": "ChIJl9XPswGrNTERuyJaQtLJFrg",
+              "name": "UPPER CLOUD RESTAURANT LAKE VIEW",
+              "rating": 5.0,
+              "avg_price_usd": 18.0,
+              "arrival_time": "11:00",
+              "departure_time": "12:00",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.1,
+                "travel_time_hours": 0.02,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "afternoon",
+          "time_range": "13:00 - 18:30",
+          "places": [
+            {
+              "place_id": "ChIJW9J_bwCrNTER7Z8_0B2Esak",
+              "name": "Hello Hanoi Restaurant Vietnamese Cuisine & Vegetarian food",
+              "rating": 4.9,
+              "avg_price_usd": 28.0,
+              "arrival_time": "13:01",
+              "departure_time": "14:16",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 1.08,
+                "travel_time_hours": 0.22,
+                "cost_usd": 0.0
+              }
+            },
+            {
+              "place_id": "ChIJ0WjcZr-rNTERV74gECnJzig",
+              "name": "Essence Restaurant Original (since 2011)",
+              "rating": 4.8,
+              "avg_price_usd": 20.0,
+              "arrival_time": "14:29",
+              "departure_time": "15:44",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 4.68,
+                "travel_time_hours": 0.13,
+                "cost_usd": 1.87
+              }
+            },
+            {
+              "place_id": "ChIJi3I61wSsNTEREPGWbUmEBoY",
+              "name": "VinKE & Thủy cung Times City",
+              "rating": 4.7,
+              "avg_price_usd": 9.0,
+              "arrival_time": "15:52",
+              "departure_time": "17:07",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 4.62,
+                "travel_time_hours": 0.13,
+                "cost_usd": 1.85
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "dinner",
+          "time_range": "18:30 - 20:30",
+          "places": [
+            {
+              "place_id": "ChIJc9yYspGrNTER-sUhmiRos8s",
+              "name": "Comida Hanoi Restaurant & Cooking Class",
+              "rating": 5.0,
+              "avg_price_usd": 23.0,
+              "arrival_time": "18:30",
+              "departure_time": "20:00",
+              "visit_duration_hours": 1.5,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.41,
+                "travel_time_hours": 0.08,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "evening",
+          "time_range": "20:30 - 22:00",
+          "places": [
+            {
+              "place_id": "ChIJV4-ViyCrNTERZr2FFuK4J_k",
+              "name": "L'essence De Cuisine",
+              "rating": 5.0,
+              "avg_price_usd": 26.0,
+              "arrival_time": "20:30",
+              "departure_time": "21:30",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.12,
+                "travel_time_hours": 0.02,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "hotel",
+          "time_range": "22:00 - 07:00",
+          "places": [
+            {
+              "place_id": "ChIJCbw7mGCrNTERzEp-RtLuyKc",
+              "name": "L'Signature Hotel & Spa",
+              "rating": 4.9,
+              "avg_price_usd": 58.0,
+              "arrival_time": "22:00",
+              "departure_time": "07:00",
+              "visit_duration_hours": 9.0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "total_places": 10,
+        "places_cost_usd": 237.0,
+        "transport_cost_usd": 5.24,
+        "total_cost_usd": 242.24
+      }
+    },
+    {
+      "day_number": 2,
+      "date": "2025-12-17",
+      "blocks": [
+        {
+          "block_type": "breakfast",
+          "time_range": "07:00 - 08:00",
+          "places": [
+            {
+              "place_id": "ChIJu-P93epfSjER3RbZ0nhN2ME",
+              "name": "Halong Bay Tour",
+              "rating": 4.6,
+              "avg_price_usd": 13.0,
+              "arrival_time": "07:00",
+              "departure_time": "07:45",
+              "visit_duration_hours": 0.75,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.81,
+                "travel_time_hours": 0.16,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "morning",
+          "time_range": "08:00 - 11:00",
+          "places": [
+            {
+              "place_id": "ChIJm3YS_eqrNTERUWy7787s8sc",
+              "name": "Sword Lake Octagon House",
+              "rating": 4.6,
+              "avg_price_usd": 13.0,
+              "arrival_time": "08:09",
+              "departure_time": "09:09",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.47,
+                "travel_time_hours": 0.09,
+                "cost_usd": 0.0
+              }
+            },
+            {
+              "place_id": "ChIJccun9eurNTERtKVn44HT8Ig",
+              "name": "Square of August Revolution",
+              "rating": 4.6,
+              "avg_price_usd": 8.0,
+              "arrival_time": "09:15",
+              "departure_time": "10:15",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 1.01,
+                "travel_time_hours": 0.2,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "lunch",
+          "time_range": "11:00 - 13:00",
+          "places": [
+            {
+              "place_id": "ChIJK0HXl0urNTEROaDNOk9AogI",
+              "name": "MIAs restaurant",
+              "rating": 4.9,
+              "avg_price_usd": 16.0,
+              "arrival_time": "11:00",
+              "departure_time": "12:00",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.43,
+                "travel_time_hours": 0.09,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "afternoon",
+          "time_range": "13:00 - 18:30",
+          "places": [
+            {
+              "place_id": "ChIJp0o4Er6rNTERjlTif_IXU1k",
+              "name": "Hanoi Old Quarter",
+              "rating": 4.6,
+              "avg_price_usd": 15.0,
+              "arrival_time": "13:05",
+              "departure_time": "14:20",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 1.87,
+                "travel_time_hours": 0.05,
+                "cost_usd": 0.75
+              }
+            },
+            {
+              "place_id": "ChIJg7gIaImjQTERQjXdxTkooV8",
+              "name": "Hồ Thuỷ Tiên",
+              "rating": 4.6,
+              "avg_price_usd": 12.0,
+              "arrival_time": "14:23",
+              "departure_time": "15:38",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "motorbike",
+                "distance_km": 2.17,
+                "travel_time_hours": 0.06,
+                "cost_usd": 0.87
+              }
+            },
+            {
+              "place_id": "ChIJHfYHWaBbSjERv_90ltjT6Vg",
+              "name": "Làng chài Trà Báu",
+              "rating": 4.5,
+              "avg_price_usd": 8.0,
+              "arrival_time": "15:42",
+              "departure_time": "16:57",
+              "visit_duration_hours": 1.25,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.18,
+                "travel_time_hours": 0.04,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "dinner",
+          "time_range": "18:30 - 20:30",
+          "places": [
+            {
+              "place_id": "ChIJGR8daRurNTERiP2FRKSdIgM",
+              "name": "Hoang's Restaurant - Vietnamese Restaurant & Vegan Food",
+              "rating": 4.9,
+              "avg_price_usd": 20.0,
+              "arrival_time": "18:30",
+              "departure_time": "20:00",
+              "visit_duration_hours": 1.5,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.28,
+                "travel_time_hours": 0.06,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "evening",
+          "time_range": "20:30 - 22:00",
+          "places": [
+            {
+              "place_id": "ChIJlR80_dG9NTERorHk3_x6wTQ",
+              "name": "Hanoi Corner Restaurant",
+              "rating": 4.9,
+              "avg_price_usd": 25.0,
+              "arrival_time": "20:30",
+              "departure_time": "21:30",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.13,
+                "travel_time_hours": 0.03,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "hotel",
+          "time_range": "22:00 - 07:00",
+          "places": [
+            {
+              "place_id": "ChIJvRjrg6arNTERTp-fhVwKIw8",
+              "name": "La Mejor Hotel & Sky Bar",
+              "rating": 4.9,
+              "avg_price_usd": 89.0,
+              "arrival_time": "22:00",
+              "departure_time": "07:00",
+              "visit_duration_hours": 9.0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "total_places": 10,
+        "places_cost_usd": 219.0,
+        "transport_cost_usd": 1.62,
+        "total_cost_usd": 220.62
+      }
+    },
+    {
+      "day_number": 3,
+      "date": "2025-12-18",
+      "blocks": [
+        {
+          "block_type": "breakfast",
+          "time_range": "07:00 - 08:00",
+          "places": []
+        },
+        {
+          "block_type": "morning",
+          "time_range": "08:00 - 11:00",
+          "places": [
+            {
+              "place_id": "ChIJR9N2oKKrNTERNIq8JANqEic",
+              "name": "Statue of Lenin",
+              "rating": 4.5,
+              "avg_price_usd": 12.0,
+              "arrival_time": "08:00",
+              "departure_time": "09:00",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 1.14,
+                "travel_time_hours": 0.23,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "lunch",
+          "time_range": "11:00 - 13:00",
+          "places": [
+            {
+              "place_id": "ChIJrSnreyyrNTERerYhe3EwyaA",
+              "name": "MẸT Vietnamese Restaurant & Vegetarian Met 2",
+              "rating": 4.9,
+              "avg_price_usd": 20.0,
+              "arrival_time": "11:00",
+              "departure_time": "12:00",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.43,
+                "travel_time_hours": 0.09,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "afternoon",
+          "time_range": "13:00 - 18:30",
+          "places": []
+        },
+        {
+          "block_type": "dinner",
+          "time_range": "18:30 - 20:30",
+          "places": [
+            {
+              "place_id": "ChIJcXwY2LWrNTER7AK0zwv68A0",
+              "name": "VIET Restaurant Hanoi",
+              "rating": 4.9,
+              "avg_price_usd": 21.0,
+              "arrival_time": "18:30",
+              "departure_time": "20:00",
+              "visit_duration_hours": 1.5,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.84,
+                "travel_time_hours": 0.17,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "evening",
+          "time_range": "20:30 - 22:00",
+          "places": [
+            {
+              "place_id": "ChIJS_M4qgCrNTERGc0FxMJCqC4",
+              "name": "Era Restaurant",
+              "rating": 4.9,
+              "avg_price_usd": 25.0,
+              "arrival_time": "20:30",
+              "departure_time": "21:30",
+              "visit_duration_hours": 1.0,
+              "transport_to_next": {
+                "mode": "walking",
+                "distance_km": 0.16,
+                "travel_time_hours": 0.03,
+                "cost_usd": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "block_type": "hotel",
+          "time_range": "22:00 - 07:00",
+          "places": [
+            {
+              "place_id": "ChIJvRjrg6arNTERTp-fhVwKIw8",
+              "name": "La Mejor Hotel & Sky Bar",
+              "rating": 4.9,
+              "avg_price_usd": 89.0,
+              "arrival_time": "22:00",
+              "departure_time": "07:00",
+              "visit_duration_hours": 9.0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "total_places": 5,
+        "places_cost_usd": 167.0,
+        "transport_cost_usd": 0.0,
+        "total_cost_usd": 167.0
+      }
+    }
+  ],
+  "summary": {
+    "total_days": 3,
+    "total_places": 25,
+    "places_cost_usd": 623.0,
+    "transport_cost_usd": 6.86,
+    "total_cost_usd": 629.86
+  },
+  "created_at": "2025-12-16T17:37:45.930532",
+  "timeblock_configuration": {
+    "timeblocks": {
+      "meals": {
+        "breakfast": {
+          "start": "07:00",
+          "end": "08:00"
+        },
+        "lunch": {
+          "start": "11:00",
+          "end": "13:00"
+        },
+        "dinner": {
+          "start": "18:30",
+          "end": "20:30"
+        }
+      },
+      "activities": {
+        "morning": {
+          "start": "08:00",
+          "end": "11:00"
+        },
+        "afternoon": {
+          "start": "13:00",
+          "end": "18:30"
+        },
+        "evening": {
+          "start": "20:30",
+          "end": "22:00"
+        }
+      },
+      "rest": {
+        "hotel": {
+          "start": "22:00",
+          "end": "07:00"
+        }
+      }
+    }
+  }
+}

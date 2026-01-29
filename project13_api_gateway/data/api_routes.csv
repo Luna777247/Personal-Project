@@ -1,0 +1,20 @@
+id,service_id,methods,paths,strip_path,preserve_host,protocols,created_at,source
+route_1,service_1,['POST'],['/orders'],False,True,"['http', 'https']",2024-12-22T11:09:55.480169,MOCK_DATA
+route_2,service_2,"['PATCH', 'GET', 'DELETE', 'POST']",['/users/{id}'],True,False,"['http', 'https']",2025-04-04T11:09:55.480187,MOCK_DATA
+route_3,service_2,"['POST', 'GET', 'DELETE']",['/transactions'],False,True,"['http', 'https']",2025-02-27T11:09:55.480196,MOCK_DATA
+route_4,service_3,"['DELETE', 'PATCH']",['/payments/{id}/refund'],True,True,"['http', 'https']",2025-06-13T11:09:55.480203,MOCK_DATA
+route_5,service_4,['DELETE'],['/transactions/{id}'],True,True,"['http', 'https']",2025-07-07T11:09:55.480209,MOCK_DATA
+route_6,service_4,"['POST', 'DELETE', 'PUT', 'PATCH']",['/payments/{id}'],False,False,"['http', 'https']",2025-05-10T11:09:55.480214,MOCK_DATA
+route_7,service_5,"['GET', 'PATCH']",['/users/{id}'],True,True,"['http', 'https']",2025-03-15T11:09:55.480220,MOCK_DATA
+route_8,service_5,['GET'],['/users/{id}/profile'],True,True,"['http', 'https']",2025-06-28T11:09:55.480224,MOCK_DATA
+route_9,service_5,"['GET', 'DELETE', 'PUT', 'PATCH']",['/payments/{id}'],True,False,"['http', 'https']",2024-12-15T11:09:55.480229,MOCK_DATA
+route_10,service_6,"['POST', 'PUT', 'PATCH']",['/orders'],False,True,"['http', 'https']",2025-07-06T11:09:55.480235,MOCK_DATA
+route_11,service_6,['DELETE'],['/orders'],True,True,"['http', 'https']",2025-07-04T11:09:55.480239,MOCK_DATA
+route_12,service_6,"['GET', 'PUT', 'DELETE', 'PATCH']",['/orders/{id}/items'],True,True,"['http', 'https']",2025-11-12T11:09:55.480244,MOCK_DATA
+route_13,service_7,['POST'],['/accounts'],True,True,"['http', 'https']",2025-04-01T11:09:55.480249,MOCK_DATA
+route_14,service_8,"['PATCH', 'GET', 'PUT', 'DELETE']",['/transactions/{id}/status'],False,True,"['http', 'https']",2025-11-24T11:09:55.480255,MOCK_DATA
+route_15,service_9,"['PUT', 'PATCH', 'DELETE', 'POST']",['/accounts/{id}'],True,False,"['http', 'https']",2025-08-19T11:09:55.480260,MOCK_DATA
+route_16,service_10,"['POST', 'PATCH', 'GET']",['/accounts'],True,True,"['http', 'https']",2025-10-31T11:09:55.480266,MOCK_DATA
+route_17,service_10,"['DELETE', 'PATCH', 'GET']",['/accounts'],True,True,"['http', 'https']",2025-01-05T11:09:55.480276,MOCK_DATA
+route_18,service_11,['DELETE'],['/payments/{id}'],True,False,"['http', 'https']",2025-05-30T11:09:55.480281,MOCK_DATA
+route_19,service_12,"['PUT', 'GET', 'POST']",['/orders/{id}/items'],False,False,"['http', 'https']",2025-03-12T11:09:55.480287,MOCK_DATA

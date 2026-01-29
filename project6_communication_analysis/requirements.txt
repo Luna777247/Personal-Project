@@ -1,0 +1,34 @@
+# Communication Campaign Analysis Requirements
+# ============================================
+
+# Core data processing
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+statsmodels>=0.13.0
+plotly>=5.0.0
+streamlit>=1.0.0
+openpyxl>=3.0.0
+python-dotenv>=0.19.0
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+textblob>=0.17.0
+wordcloud>=1.8.0
+nltk>=3.7
+tqdm>=4.62.0
+python-dateutil>=2.8.0
+
+# API integrations for real data
+tweepy>=4.14.0
+facebook-sdk>=3.1.0
+mailchimp3>=3.0.17
+google-api-python-client>=2.70.0
+google-auth>=2.14.0
+surveymonkey>=0.1.0
+
+# Additional utilities
+oauth2client>=4.1.3
+httplib2>=0.20.4

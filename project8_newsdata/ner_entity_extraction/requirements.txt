@@ -1,0 +1,38 @@
+# NER Entity Extraction Requirements
+# Named Entity Recognition for Disaster Information Extraction
+
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# Vietnamese NLP
+underthesea>=6.6.0
+pyvi>=0.1.1
+
+# PhoNER (Vietnamese NER)
+transformers>=4.21.0
+torch>=1.12.0
+fairseq>=0.12.2
+
+# VnCoreNLP
+vncorenlp>=1.0.3
+jpype1>=1.4.0
+
+# spaCy
+spacy>=3.5.0
+spacy-transformers>=1.2.0
+
+# BERT models
+sentence-transformers>=2.2.0
+
+# Vietnamese BERT
+# Note: Will be downloaded automatically by scripts
+
+# Utilities
+tqdm>=4.64.0
+requests>=2.28.0
+python-dotenv>=0.19.0
+
+# Optional: GPU support
+# torch[cuda]>=1.12.0  # Uncomment for CUDA support

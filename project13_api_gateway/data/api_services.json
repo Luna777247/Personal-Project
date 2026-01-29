@@ -1,0 +1,122 @@
+[
+  {
+    "id": "service_1",
+    "name": "order-service",
+    "url": "http://localhost:8080",
+    "description": "Mock order-service for demonstration",
+    "version": "v1.8.2",
+    "status": "active",
+    "created_at": "2025-06-14T11:09:55.479900",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "service_2",
+    "name": "payment-service",
+    "url": "http://localhost:8081",
+    "description": "Mock payment-service for demonstration",
+    "version": "v2.5.7",
+    "status": "active",
+    "created_at": "2025-10-03T11:09:55.479923",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "service_3",
+    "name": "user-service",
+    "url": "http://localhost:8082",
+    "description": "Mock user-service for demonstration",
+    "version": "v3.5.4",
+    "status": "active",
+    "created_at": "2025-03-14T11:09:55.479930",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "service_4",
+    "name": "inventory-service",
+    "url": "http://localhost:8083",
+    "description": "Mock inventory-service for demonstration",
+    "version": "v1.7.7",
+    "status": "active",
+    "created_at": "2025-10-13T11:09:55.479936",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "service_5",
+    "name": "notification-service",
+    "url": "http://localhost:8084",
+    "description": "Mock notification-service for demonstration",
+    "version": "v1.2.3",
+    "status": "inactive",
+    "created_at": "2025-05-05T11:09:55.479941",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "service_6",
+    "name": "reporting-service",
+    "url": "http://localhost:8085",
+    "description": "Mock reporting-service for demonstration",
+    "version": "v1.8.9",
+    "status": "inactive",
+    "created_at": "2025-10-21T11:09:55.479945",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "service_7",
+    "name": "auth-service",
+    "url": "http://localhost:8086",
+    "description": "Mock auth-service for demonstration",
+    "version": "v1.2.1",
+    "status": "active",
+    "created_at": "2025-08-22T11:09:55.479950",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "service_8",
+    "name": "transaction-service",
+    "url": "http://localhost:8087",
+    "description": "Mock transaction-service for demonstration",
+    "version": "v2.1.0",
+    "status": "active",
+    "created_at": "2025-04-12T11:09:55.479955",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "service_9",
+    "name": "reporting-service",
+    "url": "http://localhost:8088",
+    "description": "Mock reporting-service for demonstration",
+    "version": "v2.4.4",
+    "status": "inactive",
+    "created_at": "2025-02-04T11:09:55.479962",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "service_10",
+    "name": "user-service",
+    "url": "http://localhost:8089",
+    "description": "Mock user-service for demonstration",
+    "version": "v1.3.7",
+    "status": "maintenance",
+    "created_at": "2024-12-25T11:09:55.479967",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "service_11",
+    "name": "custom-service-11",
+    "url": "http://localhost:8090",
+    "description": "Mock custom-service-11 for demonstration",
+    "version": "v3.8.8",
+    "status": "inactive",
+    "created_at": "2025-12-01T11:09:55.479972",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "service_12",
+    "name": "custom-service-12",
+    "url": "http://localhost:8091",
+    "description": "Mock custom-service-12 for demonstration",
+    "version": "v2.8.3",
+    "status": "active",
+    "created_at": "2025-03-12T11:09:55.479977",
+    "source": "MOCK_DATA"
+  }
+]

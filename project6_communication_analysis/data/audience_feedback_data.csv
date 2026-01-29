@@ -1,0 +1,301 @@
+survey_name,response_id,date,satisfaction_rating,sentiment,sentiment_score,nps_score,would_recommend
+Product Usage Survey,RESP_0,2025-11-15 16:47:24.558563,4,Positive,0.452,-63,False
+Campaign Feedback,RESP_1,2025-10-25 16:47:24.558636,3,Neutral,-0.041,-70,True
+Brand Perception Survey,RESP_2,2025-11-14 16:47:24.558676,3,Neutral,-0.009,-83,True
+Product Usage Survey,RESP_3,2025-10-29 16:47:24.558712,2,Negative,-0.965,85,False
+Campaign Feedback,RESP_4,2025-11-08 16:47:24.558743,4,Positive,0.483,-11,False
+Customer Satisfaction,RESP_5,2025-11-20 16:47:24.558772,5,Positive,0.7,41,True
+Customer Satisfaction,RESP_6,2025-11-08 16:47:24.558801,4,Positive,0.638,-41,True
+Campaign Feedback,RESP_7,2025-11-01 16:47:24.558826,2,Negative,-0.396,-37,False
+Brand Perception Survey,RESP_8,2025-10-25 16:47:24.558850,1,Negative,-0.888,-1,False
+Brand Perception Survey,RESP_9,2025-11-22 16:47:24.558874,3,Neutral,-0.026,54,True
+Customer Satisfaction,RESP_10,2025-12-08 16:47:24.558897,1,Negative,-0.657,-85,False
+Customer Satisfaction,RESP_11,2025-11-02 16:47:24.558921,5,Positive,1.0,-84,True
+Customer Satisfaction,RESP_12,2025-12-02 16:47:24.558945,2,Negative,-0.455,-32,True
+Product Usage Survey,RESP_13,2025-12-02 16:47:24.558969,1,Negative,-0.8,-31,False
+Brand Perception Survey,RESP_14,2025-10-11 16:47:24.558992,5,Positive,0.741,-30,True
+Product Usage Survey,RESP_15,2025-11-10 16:47:24.559015,4,Positive,0.855,59,True
+Customer Satisfaction,RESP_16,2025-11-07 16:47:24.559039,4,Positive,0.76,85,True
+Campaign Feedback,RESP_17,2025-12-04 16:47:24.559062,3,Neutral,-0.14,-42,True
+Customer Satisfaction,RESP_18,2025-11-21 16:47:24.559085,2,Negative,-0.899,-1,False
+Brand Perception Survey,RESP_19,2025-11-19 16:47:24.559108,3,Neutral,-0.09,45,True
+Customer Satisfaction,RESP_20,2025-11-16 16:47:24.559131,5,Positive,0.91,78,True
+Product Usage Survey,RESP_21,2025-11-26 16:47:24.559154,2,Negative,-0.378,-99,False
+Brand Perception Survey,RESP_22,2025-12-07 16:47:24.559177,3,Neutral,-0.133,15,False
+Product Usage Survey,RESP_23,2025-11-11 16:47:24.559200,2,Negative,-0.533,-96,False
+Brand Perception Survey,RESP_24,2025-10-26 16:47:24.559223,1,Negative,-0.304,-35,False
+Brand Perception Survey,RESP_25,2025-11-24 16:47:24.559245,2,Negative,-0.771,-10,False
+Brand Perception Survey,RESP_26,2025-12-04 16:47:24.559269,4,Positive,0.481,-80,True
+Customer Satisfaction,RESP_27,2025-11-27 16:47:24.559292,3,Neutral,0.145,91,True
+Product Usage Survey,RESP_28,2025-11-21 16:47:24.559314,1,Negative,-0.476,34,False
+Customer Satisfaction,RESP_29,2025-11-23 16:47:24.559337,2,Negative,-0.931,77,False
+Product Usage Survey,RESP_30,2025-11-23 16:47:24.559360,3,Neutral,-0.064,5,False
+Product Usage Survey,RESP_31,2025-10-11 16:47:24.559383,4,Positive,0.629,69,True
+Campaign Feedback,RESP_32,2025-11-16 16:47:24.559406,4,Positive,0.415,16,True
+Product Usage Survey,RESP_33,2025-11-05 16:47:24.559429,5,Positive,0.712,-53,False
+Customer Satisfaction,RESP_34,2025-12-01 16:47:24.559452,2,Negative,-0.672,-6,False
+Campaign Feedback,RESP_35,2025-11-18 16:47:24.559474,2,Negative,-0.363,78,False
+Customer Satisfaction,RESP_36,2025-10-30 16:47:24.559497,4,Positive,0.321,-4,True
+Customer Satisfaction,RESP_37,2025-12-01 16:47:24.559520,2,Negative,-0.312,-99,False
+Customer Satisfaction,RESP_38,2025-11-26 16:47:24.559542,1,Negative,-0.67,-13,False
+Brand Perception Survey,RESP_39,2025-10-13 16:47:24.559565,5,Positive,0.798,18,True
+Customer Satisfaction,RESP_40,2025-10-23 16:47:24.559588,2,Negative,-0.777,-81,False
+Brand Perception Survey,RESP_41,2025-10-12 16:47:24.559610,1,Negative,-0.616,71,False
+Campaign Feedback,RESP_42,2025-10-25 16:47:24.559633,1,Negative,-0.507,14,False
+Product Usage Survey,RESP_43,2025-11-11 16:47:24.559655,4,Positive,0.334,9,False
+Product Usage Survey,RESP_44,2025-10-16 16:47:24.559678,2,Negative,-0.578,25,False
+Product Usage Survey,RESP_45,2025-11-16 16:47:24.559701,1,Negative,-0.623,-75,True
+Product Usage Survey,RESP_46,2025-10-11 16:47:24.559723,4,Positive,0.846,57,True
+Campaign Feedback,RESP_47,2025-11-20 16:47:24.559746,5,Positive,0.799,-80,True
+Customer Satisfaction,RESP_48,2025-11-22 16:47:24.559769,1,Negative,-0.352,-20,False
+Customer Satisfaction,RESP_49,2025-11-21 16:47:24.559791,2,Negative,-0.478,49,True
+Customer Satisfaction,RESP_50,2025-10-31 16:47:24.559814,2,Negative,-0.583,-43,False
+Product Usage Survey,RESP_51,2025-11-06 16:47:24.559837,3,Neutral,-0.146,-7,True
+Brand Perception Survey,RESP_52,2025-12-07 16:47:24.559859,3,Neutral,-0.01,-52,False
+Product Usage Survey,RESP_53,2025-11-05 16:47:24.559882,3,Neutral,-0.114,85,True
+Product Usage Survey,RESP_54,2025-12-05 16:47:24.559905,5,Positive,0.798,-50,True
+Brand Perception Survey,RESP_55,2025-11-14 16:47:24.559928,5,Positive,0.47,71,True
+Brand Perception Survey,RESP_56,2025-10-28 16:47:24.559950,4,Positive,0.787,-15,True
+Brand Perception Survey,RESP_57,2025-12-02 16:47:24.559974,2,Negative,-0.326,-12,False
+Customer Satisfaction,RESP_58,2025-12-09 16:47:24.559997,3,Neutral,0.046,-97,True
+Product Usage Survey,RESP_59,2025-10-11 16:47:24.560020,3,Neutral,0.174,33,False
+Campaign Feedback,RESP_60,2025-11-25 16:47:24.560043,4,Positive,0.859,82,True
+Campaign Feedback,RESP_61,2025-11-30 16:47:24.560065,3,Neutral,0.038,3,False
+Product Usage Survey,RESP_62,2025-10-22 16:47:24.560088,1,Negative,-0.33,-61,False
+Product Usage Survey,RESP_63,2025-11-25 16:47:24.560111,5,Positive,0.759,-42,True
+Brand Perception Survey,RESP_64,2025-10-25 16:47:24.560133,2,Negative,-0.517,-84,True
+Customer Satisfaction,RESP_65,2025-11-05 16:47:24.560156,5,Positive,0.668,13,False
+Customer Satisfaction,RESP_66,2025-11-25 16:47:24.560179,4,Positive,0.934,29,False
+Brand Perception Survey,RESP_67,2025-10-20 16:47:24.560202,1,Negative,-0.933,-51,True
+Brand Perception Survey,RESP_68,2025-11-26 16:47:24.560241,4,Positive,0.612,-66,True
+Product Usage Survey,RESP_69,2025-12-03 16:47:24.560265,1,Negative,-0.726,52,False
+Customer Satisfaction,RESP_70,2025-12-02 16:47:24.560289,1,Negative,-0.425,-58,False
+Brand Perception Survey,RESP_71,2025-10-13 16:47:24.560312,2,Negative,-0.553,84,False
+Product Usage Survey,RESP_72,2025-11-29 16:47:24.560334,1,Negative,-0.4,-87,False
+Campaign Feedback,RESP_73,2025-10-28 16:47:24.560357,2,Negative,-0.529,60,False
+Customer Satisfaction,RESP_74,2025-11-03 16:47:24.560380,2,Negative,-0.705,-40,False
+Brand Perception Survey,RESP_75,2025-12-07 16:47:24.560403,2,Negative,-0.722,1,False
+Campaign Feedback,RESP_76,2025-11-16 16:47:24.560427,4,Positive,0.871,-27,True
+Brand Perception Survey,RESP_77,2025-10-29 16:47:24.560451,2,Negative,-0.347,10,False
+Customer Satisfaction,RESP_78,2025-11-24 16:47:24.560474,3,Neutral,-0.093,25,True
+Customer Satisfaction,RESP_79,2025-11-09 16:47:24.560497,4,Positive,0.338,59,False
+Campaign Feedback,RESP_80,2025-11-30 16:47:24.560520,5,Positive,0.421,-53,False
+Campaign Feedback,RESP_81,2025-12-09 16:47:24.560542,4,Positive,0.539,66,True
+Campaign Feedback,RESP_82,2025-11-18 16:47:24.560565,4,Positive,0.963,-15,True
+Product Usage Survey,RESP_83,2025-11-05 16:47:24.560588,3,Neutral,-0.005,24,False
+Brand Perception Survey,RESP_84,2025-11-09 16:47:24.560611,5,Positive,0.588,-14,True
+Campaign Feedback,RESP_85,2025-11-07 16:47:24.560634,4,Positive,0.844,-89,True
+Product Usage Survey,RESP_86,2025-11-08 16:47:24.560657,3,Neutral,0.085,-13,True
+Campaign Feedback,RESP_87,2025-11-17 16:47:24.560679,5,Positive,0.514,13,False
+Brand Perception Survey,RESP_88,2025-10-20 16:47:24.560702,2,Negative,-0.586,-31,False
+Customer Satisfaction,RESP_89,2025-12-03 16:47:24.560725,2,Negative,-0.361,-54,True
+Brand Perception Survey,RESP_90,2025-10-30 16:47:24.560748,3,Neutral,-0.175,-14,True
+Customer Satisfaction,RESP_91,2025-11-13 16:47:24.560771,5,Positive,0.579,-98,True
+Product Usage Survey,RESP_92,2025-10-16 16:47:24.560794,2,Negative,-0.599,-96,True
+Customer Satisfaction,RESP_93,2025-11-24 16:47:24.560817,3,Neutral,0.198,93,False
+Brand Perception Survey,RESP_94,2025-11-26 16:47:24.560840,5,Positive,0.907,-67,True
+Product Usage Survey,RESP_95,2025-11-13 16:47:24.560864,1,Negative,-0.671,-90,False
+Product Usage Survey,RESP_96,2025-10-16 16:47:24.560887,5,Positive,0.569,38,False
+Product Usage Survey,RESP_97,2025-10-23 16:47:24.560914,1,Negative,-0.76,34,False
+Customer Satisfaction,RESP_98,2025-11-11 16:47:24.560938,1,Negative,-0.653,-47,True
+Product Usage Survey,RESP_99,2025-11-10 16:47:24.560961,1,Negative,-0.334,45,False
+Brand Perception Survey,RESP_100,2025-11-29 16:47:24.560984,1,Negative,-0.811,-38,False
+Campaign Feedback,RESP_101,2025-11-05 16:47:24.561008,5,Positive,0.586,-27,True
+Brand Perception Survey,RESP_102,2025-10-15 16:47:24.561031,2,Negative,-0.528,-96,False
+Campaign Feedback,RESP_103,2025-11-20 16:47:24.561055,4,Positive,0.886,83,True
+Product Usage Survey,RESP_104,2025-11-19 16:47:24.561080,2,Negative,-0.529,-81,False
+Campaign Feedback,RESP_105,2025-10-18 16:47:24.561104,2,Negative,-0.479,28,False
+Brand Perception Survey,RESP_106,2025-11-05 16:47:24.561128,1,Negative,-0.472,60,False
+Product Usage Survey,RESP_107,2025-11-14 16:47:24.561152,3,Neutral,-0.098,98,True
+Customer Satisfaction,RESP_108,2025-11-27 16:47:24.561179,5,Positive,0.399,-93,True
+Customer Satisfaction,RESP_109,2025-11-05 16:47:24.561204,4,Positive,0.632,36,True
+Brand Perception Survey,RESP_110,2025-11-01 16:47:24.561230,4,Positive,0.352,-67,True
+Brand Perception Survey,RESP_111,2025-10-30 16:47:24.561254,1,Negative,-0.4,77,False
+Brand Perception Survey,RESP_112,2025-12-01 16:47:24.561280,5,Positive,0.996,74,True
+Campaign Feedback,RESP_113,2025-11-19 16:47:24.561306,4,Positive,0.436,-38,True
+Brand Perception Survey,RESP_114,2025-10-27 16:47:24.561333,2,Negative,-0.96,-31,True
+Brand Perception Survey,RESP_115,2025-12-07 16:47:24.561361,1,Negative,-0.823,21,False
+Campaign Feedback,RESP_116,2025-11-21 16:47:24.561388,1,Negative,-0.557,22,False
+Brand Perception Survey,RESP_117,2025-12-07 16:47:24.561646,1,Negative,-0.798,-13,False
+Product Usage Survey,RESP_118,2025-11-21 16:47:24.561772,4,Positive,0.345,78,True
+Customer Satisfaction,RESP_119,2025-10-14 16:47:24.561907,3,Neutral,0.135,-14,True
+Customer Satisfaction,RESP_120,2025-11-11 16:47:24.561963,5,Positive,0.735,-51,False
+Product Usage Survey,RESP_121,2025-11-27 16:47:24.561998,2,Negative,-0.698,59,False
+Brand Perception Survey,RESP_122,2025-11-23 16:47:24.562023,3,Neutral,-0.005,2,True
+Customer Satisfaction,RESP_123,2025-11-15 16:47:24.562047,4,Positive,0.68,-100,True
+Campaign Feedback,RESP_124,2025-11-05 16:47:24.562072,5,Positive,0.792,-44,False
+Campaign Feedback,RESP_125,2025-12-04 16:47:24.562095,4,Positive,0.626,14,True
+Product Usage Survey,RESP_126,2025-10-29 16:47:24.562119,3,Neutral,-0.182,38,False
+Product Usage Survey,RESP_127,2025-11-12 16:47:24.562142,2,Negative,-0.493,-25,False
+Campaign Feedback,RESP_128,2025-10-24 16:47:24.562165,1,Negative,-0.949,43,False
+Campaign Feedback,RESP_129,2025-11-16 16:47:24.562191,2,Negative,-0.544,92,False
+Product Usage Survey,RESP_130,2025-10-20 16:47:24.562214,2,Negative,-0.411,89,False
+Product Usage Survey,RESP_131,2025-11-17 16:47:24.562237,2,Negative,-0.45,-38,False
+Brand Perception Survey,RESP_132,2025-11-15 16:47:24.562261,4,Positive,0.934,28,True
+Product Usage Survey,RESP_133,2025-11-10 16:47:24.562285,4,Positive,0.884,68,True
+Campaign Feedback,RESP_134,2025-10-28 16:47:24.562308,4,Positive,0.757,-23,True
+Campaign Feedback,RESP_135,2025-10-30 16:47:24.562333,5,Positive,0.63,11,True
+Customer Satisfaction,RESP_136,2025-12-09 16:47:24.562357,1,Negative,-0.562,-58,False
+Customer Satisfaction,RESP_137,2025-12-01 16:47:24.562443,2,Negative,-0.319,44,False
+Brand Perception Survey,RESP_138,2025-11-26 16:47:24.562493,3,Neutral,0.122,-62,True
+Customer Satisfaction,RESP_139,2025-10-13 16:47:24.562520,1,Negative,-0.829,60,False
+Campaign Feedback,RESP_140,2025-12-07 16:47:24.562545,5,Positive,0.633,82,True
+Brand Perception Survey,RESP_141,2025-11-24 16:47:24.562570,2,Negative,-0.496,-28,False
+Campaign Feedback,RESP_142,2025-12-05 16:47:24.562594,5,Positive,0.892,-23,False
+Brand Perception Survey,RESP_143,2025-12-01 16:47:24.562617,3,Neutral,-0.129,-60,True
+Product Usage Survey,RESP_144,2025-10-31 16:47:24.562641,3,Neutral,-0.181,-7,False
+Customer Satisfaction,RESP_145,2025-11-30 16:47:24.562664,4,Positive,0.843,77,True
+Brand Perception Survey,RESP_146,2025-12-07 16:47:24.562689,2,Negative,-0.628,-92,False
+Product Usage Survey,RESP_147,2025-10-15 16:47:24.562713,1,Negative,-0.602,-28,True
+Product Usage Survey,RESP_148,2025-10-27 16:47:24.562736,5,Positive,0.683,18,True
+Brand Perception Survey,RESP_149,2025-11-15 16:47:24.562762,1,Negative,-0.398,-43,False
+Customer Satisfaction,RESP_150,2025-10-16 16:47:24.562787,2,Negative,-0.51,58,False
+Brand Perception Survey,RESP_151,2025-11-24 16:47:24.562814,1,Negative,-0.745,80,False
+Customer Satisfaction,RESP_152,2025-10-18 16:47:24.562838,1,Negative,-0.97,21,False
+Customer Satisfaction,RESP_153,2025-11-11 16:47:24.562864,5,Positive,0.587,-13,True
+Brand Perception Survey,RESP_154,2025-11-14 16:47:24.562888,1,Negative,-0.748,-100,False
+Campaign Feedback,RESP_155,2025-10-29 16:47:24.562912,3,Neutral,0.14,64,True
+Product Usage Survey,RESP_156,2025-11-01 16:47:24.562938,2,Negative,-0.476,-32,False
+Campaign Feedback,RESP_157,2025-11-18 16:47:24.562964,5,Positive,0.809,59,False
+Campaign Feedback,RESP_158,2025-12-04 16:47:24.563295,1,Negative,-0.569,47,False
+Customer Satisfaction,RESP_159,2025-11-24 16:47:24.563350,5,Positive,0.906,-87,True
+Campaign Feedback,RESP_160,2025-11-12 16:47:24.563382,1,Negative,-0.439,-85,False
+Brand Perception Survey,RESP_161,2025-11-21 16:47:24.563416,3,Neutral,0.022,-33,False
+Customer Satisfaction,RESP_162,2025-11-23 16:47:24.563444,2,Negative,-0.981,85,False
+Customer Satisfaction,RESP_163,2025-11-10 16:47:24.563470,3,Neutral,-0.17,-88,True
+Customer Satisfaction,RESP_164,2025-10-27 16:47:24.563562,2,Negative,-0.673,-55,True
+Customer Satisfaction,RESP_165,2025-11-02 16:47:24.563607,2,Negative,-0.885,-49,False
+Campaign Feedback,RESP_166,2025-10-17 16:47:24.563636,5,Positive,0.817,40,True
+Campaign Feedback,RESP_167,2025-11-16 16:47:24.563662,4,Positive,0.795,84,False
+Product Usage Survey,RESP_168,2025-10-17 16:47:24.563686,3,Neutral,-0.107,-85,True
+Campaign Feedback,RESP_169,2025-11-27 16:47:24.563710,4,Positive,0.31,-67,True
+Campaign Feedback,RESP_170,2025-11-16 16:47:24.563734,4,Positive,0.798,33,True
+Campaign Feedback,RESP_171,2025-11-08 16:47:24.563759,5,Positive,0.831,-84,True
+Brand Perception Survey,RESP_172,2025-10-14 16:47:24.563788,1,Negative,-0.726,-32,False
+Brand Perception Survey,RESP_173,2025-11-11 16:47:24.563815,4,Positive,0.876,72,False
+Brand Perception Survey,RESP_174,2025-11-20 16:47:24.563839,1,Negative,-0.613,7,False
+Customer Satisfaction,RESP_175,2025-10-21 16:47:24.563862,2,Negative,-0.319,-46,True
+Product Usage Survey,RESP_176,2025-11-21 16:47:24.563886,5,Positive,0.73,76,False
+Campaign Feedback,RESP_177,2025-12-09 16:47:24.563909,3,Neutral,0.044,12,False
+Campaign Feedback,RESP_178,2025-12-02 16:47:24.563932,5,Positive,0.93,-73,False
+Customer Satisfaction,RESP_179,2025-11-30 16:47:24.563959,5,Positive,0.654,85,True
+Product Usage Survey,RESP_180,2025-11-19 16:47:24.563982,3,Neutral,-0.054,88,True
+Product Usage Survey,RESP_181,2025-10-20 16:47:24.564007,3,Neutral,-0.149,-21,False
+Brand Perception Survey,RESP_182,2025-11-15 16:47:24.564030,4,Positive,0.303,-7,False
+Customer Satisfaction,RESP_183,2025-11-13 16:47:24.564054,1,Negative,-0.744,5,False
+Customer Satisfaction,RESP_184,2025-11-17 16:47:24.564079,2,Negative,-0.884,-31,False
+Campaign Feedback,RESP_185,2025-12-02 16:47:24.564104,5,Positive,0.568,71,False
+Campaign Feedback,RESP_186,2025-12-05 16:47:24.564128,5,Positive,0.825,-2,False
+Brand Perception Survey,RESP_187,2025-10-12 16:47:24.564152,1,Negative,-0.595,-65,True
+Customer Satisfaction,RESP_188,2025-11-16 16:47:24.564176,1,Negative,-0.41,-92,False
+Customer Satisfaction,RESP_189,2025-10-18 16:47:24.564200,3,Neutral,-0.078,-45,False
+Product Usage Survey,RESP_190,2025-12-03 16:47:24.564224,3,Neutral,0.104,-100,False
+Brand Perception Survey,RESP_191,2025-12-05 16:47:24.564248,4,Positive,0.697,-38,False
+Campaign Feedback,RESP_192,2025-11-04 16:47:24.564272,3,Neutral,-0.109,-75,True
+Campaign Feedback,RESP_193,2025-11-14 16:47:24.564297,1,Negative,-0.457,18,False
+Campaign Feedback,RESP_194,2025-10-19 16:47:24.564320,5,Positive,0.478,-88,False
+Campaign Feedback,RESP_195,2025-11-19 16:47:24.564343,4,Positive,0.926,42,False
+Campaign Feedback,RESP_196,2025-10-12 16:47:24.564367,5,Positive,0.507,70,True
+Customer Satisfaction,RESP_197,2025-10-14 16:47:24.564391,1,Negative,-0.586,51,True
+Product Usage Survey,RESP_198,2025-10-19 16:47:24.564415,4,Positive,0.464,54,True
+Customer Satisfaction,RESP_199,2025-10-24 16:47:24.564440,3,Neutral,-0.082,-28,True
+Brand Perception Survey,RESP_200,2025-11-24 16:47:24.564464,4,Positive,0.826,37,True
+Campaign Feedback,RESP_201,2025-11-28 16:47:24.564488,2,Negative,-0.763,96,False
+Product Usage Survey,RESP_202,2025-11-10 16:47:24.564512,1,Negative,-0.861,-84,False
+Brand Perception Survey,RESP_203,2025-11-17 16:47:24.564536,1,Negative,-0.606,-55,False
+Product Usage Survey,RESP_204,2025-11-05 16:47:24.564560,4,Positive,0.911,25,True
+Brand Perception Survey,RESP_205,2025-12-02 16:47:24.564585,2,Negative,-0.991,70,True
+Brand Perception Survey,RESP_206,2025-11-12 16:47:24.564610,1,Negative,-0.954,-27,False
+Brand Perception Survey,RESP_207,2025-11-09 16:47:24.564634,4,Positive,0.931,-67,True
+Product Usage Survey,RESP_208,2025-10-17 16:47:24.564657,2,Negative,-0.851,-31,False
+Product Usage Survey,RESP_209,2025-10-26 16:47:24.564681,3,Neutral,0.117,81,True
+Brand Perception Survey,RESP_210,2025-11-30 16:47:24.564706,4,Positive,0.409,26,True
+Brand Perception Survey,RESP_211,2025-12-03 16:47:24.564731,2,Negative,-0.536,-55,False
+Product Usage Survey,RESP_212,2025-11-30 16:47:24.564755,3,Neutral,0.146,90,True
+Product Usage Survey,RESP_213,2025-11-21 16:47:24.564780,5,Positive,0.337,-45,False
+Customer Satisfaction,RESP_214,2025-12-08 16:47:24.564806,5,Positive,0.423,-99,False
+Product Usage Survey,RESP_215,2025-11-03 16:47:24.564832,4,Positive,0.359,-90,False
+Customer Satisfaction,RESP_216,2025-10-15 16:47:24.564858,1,Negative,-0.654,-59,False
+Customer Satisfaction,RESP_217,2025-10-23 16:47:24.564886,5,Positive,0.923,46,True
+Customer Satisfaction,RESP_218,2025-10-17 16:47:24.564911,2,Negative,-0.652,-29,False
+Customer Satisfaction,RESP_219,2025-11-22 16:47:24.564937,5,Positive,0.956,14,True
+Brand Perception Survey,RESP_220,2025-11-19 16:47:24.564960,3,Neutral,-0.087,75,True
+Product Usage Survey,RESP_221,2025-10-14 16:47:24.564984,5,Positive,0.465,31,True
+Brand Perception Survey,RESP_222,2025-11-14 16:47:24.565008,1,Negative,-0.684,71,False
+Product Usage Survey,RESP_223,2025-11-08 16:47:24.565032,5,Positive,0.988,-86,True
+Brand Perception Survey,RESP_224,2025-11-04 16:47:24.565056,1,Negative,-0.729,74,False
+Customer Satisfaction,RESP_225,2025-11-13 16:47:24.565080,5,Positive,0.671,-10,False
+Campaign Feedback,RESP_226,2025-10-12 16:47:24.565104,2,Negative,-0.742,-48,False
+Customer Satisfaction,RESP_227,2025-11-09 16:47:24.565127,1,Negative,-0.415,-13,False
+Customer Satisfaction,RESP_228,2025-10-21 16:47:24.565151,5,Positive,0.792,-19,True
+Campaign Feedback,RESP_229,2025-10-12 16:47:24.565175,5,Positive,0.378,35,False
+Campaign Feedback,RESP_230,2025-10-20 16:47:24.565200,4,Positive,0.608,87,True
+Campaign Feedback,RESP_231,2025-10-21 16:47:24.565226,4,Positive,0.942,86,True
+Product Usage Survey,RESP_232,2025-11-22 16:47:24.565251,1,Negative,-0.943,1,True
+Customer Satisfaction,RESP_233,2025-11-28 16:47:24.565276,1,Negative,-0.554,56,False
+Campaign Feedback,RESP_234,2025-12-04 16:47:24.565301,3,Neutral,0.028,-52,False
+Brand Perception Survey,RESP_235,2025-11-01 16:47:24.565325,1,Negative,-0.597,-63,True
+Campaign Feedback,RESP_236,2025-11-15 16:47:24.565349,1,Negative,-0.949,7,False
+Product Usage Survey,RESP_237,2025-11-09 16:47:24.565389,4,Positive,0.604,12,True
+Brand Perception Survey,RESP_238,2025-11-10 16:47:24.565419,3,Neutral,-0.035,81,False
+Brand Perception Survey,RESP_239,2025-11-13 16:47:24.565446,3,Neutral,-0.043,-57,False
+Brand Perception Survey,RESP_240,2025-11-17 16:47:24.565470,3,Neutral,0.068,90,True
+Product Usage Survey,RESP_241,2025-11-30 16:47:24.565494,2,Negative,-0.393,58,False
+Campaign Feedback,RESP_242,2025-11-07 16:47:24.565520,2,Negative,-0.871,96,False
+Product Usage Survey,RESP_243,2025-10-22 16:47:24.565546,1,Negative,-0.467,67,False
+Customer Satisfaction,RESP_244,2025-10-14 16:47:24.565573,4,Positive,0.509,-65,False
+Campaign Feedback,RESP_245,2025-12-03 16:47:24.565599,1,Negative,-0.562,81,False
+Customer Satisfaction,RESP_246,2025-11-15 16:47:24.565625,3,Neutral,-0.177,-97,True
+Brand Perception Survey,RESP_247,2025-12-06 16:47:24.565650,3,Neutral,-0.09,-19,True
+Campaign Feedback,RESP_248,2025-10-19 16:47:24.565675,5,Positive,0.729,-31,True
+Brand Perception Survey,RESP_249,2025-10-28 16:47:24.565699,3,Neutral,-0.098,29,False
+Campaign Feedback,RESP_250,2025-12-06 16:47:24.565725,2,Negative,-0.455,-99,False
+Product Usage Survey,RESP_251,2025-10-24 16:47:24.565749,2,Negative,-0.894,-35,False
+Customer Satisfaction,RESP_252,2025-10-20 16:47:24.565773,1,Negative,-0.554,44,True
+Brand Perception Survey,RESP_253,2025-10-31 16:47:24.565797,2,Negative,-0.946,34,False
+Campaign Feedback,RESP_254,2025-10-29 16:47:24.565820,5,Positive,0.861,77,True
+Brand Perception Survey,RESP_255,2025-11-09 16:47:24.565844,2,Negative,-0.839,85,False
+Campaign Feedback,RESP_256,2025-10-28 16:47:24.565868,2,Negative,-0.858,96,False
+Brand Perception Survey,RESP_257,2025-12-04 16:47:24.565893,2,Negative,-0.455,75,True
+Customer Satisfaction,RESP_258,2025-12-05 16:47:24.565918,1,Negative,-0.495,44,False
+Customer Satisfaction,RESP_259,2025-11-21 16:47:24.565943,2,Negative,-0.809,-93,False
+Customer Satisfaction,RESP_260,2025-10-12 16:47:24.565968,1,Negative,-0.768,-76,True
+Product Usage Survey,RESP_261,2025-12-04 16:47:24.565992,2,Negative,-0.954,43,False
+Customer Satisfaction,RESP_262,2025-10-14 16:47:24.566016,1,Negative,-0.529,-60,False
+Brand Perception Survey,RESP_263,2025-10-27 16:47:24.566041,2,Negative,-0.987,-10,True
+Brand Perception Survey,RESP_264,2025-11-02 16:47:24.566067,5,Positive,0.845,0,False
+Product Usage Survey,RESP_265,2025-11-12 16:47:24.566091,1,Negative,-0.852,-12,False
+Customer Satisfaction,RESP_266,2025-11-06 16:47:24.566118,2,Negative,-0.893,-87,False
+Product Usage Survey,RESP_267,2025-11-18 16:47:24.566144,2,Negative,-0.859,51,False
+Brand Perception Survey,RESP_268,2025-12-08 16:47:24.566169,2,Negative,-0.57,-48,False
+Product Usage Survey,RESP_269,2025-11-11 16:47:24.566194,2,Negative,-0.972,98,False
+Campaign Feedback,RESP_270,2025-11-22 16:47:24.566220,3,Neutral,-0.093,34,True
+Customer Satisfaction,RESP_271,2025-12-02 16:47:24.566244,1,Negative,-0.748,-1,False
+Product Usage Survey,RESP_272,2025-12-07 16:47:24.566269,3,Neutral,-0.171,77,True
+Product Usage Survey,RESP_273,2025-11-12 16:47:24.566293,5,Positive,0.785,-88,True
+Product Usage Survey,RESP_274,2025-12-05 16:47:24.566318,5,Positive,0.359,23,True
+Brand Perception Survey,RESP_275,2025-10-17 16:47:24.566342,2,Negative,-0.502,82,True
+Brand Perception Survey,RESP_276,2025-11-23 16:47:24.566366,2,Negative,-0.513,83,False
+Customer Satisfaction,RESP_277,2025-10-27 16:47:24.566389,3,Neutral,0.016,-43,True
+Campaign Feedback,RESP_278,2025-11-15 16:47:24.566412,4,Positive,0.44,34,True
+Product Usage Survey,RESP_279,2025-11-22 16:47:24.566436,5,Positive,0.502,44,False
+Product Usage Survey,RESP_280,2025-10-20 16:47:24.566460,1,Negative,-1.0,7,False
+Brand Perception Survey,RESP_281,2025-11-29 16:47:24.566483,3,Neutral,0.098,29,False
+Product Usage Survey,RESP_282,2025-10-29 16:47:24.566507,4,Positive,0.727,37,True
+Campaign Feedback,RESP_283,2025-11-08 16:47:24.566530,1,Negative,-0.863,-12,False
+Product Usage Survey,RESP_284,2025-11-18 16:47:24.566553,1,Negative,-0.54,76,True
+Customer Satisfaction,RESP_285,2025-11-08 16:47:24.566577,4,Positive,0.462,-72,True
+Product Usage Survey,RESP_286,2025-10-22 16:47:24.566601,5,Positive,0.325,-80,True
+Campaign Feedback,RESP_287,2025-11-21 16:47:24.566624,3,Neutral,-0.151,-98,False
+Brand Perception Survey,RESP_288,2025-10-19 16:47:24.566648,1,Negative,-0.421,-69,False
+Product Usage Survey,RESP_289,2025-11-29 16:47:24.566672,1,Negative,-0.945,-9,False
+Campaign Feedback,RESP_290,2025-11-20 16:47:24.566695,4,Positive,0.348,47,True
+Customer Satisfaction,RESP_291,2025-10-31 16:47:24.566718,5,Positive,0.308,35,False
+Customer Satisfaction,RESP_292,2025-11-09 16:47:24.566741,3,Neutral,-0.056,-33,True
+Customer Satisfaction,RESP_293,2025-11-03 16:47:24.566766,2,Negative,-0.539,-35,False
+Customer Satisfaction,RESP_294,2025-11-19 16:47:24.566790,5,Positive,0.366,70,False
+Customer Satisfaction,RESP_295,2025-12-09 16:47:24.566814,2,Negative,-0.334,86,False
+Campaign Feedback,RESP_296,2025-11-12 16:47:24.566837,4,Positive,0.662,-100,True
+Product Usage Survey,RESP_297,2025-11-27 16:47:24.566860,5,Positive,0.9,-14,True
+Brand Perception Survey,RESP_298,2025-10-15 16:47:24.566883,5,Positive,0.405,92,False
+Brand Perception Survey,RESP_299,2025-11-06 16:47:24.566906,3,Neutral,0.033,-36,True

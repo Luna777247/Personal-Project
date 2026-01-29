@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  mlflow-server:
+    image: ghcr.io/mlflow/mlflow:v2.8.1
+    container_name: mlflow_server
+    ports:
+      - "5000:5000"
+    environment:
+      - MLFLOW_TRACKING_URI=http://localhost:5000
+    volumes:
+      - ./mlruns:/mlruns
+      - ./experiments:/experiments
+    command: mlflow server --host 0.0.0.0 --port 5000
+
+  model-api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: mlops_model_api
+    ports:
+      - "8000:8000"
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow-server:5000
+    volumes:
+      - ./models:/app/models
+      - ./logs:/app/logs
+    depends_on:
+      - mlflow-server
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  postgres:
+    image: postgres:13
+    container_name: mlflow_db
+    environment:
+      - POSTGRES_DB=mlflow
+      - POSTGRES_USER=mlflow
+      - POSTGRES_PASSWORD=mlflow123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  mlflow-with-db:
+    image: ghcr.io/mlflow/mlflow:v2.8.1
+    container_name: mlflow_with_db
+    ports:
+      - "5001:5000"
+    environment:
+      - MLFLOW_TRACKING_URI=http://localhost:5001
+    depends_on:
+      - postgres
+    command: >
+      mlflow server
+      --host 0.0.0.0
+      --port 5000
+      --backend-store-uri postgresql://mlflow:mlflow123@postgres:5432/mlflow
+      --default-artifact-root /mlruns
+
+volumes:
+  postgres_data:

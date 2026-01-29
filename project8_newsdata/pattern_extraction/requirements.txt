@@ -1,0 +1,30 @@
+# Pattern-Based Extraction Requirements
+# Core dependencies for pattern-based extraction
+
+# Vietnamese NLP processing
+underthesea>=1.3.0
+pyvi>=0.1.1
+
+# Regular expressions and text processing
+regex>=2023.0.0
+
+# Data processing and utilities
+pandas>=1.5.0
+numpy>=1.21.0
+
+# JSON and YAML configuration
+pyyaml>=6.0
+jsonschema>=4.0.0
+
+# Logging and utilities
+tqdm>=4.64.0
+colorama>=0.4.6
+
+# Development and testing
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
+
+# Optional: For advanced pattern matching
+spacy>=3.5.0
+# Note: Install Vietnamese model with: python -m spacy download vi_core_news_lg

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ session.username }}!</h1>
+
+    <h2>Your Posts</h2>
+    {% for post in posts %}
+    <div>
+        <p>{{ post[2] }}</p>  <!-- XSS vulnerability - content not escaped -->
+        <small>{{ post[3] }}</small>
+    </div>
+    {% endfor %}
+
+    <h2>Create New Post</h2>
+    <form method="POST" action="/post">
+        <textarea name="content" placeholder="What's on your mind?"></textarea><br>
+        <button type="submit">Post</button>
+    </form>
+
+    <h2>Money Transfer</h2>
+    <a href="/transfer">Transfer Money</a>
+
+    <a href="/dashboard?user_id=1">View Admin Posts (IDOR Test)</a>  <!-- IDOR hint -->
+</body>
+</html>

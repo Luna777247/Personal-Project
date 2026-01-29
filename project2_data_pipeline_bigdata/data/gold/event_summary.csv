@@ -1,0 +1,5 @@
+event_type,event_count,unique_users
+login,2,2
+logout,1,1
+purchase,1,1
+view_product,2,2

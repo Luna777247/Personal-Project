@@ -1,0 +1,29 @@
+# Testing Requirements
+# Additional packages needed for running tests
+
+# Core testing
+unittest2>=1.1.0  # Enhanced unittest (optional, Python 3 has built-in)
+
+# Coverage reporting
+coverage>=6.0
+
+# Optional: pytest alternative runner
+pytest>=7.0.0
+pytest-cov>=3.0.0
+pytest-html>=3.1.0
+
+# Mock and testing utilities
+mock>=4.0.3  # For Python < 3.3 (built-in for 3.3+)
+
+# Earth Engine (already in main requirements.txt)
+# earthengine-api>=0.1.300
+# geemap
+
+# Optional: Performance testing
+pytest-benchmark>=3.4.1
+
+# Optional: Parallel test execution
+pytest-xdist>=2.5.0
+
+# Optional: Test reporting
+pytest-json-report>=1.5.0

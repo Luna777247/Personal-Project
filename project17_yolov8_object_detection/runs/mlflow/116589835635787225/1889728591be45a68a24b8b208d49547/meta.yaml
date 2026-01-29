@@ -1,0 +1,14 @@
+artifact_uri: file:D:/project/Personal Project/project17_yolov8_object_detection/runs/mlflow/116589835635787225/1889728591be45a68a24b8b208d49547/artifacts
+end_time: 1765327715906
+entry_point_name: ''
+experiment_id: '116589835635787225'
+lifecycle_stage: active
+run_id: 1889728591be45a68a24b8b208d49547
+run_name: yolov8n_custom
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765327685799
+status: 3
+tags: []
+user_id: ASUS

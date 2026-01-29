@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 28 - VR/3D Simulation</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Main container -->
+    <div id="container"></div>
+    
+    <!-- Loading indicator -->
+    <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <p>Loading VR Experience...</p>
+    </div>
+
+    <!-- VR Button -->
+    <button id="vr-button" class="vr-button">
+        🥽 Enter VR
+    </button>
+
+    <!-- HUD / UI Overlay -->
+    <div id="hud" class="hud">
+        <div id="scenario-info" class="info-panel">
+            <h2 id="scenario-title">Waste Management</h2>
+            <p id="scenario-description">Sort waste items correctly</p>
+        </div>
+
+        <div id="metrics" class="metrics-panel">
+            <div class="metric">
+                <label>Score:</label>
+                <span id="score">0</span>
+            </div>
+            <div class="metric">
+                <label>Time:</label>
+                <span id="time">0:00</span>
+            </div>
+            <div class="metric">
+                <label>Accuracy:</label>
+                <span id="accuracy">0%</span>
+            </div>
+        </div>
+
+        <div id="status" class="status-panel">
+            <p id="status-text">Ready to start</p>
+        </div>
+    </div>
+
+    <!-- Environmental Data Display -->
+    <div id="environment-display" class="environment-display">
+        <div class="env-metric">
+            <label>Temperature:</label>
+            <span id="temperature">20°C</span>
+        </div>
+        <div class="env-metric">
+            <label>Rainfall:</label>
+            <span id="rainfall">0mm/h</span>
+        </div>
+        <div class="env-metric">
+            <label>Humidity:</label>
+            <span id="humidity">60%</span>
+        </div>
+    </div>
+
+    <!-- Debug Panel (development only) -->
+    <div id="debug-panel" class="debug-panel" style="display: none;">
+        <h3>Debug Info</h3>
+        <div id="debug-text">
+            <p>FPS: <span id="fps">60</span></p>
+            <p>Memory: <span id="memory">0MB</span></p>
+            <p>Platform: <span id="platform">Unknown</span></p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@r162/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@r162/examples/jsm/"
+        }
+    }
+    </script>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

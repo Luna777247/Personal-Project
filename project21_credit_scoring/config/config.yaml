@@ -1,0 +1,259 @@
+# Credit Scoring System Configuration
+
+# Data Processing
+data:
+  raw_data_path: "data/raw/credit_data.csv"
+  processed_data_path: "data/processed/credit_processed.csv"
+  train_test_split: 0.2
+  random_state: 42
+  
+  # Missing value handling
+  missing_value_strategy:
+    numeric: "median"  # mean, median, mode
+    categorical: "mode"
+  
+  # Outlier handling
+  outlier_method: "iqr"  # iqr, zscore, isolation_forest
+  outlier_threshold: 1.5
+
+# Feature Engineering
+features:
+  # Core features
+  basic_features:
+    - "age"
+    - "income"
+    - "employment_length"
+    - "loan_amount"
+    - "loan_term"
+    - "interest_rate"
+    - "credit_history_length"
+    - "num_credit_lines"
+    - "num_open_accounts"
+    - "total_debt"
+    - "monthly_payment"
+  
+  # Categorical features
+  categorical_features:
+    - "employment_status"
+    - "home_ownership"
+    - "loan_purpose"
+    - "education_level"
+    - "marital_status"
+  
+  # Derived features
+  engineered_features:
+    # Financial ratios
+    income_ratio:
+      formula: "loan_amount / income"
+      description: "Loan to income ratio"
+    
+    debt_ratio:
+      formula: "total_debt / income"
+      description: "Debt to income ratio (DTI)"
+    
+    payment_to_income:
+      formula: "monthly_payment / (income / 12)"
+      description: "Monthly payment as % of monthly income"
+    
+    debt_utilization:
+      formula: "total_debt / (num_credit_lines * 10000)"
+      description: "Credit utilization ratio"
+    
+    # Payment history features
+    payment_consistency:
+      description: "Standard deviation of payment amounts"
+    
+    delinquency_rate:
+      description: "% of payments that were late"
+    
+    # Age-based features
+    age_group:
+      bins: [0, 25, 35, 45, 55, 100]
+      labels: ["18-25", "26-35", "36-45", "46-55", "55+"]
+    
+    income_per_age:
+      formula: "income / age"
+      description: "Income normalized by age"
+  
+  # Encoding strategy
+  encoding:
+    categorical:
+      method: "target"  # onehot, target, ordinal
+      handle_unknown: "value"
+    
+    numerical:
+      scaling: "standard"  # standard, minmax, robust
+
+# Model Configuration
+model:
+  # Model selection
+  algorithm: "xgboost"  # xgboost, lightgbm, ensemble
+  
+  # XGBoost parameters
+  xgboost:
+    n_estimators: 500
+    max_depth: 6
+    learning_rate: 0.01
+    subsample: 0.8
+    colsample_bytree: 0.8
+    min_child_weight: 3
+    gamma: 0.1
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+    scale_pos_weight: 3  # For imbalanced data
+    random_state: 42
+    n_jobs: -1
+    early_stopping_rounds: 50
+    eval_metric: "auc"
+  
+  # LightGBM parameters
+  lightgbm:
+    n_estimators: 500
+    max_depth: 6
+    learning_rate: 0.01
+    num_leaves: 31
+    subsample: 0.8
+    colsample_bytree: 0.8
+    min_child_samples: 20
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+    scale_pos_weight: 3
+    random_state: 42
+    n_jobs: -1
+    early_stopping_rounds: 50
+    metric: "auc"
+  
+  # Ensemble configuration
+  ensemble:
+    models: ["xgboost", "lightgbm"]
+    voting: "soft"  # soft, hard
+    weights: [0.6, 0.4]
+
+# Training Configuration
+training:
+  # Cross-validation
+  cv_folds: 5
+  cv_strategy: "stratified"  # stratified, time_series
+  
+  # Hyperparameter tuning
+  enable_tuning: false
+  tuning_method: "optuna"  # optuna, grid_search, random_search
+  tuning_trials: 100
+  
+  # Class imbalance handling
+  handle_imbalance: true
+  imbalance_method: "smote"  # smote, adasyn, random_oversample
+  
+  # Validation
+  validation_split: 0.2
+  use_early_stopping: true
+
+# Evaluation Metrics
+evaluation:
+  primary_metric: "roc_auc"
+  
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1"
+    - "roc_auc"
+    - "pr_auc"
+    - "brier_score"
+  
+  # Threshold optimization
+  optimize_threshold: true
+  threshold_metric: "f1"  # f1, j_statistic, cost_function
+  
+  # Cost matrix (for business logic)
+  cost_matrix:
+    true_positive: 100   # Profit from correctly approved good customer
+    true_negative: 0     # No cost for correctly rejected bad customer
+    false_positive: -500 # Loss from approving bad customer (default)
+    false_negative: -50  # Opportunity cost from rejecting good customer
+
+# SHAP Explainability
+explainability:
+  enable: true
+  
+  # SHAP configuration
+  shap:
+    model_type: "tree"  # tree, kernel, linear
+    sample_size: 100    # Number of samples for background
+    max_display: 10     # Max features to display
+    
+  # Feature importance
+  feature_importance:
+    method: "gain"  # gain, split, shap
+    top_n: 20
+  
+  # Individual explanations
+  individual_explanation:
+    force_plot: true
+    waterfall_plot: true
+    decision_plot: true
+
+# API Configuration
+api:
+  title: "Credit Scoring API"
+  version: "1.0.0"
+  description: "ML-based credit scoring system"
+  
+  # Endpoints
+  endpoints:
+    health: "/health"
+    predict: "/predict"
+    predict_proba: "/predict_proba"
+    explain: "/explain"
+    batch_predict: "/batch_predict"
+  
+  # Response format
+  response:
+    include_probability: true
+    include_explanation: true
+    include_risk_category: true
+  
+  # Risk categories
+  risk_categories:
+    high_risk:
+      threshold: 0.7
+      label: "High Risk"
+      color: "red"
+    
+    medium_risk:
+      threshold: 0.5
+      label: "Medium Risk"
+      color: "orange"
+    
+    low_risk:
+      threshold: 0.0
+      label: "Low Risk"
+      color: "green"
+
+# Monitoring
+monitoring:
+  enable: true
+  
+  # Model performance monitoring
+  performance:
+    track_metrics: true
+    alert_threshold: 0.05  # Alert if AUC drops by 5%
+  
+  # Data drift monitoring
+  data_drift:
+    enable: true
+    reference_window: 1000  # Number of samples
+    alert_threshold: 0.1
+  
+  # Prediction distribution
+  prediction_distribution:
+    track: true
+    bins: 20
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/credit_scoring.log"
+  rotation: "1 day"
+  retention: "30 days"

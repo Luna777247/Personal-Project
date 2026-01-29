@@ -1,0 +1,43 @@
+{
+  "Dataset Statistics": {
+    "Total Records": 3278,
+    "Unique Disaster Types": 20,
+    "Date Range Min": "2002-05-03 00:00:00",
+    "Date Range Max": "2025-12-06 00:00:00",
+    "Number of Sources": 9
+  },
+  "Data Quality": {
+    "Location Fill Rate %": 57.0,
+    "Severity Level Fill Rate %": 24.1,
+    "Wind Speed Fill Rate %": 14.2,
+    "Rainfall Fill Rate %": 9.4,
+    "Casualties Fill Rate %": 6.7,
+    "Damages Fill Rate %": 6.5
+  },
+  "Top 5 Disaster Types": {
+    "Cháy rừng": 381,
+    "Động đất": 375,
+    "Sóng thần": 321,
+    "Ngập úng": 279,
+    "Hạn hán": 263
+  },
+  "Top 5 News Sources": {
+    "Sài Gòn Giải Phóng": 824,
+    "Dân Trí": 805,
+    "VnExpress": 711,
+    "VietnamNet": 465,
+    "Tuổi Trẻ": 195
+  },
+  "Severity Distribution": {
+    "Không xác định": 2489,
+    "Trung bình": 385,
+    "Nhẹ": 339,
+    "Rất nghiêm trọng": 40,
+    "Nghiêm trọng": 25
+  },
+  "Regional Distribution": {
+    "Miền Bắc": 26,
+    "Miền Trung": 29,
+    "Miền Nam": 33
+  }
+}

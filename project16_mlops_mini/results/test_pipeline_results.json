@@ -1,0 +1,25 @@
+{
+  "test_timestamp": "2025-12-10T07:46:13.033940",
+  "dataset": "California Housing",
+  "samples_used": 1000,
+  "features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ],
+  "baseline_model": {
+    "type": "RandomForestRegressor",
+    "mse": 0.6223228756684249,
+    "r2_score": 0.5264021173305322
+  },
+  "hyperparameter_tuning": {
+    "best_r2": 0.5853377128709392,
+    "trials": 5
+  },
+  "status": "success"
+}

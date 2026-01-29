@@ -1,0 +1,126 @@
+# Configuration for Disaster Information Extraction Fine-tuning
+
+# Model configurations
+models:
+  bert:
+    name: "bert-base-multilingual-cased"
+    tokenizer: "bert-base-multilingual-cased"
+    max_length: 512
+    hidden_size: 768
+
+  bart:
+    name: "facebook/bart-base"
+    tokenizer: "facebook/bart-base"
+    max_length: 1024
+    hidden_size: 768
+
+  phobert:
+    name: "vinai/phobert-base"
+    tokenizer: "vinai/phobert-base"
+    max_length: 256
+    hidden_size: 768
+
+  vibert:
+    name: "FPTAI/vibert-base-cased"
+    tokenizer: "FPTAI/vibert-base-cased"
+    max_length: 256
+    hidden_size: 768
+
+# Task configurations
+tasks:
+  ner:
+    num_labels: 15  # B-DISASTER, I-DISASTER, B-LOCATION, I-LOCATION, etc.
+    label_list:
+      - "O"
+      - "B-DISASTER"
+      - "I-DISASTER"
+      - "B-LOCATION"
+      - "I-LOCATION"
+      - "B-TIME"
+      - "I-TIME"
+      - "B-DAMAGE"
+      - "I-DAMAGE"
+      - "B-RESPONSE"
+      - "I-RESPONSE"
+      - "B-IMPACT"
+      - "I-IMPACT"
+      - "B-FORECAST"
+      - "I-FORECAST"
+
+  event_extraction:
+    num_labels: 8  # Disaster types + O
+    label_list:
+      - "O"
+      - "BAO"        # Storm
+      - "LUU_LUT"    # Flood
+      - "HAN_HAN"    # Drought
+      - "CHAY_RUNG"  # Forest fire
+      - "DONG_DAT"   # Earthquake
+      - "LUAN"       # Landslide
+      - "BAO_TAP"    # Other disasters
+
+  relation_extraction:
+    num_labels: 5
+    label_list:
+      - "NO_RELATION"
+      - "LOCATION_OF"
+      - "TIME_OF"
+      - "CAUSE_OF"
+      - "IMPACT_OF"
+
+# Training configurations
+training:
+  batch_size: 16
+  learning_rate: 5e-5
+  num_epochs: 10
+  warmup_steps: 500
+  weight_decay: 0.01
+  gradient_accumulation_steps: 2
+  max_grad_norm: 1.0
+
+  # Evaluation
+  evaluation_strategy: "steps"
+  eval_steps: 500
+  save_steps: 500
+  logging_steps: 100
+
+  # Early stopping
+  early_stopping_patience: 3
+  early_stopping_threshold: 0.01
+
+# Data configurations
+data:
+  train_file: "data/train.json"
+  validation_file: "data/validation.json"
+  test_file: "data/test.json"
+
+  # Preprocessing
+  max_length: 512
+  stride: 128
+  label_all_tokens: true
+
+  # Augmentation
+  augmentation:
+    enabled: true
+    synonym_replacement: 0.1
+    random_deletion: 0.1
+    random_insertion: 0.1
+
+# Paths
+paths:
+  output_dir: "output/"
+  model_dir: "models/"
+  cache_dir: "cache/"
+  log_dir: "logs/"
+
+# Experiment tracking
+wandb:
+  enabled: true
+  project: "disaster-extraction-finetuning"
+  entity: "your-entity"
+
+# Device configuration
+device: "auto"  # auto, cpu, cuda, mps
+
+# Seed for reproducibility
+seed: 42

@@ -1,0 +1,8 @@
+names:
+- person
+- car
+- dog
+nc: 3
+test: data\sample_dataset\test\images
+train: data\sample_dataset\train\images
+val: data\sample_dataset\val\images

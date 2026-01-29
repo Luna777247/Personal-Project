@@ -1,0 +1,374 @@
+[
+  {
+    "id": "route_1",
+    "service_id": "service_1",
+    "methods": [
+      "POST"
+    ],
+    "paths": [
+      "/orders"
+    ],
+    "strip_path": false,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2024-12-22T11:09:55.480169",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_2",
+    "service_id": "service_2",
+    "methods": [
+      "PATCH",
+      "GET",
+      "DELETE",
+      "POST"
+    ],
+    "paths": [
+      "/users/{id}"
+    ],
+    "strip_path": true,
+    "preserve_host": false,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-04-04T11:09:55.480187",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_3",
+    "service_id": "service_2",
+    "methods": [
+      "POST",
+      "GET",
+      "DELETE"
+    ],
+    "paths": [
+      "/transactions"
+    ],
+    "strip_path": false,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-02-27T11:09:55.480196",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_4",
+    "service_id": "service_3",
+    "methods": [
+      "DELETE",
+      "PATCH"
+    ],
+    "paths": [
+      "/payments/{id}/refund"
+    ],
+    "strip_path": true,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-06-13T11:09:55.480203",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_5",
+    "service_id": "service_4",
+    "methods": [
+      "DELETE"
+    ],
+    "paths": [
+      "/transactions/{id}"
+    ],
+    "strip_path": true,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-07-07T11:09:55.480209",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_6",
+    "service_id": "service_4",
+    "methods": [
+      "POST",
+      "DELETE",
+      "PUT",
+      "PATCH"
+    ],
+    "paths": [
+      "/payments/{id}"
+    ],
+    "strip_path": false,
+    "preserve_host": false,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-05-10T11:09:55.480214",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_7",
+    "service_id": "service_5",
+    "methods": [
+      "GET",
+      "PATCH"
+    ],
+    "paths": [
+      "/users/{id}"
+    ],
+    "strip_path": true,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-03-15T11:09:55.480220",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_8",
+    "service_id": "service_5",
+    "methods": [
+      "GET"
+    ],
+    "paths": [
+      "/users/{id}/profile"
+    ],
+    "strip_path": true,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-06-28T11:09:55.480224",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_9",
+    "service_id": "service_5",
+    "methods": [
+      "GET",
+      "DELETE",
+      "PUT",
+      "PATCH"
+    ],
+    "paths": [
+      "/payments/{id}"
+    ],
+    "strip_path": true,
+    "preserve_host": false,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2024-12-15T11:09:55.480229",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_10",
+    "service_id": "service_6",
+    "methods": [
+      "POST",
+      "PUT",
+      "PATCH"
+    ],
+    "paths": [
+      "/orders"
+    ],
+    "strip_path": false,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-07-06T11:09:55.480235",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_11",
+    "service_id": "service_6",
+    "methods": [
+      "DELETE"
+    ],
+    "paths": [
+      "/orders"
+    ],
+    "strip_path": true,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-07-04T11:09:55.480239",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_12",
+    "service_id": "service_6",
+    "methods": [
+      "GET",
+      "PUT",
+      "DELETE",
+      "PATCH"
+    ],
+    "paths": [
+      "/orders/{id}/items"
+    ],
+    "strip_path": true,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-11-12T11:09:55.480244",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_13",
+    "service_id": "service_7",
+    "methods": [
+      "POST"
+    ],
+    "paths": [
+      "/accounts"
+    ],
+    "strip_path": true,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-04-01T11:09:55.480249",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_14",
+    "service_id": "service_8",
+    "methods": [
+      "PATCH",
+      "GET",
+      "PUT",
+      "DELETE"
+    ],
+    "paths": [
+      "/transactions/{id}/status"
+    ],
+    "strip_path": false,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-11-24T11:09:55.480255",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_15",
+    "service_id": "service_9",
+    "methods": [
+      "PUT",
+      "PATCH",
+      "DELETE",
+      "POST"
+    ],
+    "paths": [
+      "/accounts/{id}"
+    ],
+    "strip_path": true,
+    "preserve_host": false,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-08-19T11:09:55.480260",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_16",
+    "service_id": "service_10",
+    "methods": [
+      "POST",
+      "PATCH",
+      "GET"
+    ],
+    "paths": [
+      "/accounts"
+    ],
+    "strip_path": true,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-10-31T11:09:55.480266",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_17",
+    "service_id": "service_10",
+    "methods": [
+      "DELETE",
+      "PATCH",
+      "GET"
+    ],
+    "paths": [
+      "/accounts"
+    ],
+    "strip_path": true,
+    "preserve_host": true,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-01-05T11:09:55.480276",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_18",
+    "service_id": "service_11",
+    "methods": [
+      "DELETE"
+    ],
+    "paths": [
+      "/payments/{id}"
+    ],
+    "strip_path": true,
+    "preserve_host": false,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-05-30T11:09:55.480281",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "route_19",
+    "service_id": "service_12",
+    "methods": [
+      "PUT",
+      "GET",
+      "POST"
+    ],
+    "paths": [
+      "/orders/{id}/items"
+    ],
+    "strip_path": false,
+    "preserve_host": false,
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "created_at": "2025-03-12T11:09:55.480287",
+    "source": "MOCK_DATA"
+  }
+]

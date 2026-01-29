@@ -1,0 +1,21 @@
+{
+  "dataset_name": "IMDB_3Class_Sentiment",
+  "description": "IMDB movie reviews dataset converted to 3-class sentiment (negative, neutral, positive)",
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "train_samples": 16120,
+  "val_samples": 4030,
+  "test_samples": 5161,
+  "features": [
+    "text",
+    "label"
+  ],
+  "label_mapping": {
+    "0": "negative",
+    "1": "neutral",
+    "2": "positive"
+  }
+}

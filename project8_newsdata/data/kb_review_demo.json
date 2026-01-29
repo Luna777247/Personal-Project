@@ -1,0 +1,32 @@
+{
+  "auto_discovered_provinces": [
+    {
+      "name": "Lào Cai",
+      "aliases": [],
+      "added_date": "2025-12-09T14:58:44.635469",
+      "confidence": 0.6
+    },
+    {
+      "name": "Củ Chi",
+      "aliases": [],
+      "added_date": "2025-12-09T14:58:44.636605",
+      "confidence": 0.6
+    }
+  ],
+  "auto_discovered_storms": [
+    {
+      "name": "Teststorm2025",
+      "source": "test",
+      "added_date": "2025-12-09T14:57:38.582305",
+      "confidence": 0.9
+    },
+    {
+      "name": "Demostorm2025",
+      "source": "demo_script",
+      "added_date": "2025-12-09T14:58:44.628092",
+      "confidence": 0.95
+    }
+  ],
+  "confidence_scores": {},
+  "export_date": "2025-12-09T15:33:16.310745"
+}

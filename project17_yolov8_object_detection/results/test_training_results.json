@@ -1,0 +1,19 @@
+{
+  "test_timestamp": "2025-12-10T07:48:36.224864",
+  "dataset": "COCO128",
+  "model": "yolov8n",
+  "training": {
+    "epochs": 1,
+    "batch_size": 4,
+    "imgsz": 320,
+    "status": "completed"
+  },
+  "inference_test": {
+    "images_tested": 0,
+    "status": "completed"
+  },
+  "evaluation": {
+    "status": "skipped_minimal_training"
+  },
+  "status": "success"
+}

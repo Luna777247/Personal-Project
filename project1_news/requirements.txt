@@ -1,0 +1,19 @@
+# Real-time News Data Pipeline - Big Data Project
+# ================================================
+
+# Core Dependencies
+fastapi
+uvicorn[standard]
+newspaper3k
+websockets
+
+# HTTP Requests
+requests
+
+# Development (optional)
+# pytest
+# black
+# flake8
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0

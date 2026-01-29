@@ -1,0 +1,31 @@
+{
+  "job_id": "etl_1765269133",
+  "start_time": "2025-12-09T15:32:13.275593",
+  "status": "completed",
+  "error": null,
+  "results": {
+    "success": true,
+    "duration_seconds": 28.220449,
+    "extraction_stats": {
+      "extracted": 14,
+      "cleaned": 14,
+      "inserted": 14,
+      "errors": 11
+    },
+    "load_stats": {
+      "weather": 0,
+      "financial": 0,
+      "news": 8,
+      "country": 6
+    },
+    "database_stats": {
+      "weather_data": 0,
+      "financial_data": 0,
+      "news_data": 16,
+      "country_data": 12
+    },
+    "timestamp": "2025-12-09T15:32:41.513405"
+  },
+  "end_time": "2025-12-09T15:32:41.514015",
+  "runtime_seconds": 28.238422
+}

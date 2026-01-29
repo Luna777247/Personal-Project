@@ -1,0 +1,52 @@
+[
+  {
+    "article_title": "Tháng 10-2023, khả năng xuất hiện 1-2 cơn bão, áp thấp nhiệt đới trên Biển Đông",
+    "article_url": "https://www.sggp.org.vn/thang-10-2023-kha-nang-xuat-hien-1-2-con-bao-ap-thap-nhiet-doi-tren-bien-dong-post707910.html",
+    "article_source": "Sài Gòn Giải Phóng",
+    "relations": [],
+    "processing_time": 0.0010733604431152344,
+    "model_used": "Rule-Based-RE",
+    "confidence_score": 0.0,
+    "relation_count": 0
+  },
+  {
+    "article_title": "Bão, áp thấp nhiệt đới năm nay kéo dài tới tháng 1 và 2-2017",
+    "article_url": "https://www.sggp.org.vn/bao-ap-thap-nhiet-doi-nam-nay-keo-dai-toi-thang-1-va-2-2017-post164091.html",
+    "article_source": "Sài Gòn Giải Phóng",
+    "relations": [],
+    "processing_time": 0.0037081241607666016,
+    "model_used": "Rule-Based-RE",
+    "confidence_score": 0.0,
+    "relation_count": 0
+  },
+  {
+    "article_title": "Chủ động ứng phó với bão, áp thấp nhiệt đới",
+    "article_url": "https://www.sggp.org.vn/chu-dong-ung-pho-voi-bao-ap-thap-nhiet-doi-post167452.html",
+    "article_source": "Sài Gòn Giải Phóng",
+    "relations": [],
+    "processing_time": 0.001268625259399414,
+    "model_used": "Rule-Based-RE",
+    "confidence_score": 0.0,
+    "relation_count": 0
+  },
+  {
+    "article_title": "Bản tin 17 GIỜ 11-11: Từ nay đến giữa tháng 12 khả năng xuất hiện 1-2 cơn bão, áp thấp nhiệt đới",
+    "article_url": "https://www.sggp.org.vn/ban-tin-17-gio-11-11-tu-nay-den-giua-thang-12-kha-nang-xuat-hien-1-2-con-bao-ap-thap-nhiet-doi-post822944.html",
+    "article_source": "Sài Gòn Giải Phóng",
+    "relations": [],
+    "processing_time": 0.0002472400665283203,
+    "model_used": "Rule-Based-RE",
+    "confidence_score": 0.0,
+    "relation_count": 0
+  },
+  {
+    "article_title": "Gần Biển Đông lại có bão, áp thấp nhiệt đới gây mưa lớn ở miền Trung",
+    "article_url": "https://www.sggp.org.vn/gan-bien-dong-lai-co-bao-ap-thap-nhiet-doi-gay-mua-lon-o-mien-trung-post574217.html",
+    "article_source": "Sài Gòn Giải Phóng",
+    "relations": [],
+    "processing_time": 0.001939535140991211,
+    "model_used": "Rule-Based-RE",
+    "confidence_score": 0.0,
+    "relation_count": 0
+  }
+]

@@ -1,0 +1,28 @@
+Mô hình cc.en.bin của fastText cung cấp các véc-tơ từ (word embeddings) có chiều (dimension) là 300. Các embedding này được huấn luyện trên tập dữ liệu Common Crawl khổng lồ của tiếng Anh, sử dụng phương pháp Cải tiến Skip-gram (CBOW with position-weights) của fastText. 
+Đặc điểm chính của Embedding:
+Chiếu vào không gian 300 chiều: Mỗi từ (hoặc n-gram ký tự) được biểu diễn dưới dạng một véc-tơ 300 số thực. Con số này được chọn để cân bằng giữa chất lượng mã hóa ngữ nghĩa và hiệu quả tính toán.
+Dữ liệu huấn luyện (Common Crawl): Mô hình được huấn luyện trên một lượng lớn dữ liệu web tiếng Anh, giúp nó bao quát được một vốn từ vựng rộng và nhiều ngữ cảnh sử dụng khác nhau.
+Thông tin cấp độ từ con (Subword Information): Điểm mạnh của fastText so với các mô hình như Word2Vec hay GloVe là nó tạo embeddings dựa trên các n-gram ký tự (ví dụ, từ "apple" được chia thành "<ap", "app", "ppl", "ple", "le>"). Điều này cho phép mô hình tạo ra các véc-tơ hữu ích cho những từ chưa từng thấy trong quá trình huấn luyện (out-of-vocabulary - OOV words).
+Định dạng nhị phân (.bin): Tệp được lưu trữ ở định dạng nhị phân, tối ưu cho việc tải nhanh và sử dụng hiệu quả trong các ứng dụng máy học. 
+Cách sử dụng embedding:
+Để truy cập các embedding này, bạn cần sử dụng thư viện fasttext trong Python. 
+python
+import fasttext
+
+# Tải mô hình
+ft = fasttext.load_model('cc.en.300.bin')
+
+# Lấy embedding cho một từ
+word_vector = ft.get_word_vector('embedding')
+print(f"Kích thước vector cho 'embedding': {word_vector.shape}")
+# Kết quả sẽ là: Kích thước vector cho 'embedding': (300,)
+
+# Có thể giảm chiều embedding nếu cần
+fasttext.util.reduce_model(ft, 100) # Giảm xuống 100 chiều
+print(f"Kích thước vector sau khi giảm: {ft.get_dimension()}")
+Hãy thận trọng khi sử dụng mã.
+
+Bạn có thể tải mô hình trực tiếp từ trang web chính thức của fastText fastText crawl vectors. 
+
+
+

@@ -1,0 +1,77 @@
+app:
+  users:
+    user1:
+      password: password123
+      role: user
+    user10:
+      password: password123
+      role: moderator
+    user11:
+      password: password123
+      role: api_client
+    user12:
+      password: password123
+      role: admin
+    user13:
+      password: password123
+      role: admin
+    user14:
+      password: password123
+      role: admin
+    user15:
+      password: password123
+      role: user
+    user16:
+      password: password123
+      role: user
+    user17:
+      password: password123
+      role: user
+    user18:
+      password: password123
+      role: api_client
+    user19:
+      password: password123
+      role: admin
+    user2:
+      password: password123
+      role: moderator
+    user20:
+      password: password123
+      role: admin
+    user21:
+      password: password123
+      role: moderator
+    user22:
+      password: password123
+      role: api_client
+    user23:
+      password: password123
+      role: api_client
+    user24:
+      password: password123
+      role: admin
+    user25:
+      password: password123
+      role: moderator
+    user3:
+      password: password123
+      role: moderator
+    user4:
+      password: password123
+      role: moderator
+    user5:
+      password: password123
+      role: user
+    user6:
+      password: password123
+      role: moderator
+    user7:
+      password: password123
+      role: moderator
+    user8:
+      password: password123
+      role: admin
+    user9:
+      password: password123
+      role: user

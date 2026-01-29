@@ -1,0 +1,44 @@
+# Relation Extraction Dependencies
+# Core ML/NLP libraries
+transformers>=4.21.0
+torch>=1.12.0
+torchvision>=0.13.0
+torchaudio>=0.12.0
+
+# Vietnamese NLP
+underthesea>=6.7.0
+pyvi>=0.1.1
+
+# LLM Integration (optional)
+openai>=1.0.0
+anthropic>=0.7.0
+groq>=0.4.0
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Utilities
+tqdm>=4.64.0
+requests>=2.28.0
+python-dotenv>=1.0.0
+
+# GPU support (optional)
+torchtext>=0.13.0
+
+# Development
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
+
+# For PhoBERT fine-tuning
+seqeval>=1.2.2
+datasets>=2.0.0
+accelerate>=0.12.0
+
+# For rule-based patterns
+spacy>=3.5.0
+spacy-transformers>=1.2.0
+
+# Vietnamese spaCy model (install separately if needed)
+# python -m spacy download vi_core_news_lg

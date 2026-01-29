@@ -1,0 +1,13 @@
+id,name,url,description,version,status,created_at,source
+service_1,order-service,http://localhost:8080,Mock order-service for demonstration,v1.8.2,active,2025-06-14T11:09:55.479900,MOCK_DATA
+service_2,payment-service,http://localhost:8081,Mock payment-service for demonstration,v2.5.7,active,2025-10-03T11:09:55.479923,MOCK_DATA
+service_3,user-service,http://localhost:8082,Mock user-service for demonstration,v3.5.4,active,2025-03-14T11:09:55.479930,MOCK_DATA
+service_4,inventory-service,http://localhost:8083,Mock inventory-service for demonstration,v1.7.7,active,2025-10-13T11:09:55.479936,MOCK_DATA
+service_5,notification-service,http://localhost:8084,Mock notification-service for demonstration,v1.2.3,inactive,2025-05-05T11:09:55.479941,MOCK_DATA
+service_6,reporting-service,http://localhost:8085,Mock reporting-service for demonstration,v1.8.9,inactive,2025-10-21T11:09:55.479945,MOCK_DATA
+service_7,auth-service,http://localhost:8086,Mock auth-service for demonstration,v1.2.1,active,2025-08-22T11:09:55.479950,MOCK_DATA
+service_8,transaction-service,http://localhost:8087,Mock transaction-service for demonstration,v2.1.0,active,2025-04-12T11:09:55.479955,MOCK_DATA
+service_9,reporting-service,http://localhost:8088,Mock reporting-service for demonstration,v2.4.4,inactive,2025-02-04T11:09:55.479962,MOCK_DATA
+service_10,user-service,http://localhost:8089,Mock user-service for demonstration,v1.3.7,maintenance,2024-12-25T11:09:55.479967,MOCK_DATA
+service_11,custom-service-11,http://localhost:8090,Mock custom-service-11 for demonstration,v3.8.8,inactive,2025-12-01T11:09:55.479972,MOCK_DATA
+service_12,custom-service-12,http://localhost:8091,Mock custom-service-12 for demonstration,v2.8.3,active,2025-03-12T11:09:55.479977,MOCK_DATA

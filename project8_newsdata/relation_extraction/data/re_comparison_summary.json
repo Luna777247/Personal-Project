@@ -1,0 +1,19 @@
+{
+  "total_articles": 5,
+  "models_tested": [
+    "rule",
+    "llm"
+  ],
+  "results": {
+    "rule": {
+      "total_relations": 0,
+      "avg_confidence": 0.0,
+      "articles_processed": 5
+    },
+    "llm": {
+      "total_relations": 0,
+      "avg_confidence": 0.0,
+      "articles_processed": 5
+    }
+  }
+}

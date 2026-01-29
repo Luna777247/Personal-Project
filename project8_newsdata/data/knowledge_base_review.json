@@ -1,0 +1,397 @@
+{
+  "auto_discovered_provinces": [
+    {
+      "name": "Lào Cai",
+      "aliases": [],
+      "added_date": "2025-12-09T14:58:44.635469",
+      "confidence": 0.6
+    },
+    {
+      "name": "Củ Chi",
+      "aliases": [],
+      "added_date": "2025-12-09T14:58:44.636605",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Đồng Nai",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.943250",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Thu Bồn",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.944701",
+      "confidence": 0.6
+    },
+    {
+      "name": "đảo Lý Sơn",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.945844",
+      "confidence": 0.6
+    },
+    {
+      "name": "Tây Nguyên",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.946708",
+      "confidence": 0.6
+    },
+    {
+      "name": "Yên Bái",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.947526",
+      "confidence": 0.6
+    },
+    {
+      "name": "Ngọc Linh",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.949856",
+      "confidence": 0.6
+    },
+    {
+      "name": "Vịnh Bắc Bộ",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.952124",
+      "confidence": 0.6
+    },
+    {
+      "name": "Lai Châu",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.953196",
+      "confidence": 0.6
+    },
+    {
+      "name": "Hà Nam",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.954152",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Bến Hải",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.956348",
+      "confidence": 0.6
+    },
+    {
+      "name": "Vịnh Thái Lan",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.958076",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Sài Gòn",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.959225",
+      "confidence": 0.6
+    },
+    {
+      "name": "Bà Rịa - Vũng Tàu",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.960898",
+      "confidence": 0.6
+    },
+    {
+      "name": "Hồ Chí Minh",
+      "aliases": [
+        "HCM",
+        "Sài Gòn",
+        "Saigon",
+        "TP.HCM"
+      ],
+      "added_date": "2025-12-11T01:15:24.963720",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Cái",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.965883",
+      "confidence": 0.6
+    },
+    {
+      "name": "Đồng bằng sông Hồng",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.967278",
+      "confidence": 0.6
+    },
+    {
+      "name": "Miền Bắc",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.969325",
+      "confidence": 0.6
+    },
+    {
+      "name": "Hoàng Sa",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.971768",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Hậu",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.973723",
+      "confidence": 0.6
+    },
+    {
+      "name": "Ninh Bình",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.976884",
+      "confidence": 0.6
+    },
+    {
+      "name": "Cao Bằng",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.979198",
+      "confidence": 0.6
+    },
+    {
+      "name": "Bắc Kạn",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.981696",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Tiền",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.985180",
+      "confidence": 0.6
+    },
+    {
+      "name": "Bắc Ninh",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.987701",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Mã",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.990324",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Ba",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.993521",
+      "confidence": 0.6
+    },
+    {
+      "name": "Miền Nam",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.994746",
+      "confidence": 0.6
+    },
+    {
+      "name": "Biển Đông",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.996295",
+      "confidence": 0.6
+    },
+    {
+      "name": "Nam Định",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:24.999474",
+      "confidence": 0.6
+    },
+    {
+      "name": "Trường Sa",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.000791",
+      "confidence": 0.6
+    },
+    {
+      "name": "Tây Côn Lĩnh",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.003229",
+      "confidence": 0.6
+    },
+    {
+      "name": "Hòa Bình",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.006329",
+      "confidence": 0.6
+    },
+    {
+      "name": "Bạch Mã",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.008909",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Hương",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.011153",
+      "confidence": 0.6
+    },
+    {
+      "name": "Hà Giang",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.013821",
+      "confidence": 0.6
+    },
+    {
+      "name": "Vịnh Hạ Long",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.016048",
+      "confidence": 0.6
+    },
+    {
+      "name": "Hưng Yên",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.018970",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Hồng",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.022209",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Lô",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.025309",
+      "confidence": 0.6
+    },
+    {
+      "name": "Sơn La",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.027923",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Cầu",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.032104",
+      "confidence": 0.6
+    },
+    {
+      "name": "Lạng Sơn",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.047758",
+      "confidence": 0.6
+    },
+    {
+      "name": "đảo Cát Bà",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.050562",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Đà",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.053307",
+      "confidence": 0.6
+    },
+    {
+      "name": "Miền Trung",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.056554",
+      "confidence": 0.6
+    },
+    {
+      "name": "đảo Cô Tô",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.059232",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Lam",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.061902",
+      "confidence": 0.6
+    },
+    {
+      "name": "Bắc Giang",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.064425",
+      "confidence": 0.6
+    },
+    {
+      "name": "Vịnh Nha Trang",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.067827",
+      "confidence": 0.6
+    },
+    {
+      "name": "Hải Dương",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.070469",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Thạch Hãn",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.072710",
+      "confidence": 0.6
+    },
+    {
+      "name": "Thái Bình",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.076186",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Thao",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.078094",
+      "confidence": 0.6
+    },
+    {
+      "name": "Thái Nguyên",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.081271",
+      "confidence": 0.6
+    },
+    {
+      "name": "Đồng bằng sông Cửu Long",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.083586",
+      "confidence": 0.6
+    },
+    {
+      "name": "Điện Biên",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.085299",
+      "confidence": 0.6
+    },
+    {
+      "name": "Tuyên Quang",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.088123",
+      "confidence": 0.6
+    },
+    {
+      "name": "Vĩnh Phúc",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.091847",
+      "confidence": 0.6
+    },
+    {
+      "name": "sông Chu",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.093590",
+      "confidence": 0.6
+    },
+    {
+      "name": "Phú Thọ",
+      "aliases": [],
+      "added_date": "2025-12-11T01:15:25.096613",
+      "confidence": 0.6
+    }
+  ],
+  "auto_discovered_storms": [
+    {
+      "name": "Teststorm2025",
+      "source": "test",
+      "added_date": "2025-12-09T14:57:38.582305",
+      "confidence": 0.9
+    },
+    {
+      "name": "Demostorm2025",
+      "source": "demo_script",
+      "added_date": "2025-12-09T14:58:44.628092",
+      "confidence": 0.95
+    }
+  ],
+  "confidence_scores": {},
+  "export_date": "2025-12-11T11:53:55.420274"
+}

@@ -1,0 +1,79 @@
+# Docker Compose for Development Environment
+version: '3.8'
+
+services:
+  # Fraud Detection API (Development Mode)
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fraud_detection_api_dev
+    ports:
+      - "8000:8000"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - MODEL_PATH=/app/models/production/
+      - FRAUD_THRESHOLD=0.5
+      - LOG_LEVEL=DEBUG
+    volumes:
+      - .:/app
+      - ./models:/app/models
+      - ./logs:/app/logs
+      - ./data:/app/data
+    networks:
+      - fraud_detection_network
+    command: >
+      uvicorn api.main:app
+      --host 0.0.0.0
+      --port 8000
+      --reload
+    restart: unless-stopped
+
+  # Streamlit Dashboard (Development Mode)
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.dashboard
+    container_name: fraud_detection_dashboard_dev
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://api:8000
+    volumes:
+      - .:/app
+    depends_on:
+      - api
+    networks:
+      - fraud_detection_network
+    command: >
+      streamlit run dashboard/app.py
+      --server.port=8501
+      --server.address=0.0.0.0
+      --server.fileWatcherType=poll
+    restart: unless-stopped
+
+  # MLflow Tracking Server
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.6.0
+    container_name: fraud_detection_mlflow_dev
+    ports:
+      - "5000:5000"
+    environment:
+      - MLFLOW_BACKEND_STORE_URI=sqlite:///mlflow/mlflow.db
+      - MLFLOW_DEFAULT_ARTIFACT_ROOT=/mlflow/artifacts
+    volumes:
+      - ./mlflow:/mlflow
+    networks:
+      - fraud_detection_network
+    command: >
+      mlflow server
+      --backend-store-uri sqlite:///mlflow/mlflow.db
+      --default-artifact-root /mlflow/artifacts
+      --host 0.0.0.0
+      --port 5000
+    restart: unless-stopped
+
+networks:
+  fraud_detection_network:
+    driver: bridge

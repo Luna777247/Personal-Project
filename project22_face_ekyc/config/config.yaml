@@ -1,0 +1,141 @@
+# Face Recognition eKYC Configuration
+
+# Project metadata
+project:
+  name: "Face Recognition eKYC"
+  version: "1.0.0"
+  description: "Face verification system for electronic Know Your Customer"
+
+# Model paths
+models:
+  retinaface:
+    model_path: "models/retinaface/retinaface_resnet50.onnx"
+    input_size: [640, 640]
+    confidence_threshold: 0.5
+    nms_threshold: 0.4
+    top_k: 5000
+    keep_top_k: 750
+  
+  arcface:
+    model_path: "models/arcface/arcface_resnet100.onnx"
+    input_size: [112, 112]
+    embedding_size: 512
+  
+  insightface:
+    model_path: "models/insightface/buffalo_l"
+    model_pack: "buffalo_l"
+    det_size: [640, 640]
+    det_thresh: 0.5
+
+# Face matching configuration
+matching:
+  similarity_threshold: 0.6  # Cosine similarity threshold
+  distance_threshold: 1.0    # Euclidean distance threshold
+  verification_threshold: 0.65  # Final verification threshold
+  metric: "cosine"  # cosine or euclidean
+
+# Liveness detection configuration
+liveness:
+  # Blink detection
+  blink:
+    ear_threshold: 0.21  # Eye Aspect Ratio threshold
+    consecutive_frames: 3
+    min_blinks: 1
+    max_blinks: 10
+    time_window: 5  # seconds
+  
+  # Head movement detection
+  head_movement:
+    yaw_threshold: 15  # degrees
+    pitch_threshold: 10
+    roll_threshold: 10
+    min_movements: 2
+    time_window: 5
+  
+  # Texture analysis (anti-spoofing)
+  texture:
+    lbp_threshold: 0.5
+    blur_threshold: 100  # Laplacian variance
+    color_diversity_threshold: 10  # Color channel std
+    enable_fourier: true
+    fourier_threshold: 0.3
+
+# Image preprocessing
+preprocessing:
+  face_alignment: true
+  normalize: true
+  mean: [127.5, 127.5, 127.5]
+  std: [128.0, 128.0, 128.0]
+  color_space: "RGB"
+  min_face_size: 80  # pixels
+  max_face_size: 1000
+
+# Quality checks
+quality:
+  min_brightness: 40
+  max_brightness: 220
+  min_contrast: 30
+  min_sharpness: 50  # Laplacian variance
+  max_blur: 200
+  min_face_confidence: 0.8
+  check_occlusion: true
+  max_occlusion_ratio: 0.3
+
+# CCCD (Vietnamese ID card) specific
+cccd:
+  expected_format: "portrait"
+  min_resolution: [300, 400]  # width x height
+  validate_document: true
+  extract_info: true
+  allowed_extensions: [".jpg", ".jpeg", ".png"]
+
+# API configuration
+api:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+  timeout: 30
+  max_image_size: 10485760  # 10MB
+  allowed_origins: ["*"]
+  rate_limit: 100  # requests per minute
+  enable_cors: true
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/ekyc.log"
+  max_bytes: 10485760  # 10MB
+  backup_count: 5
+
+# Database (optional - for storing verification history)
+database:
+  enabled: false
+  type: "sqlite"
+  path: "data/ekyc.db"
+  table: "verifications"
+
+# Security
+security:
+  enable_encryption: false
+  encrypt_embeddings: false
+  hash_algorithm: "sha256"
+  delete_images_after: true  # Delete images after processing
+  retention_days: 30
+
+# Performance
+performance:
+  use_gpu: true
+  gpu_device: 0
+  num_threads: 4
+  batch_size: 1
+  enable_tensorrt: false
+  enable_openvino: false
+
+# Monitoring
+monitoring:
+  enable_metrics: true
+  metrics_port: 9090
+  track_response_time: true
+  track_success_rate: true
+  alert_threshold: 0.8  # Success rate threshold for alerts

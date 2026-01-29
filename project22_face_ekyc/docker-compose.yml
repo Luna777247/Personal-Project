@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  # Face eKYC API
+  api:
+    build: .
+    container_name: face-ekyc-api
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=Face Recognition eKYC
+      - APP_VERSION=1.0.0
+      - ENVIRONMENT=production
+      - USE_GPU=false
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./config:/app/config
+    networks:
+      - ekyc-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+  
+  # Prometheus (monitoring - optional)
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: face-ekyc-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    networks:
+      - ekyc-network
+    restart: unless-stopped
+    profiles:
+      - monitoring
+  
+  # Grafana (visualization - optional)
+  grafana:
+    image: grafana/grafana:latest
+    container_name: face-ekyc-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - grafana-data:/var/lib/grafana
+    networks:
+      - ekyc-network
+    restart: unless-stopped
+    profiles:
+      - monitoring
+    depends_on:
+      - prometheus
+
+networks:
+  ekyc-network:
+    driver: bridge
+
+volumes:
+  prometheus-data:
+  grafana-data:

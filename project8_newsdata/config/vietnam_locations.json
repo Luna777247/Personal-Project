@@ -1,0 +1,111 @@
+{
+  "provinces": {
+    "Hà Nội": {"type": "thành phố trung ương", "region": "Đồng bằng sông Hồng", "code": "01"},
+    "Hồ Chí Minh": {"type": "thành phố trung ương", "region": "Đông Nam Bộ", "code": "79"},
+    "Đà Nẵng": {"type": "thành phố trung ương", "region": "Nam Trung Bộ", "code": "48"},
+    "Hải Phòng": {"type": "thành phố trung ương", "region": "Đồng bằng sông Hồng", "code": "31"},
+    "Cần Thơ": {"type": "thành phố trung ương", "region": "Đồng bằng sông Cửu Long", "code": "92"},
+    
+    "Hà Giang": {"type": "tỉnh", "region": "Đông Bắc", "code": "02"},
+    "Cao Bằng": {"type": "tỉnh", "region": "Đông Bắc", "code": "04"},
+    "Bắc Kạn": {"type": "tỉnh", "region": "Đông Bắc", "code": "06"},
+    "Tuyên Quang": {"type": "tỉnh", "region": "Đông Bắc", "code": "08"},
+    "Lào Cai": {"type": "tỉnh", "region": "Tây Bắc", "code": "10"},
+    "Điện Biên": {"type": "tỉnh", "region": "Tây Bắc", "code": "11"},
+    "Lai Châu": {"type": "tỉnh", "region": "Tây Bắc", "code": "12"},
+    "Sơn La": {"type": "tỉnh", "region": "Tây Bắc", "code": "14"},
+    "Yên Bái": {"type": "tỉnh", "region": "Tây Bắc", "code": "15"},
+    "Hòa Bình": {"type": "tỉnh", "region": "Tây Bắc", "code": "17"},
+    "Thái Nguyên": {"type": "tỉnh", "region": "Đông Bắc", "code": "19"},
+    "Lạng Sơn": {"type": "tỉnh", "region": "Đông Bắc", "code": "20"},
+    "Quảng Ninh": {"type": "tỉnh", "region": "Đông Bắc", "code": "22"},
+    "Bắc Giang": {"type": "tỉnh", "region": "Đông Bắc", "code": "24"},
+    "Phú Thọ": {"type": "tỉnh", "region": "Đông Bắc", "code": "25"},
+    "Vĩnh Phúc": {"type": "tỉnh", "region": "Đồng bằng sông Hồng", "code": "26"},
+    "Bắc Ninh": {"type": "tỉnh", "region": "Đồng bằng sông Hồng", "code": "27"},
+    "Hải Dương": {"type": "tỉnh", "region": "Đồng bằng sông Hồng", "code": "30"},
+    "Hưng Yên": {"type": "tỉnh", "region": "Đồng bằng sông Hồng", "code": "33"},
+    "Thái Bình": {"type": "tỉnh", "region": "Đồng bằng sông Hồng", "code": "34"},
+    "Hà Nam": {"type": "tỉnh", "region": "Đồng bằng sông Hồng", "code": "35"},
+    "Nam Định": {"type": "tỉnh", "region": "Đồng bằng sông Hồng", "code": "36"},
+    "Ninh Bình": {"type": "tỉnh", "region": "Đồng bằng sông Hồng", "code": "37"},
+    "Thanh Hóa": {"type": "tỉnh", "region": "Bắc Trung Bộ", "code": "38"},
+    "Nghệ An": {"type": "tỉnh", "region": "Bắc Trung Bộ", "code": "40"},
+    "Hà Tĩnh": {"type": "tỉnh", "region": "Bắc Trung Bộ", "code": "42"},
+    "Quảng Bình": {"type": "tỉnh", "region": "Bắc Trung Bộ", "code": "44"},
+    "Quảng Trị": {"type": "tỉnh", "region": "Bắc Trung Bộ", "code": "45"},
+    "Thừa Thiên Huế": {"type": "tỉnh", "region": "Bắc Trung Bộ", "code": "46"},
+    "Quảng Nam": {"type": "tỉnh", "region": "Nam Trung Bộ", "code": "49"},
+    "Quảng Ngãi": {"type": "tỉnh", "region": "Nam Trung Bộ", "code": "51"},
+    "Bình Định": {"type": "tỉnh", "region": "Nam Trung Bộ", "code": "52"},
+    "Phú Yên": {"type": "tỉnh", "region": "Nam Trung Bộ", "code": "54"},
+    "Khánh Hòa": {"type": "tỉnh", "region": "Nam Trung Bộ", "code": "56"},
+    "Ninh Thuận": {"type": "tỉnh", "region": "Nam Trung Bộ", "code": "58"},
+    "Bình Thuận": {"type": "tỉnh", "region": "Nam Trung Bộ", "code": "60"},
+    "Kon Tum": {"type": "tỉnh", "region": "Tây Nguyên", "code": "62"},
+    "Gia Lai": {"type": "tỉnh", "region": "Tây Nguyên", "code": "64"},
+    "Đắk Lắk": {"type": "tỉnh", "region": "Tây Nguyên", "code": "66"},
+    "Đắk Nông": {"type": "tỉnh", "region": "Tây Nguyên", "code": "67"},
+    "Lâm Đồng": {"type": "tỉnh", "region": "Tây Nguyên", "code": "68"},
+    "Bình Phước": {"type": "tỉnh", "region": "Đông Nam Bộ", "code": "70"},
+    "Tây Ninh": {"type": "tỉnh", "region": "Đông Nam Bộ", "code": "72"},
+    "Bình Dương": {"type": "tỉnh", "region": "Đông Nam Bộ", "code": "74"},
+    "Đồng Nai": {"type": "tỉnh", "region": "Đông Nam Bộ", "code": "75"},
+    "Bà Rịa - Vũng Tàu": {"type": "tỉnh", "region": "Đông Nam Bộ", "code": "77"},
+    "Long An": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "80"},
+    "Tiền Giang": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "82"},
+    "Bến Tre": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "83"},
+    "Trà Vinh": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "84"},
+    "Vĩnh Long": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "86"},
+    "Đồng Tháp": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "87"},
+    "An Giang": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "89"},
+    "Kiên Giang": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "91"},
+    "Hậu Giang": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "93"},
+    "Sóc Trăng": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "94"},
+    "Bạc Liêu": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "95"},
+    "Cà Mau": {"type": "tỉnh", "region": "Đồng bằng sông Cửu Long", "code": "96"}
+  },
+  
+  "major_cities": [
+    "Hà Nội", "TP Hồ Chí Minh", "Hồ Chí Minh", "Sài Gòn", "Đà Nẵng", "Hải Phòng", "Cần Thơ",
+    "Huế", "Nha Trang", "Vũng Tàu", "Đà Lạt", "Buôn Ma Thuột", "Pleiku", "Quy Nhơn",
+    "Hạ Long", "Vinh", "Hải Dương", "Thái Nguyên", "Nam Định", "Thanh Hóa"
+  ],
+  
+  "districts": {
+    "Hà Nội": ["Ba Đình", "Hoàn Kiếm", "Tây Hồ", "Long Biên", "Cầu Giấy", "Đống Đa", "Hai Bà Trưng", "Hoàng Mai", "Thanh Xuân", "Sóc Sơn", "Đông Anh", "Gia Lâm", "Nam Từ Liêm", "Bắc Từ Liêm", "Hà Đông", "Sơn Tây"],
+    "Hồ Chí Minh": ["Quận 1", "Quận 2", "Quận 3", "Quận 4", "Quận 5", "Quận 6", "Quận 7", "Quận 8", "Quận 9", "Quận 10", "Quận 11", "Quận 12", "Bình Thạnh", "Tân Bình", "Tân Phú", "Phú Nhuận", "Gò Vấp", "Thủ Đức", "Bình Tân", "Củ Chi", "Hóc Môn", "Bình Chánh", "Nhà Bè", "Cần Giờ"],
+    "Đà Nẵng": ["Hải Châu", "Thanh Khê", "Sơn Trà", "Ngũ Hành Sơn", "Liên Chiểu", "Cẩm Lệ", "Hòa Vang", "Hoàng Sa"]
+  },
+  
+  "geographic_features": {
+    "rivers": ["sông Hồng", "sông Đà", "sông Thao", "sông Lô", "sông Cầu", "sông Mã", "sông Chu", "sông Lam", "sông Gianh", "sông Thạch Hãn", "sông Hương", "sông Bến Hải", "sông Thu Bồn", "sông Ba", "sông Cái", "sông Sài Gòn", "sông Đồng Nai", "sông Tiền", "sông Hậu"],
+    "mountains": ["Phan Xi Păng", "Tây Côn Lĩnh", "Pu Ta Leng", "Pu Si Lung", "Nhìu Cồ San", "Bạch Mã", "Ngọc Linh", "Bidoup", "Núi Bà Đen"],
+    "seas": ["Biển Đông", "Vịnh Bắc Bộ", "Vịnh Thái Lan", "Vịnh Hạ Long", "Vịnh Vân Phong", "Vịnh Nha Trang", "Vịnh Cam Ranh"],
+    "islands": ["đảo Phú Quốc", "đảo Cát Bà", "đảo Cô Tô", "đảo Lý Sơn", "Trường Sa", "Hoàng Sa", "đảo Thổ Chu", "đảo Bạch Long Vĩ"],
+    "deltas": ["Đồng bằng sông Hồng", "Đồng bằng sông Cửu Long"],
+    "highlands": ["Tây Nguyên", "Cao nguyên Đá Đồng Văn", "Cao nguyên Mộc Châu"]
+  },
+  
+  "location_variations": {
+    "TP HCM": "Hồ Chí Minh",
+    "TP. HCM": "Hồ Chí Minh",
+    "TPHCM": "Hồ Chí Minh",
+    "Sài Gòn": "Hồ Chí Minh",
+    "Thành phố Hồ Chí Minh": "Hồ Chí Minh",
+    "HN": "Hà Nội",
+    "Thủ đô": "Hà Nội",
+    "ĐN": "Đà Nẵng",
+    "HP": "Hải Phòng",
+    "CT": "Cần Thơ"
+  },
+  
+  "region_keywords": {
+    "Miền Bắc": ["miền Bắc", "Bắc Bộ", "phía Bắc", "các tỉnh phía Bắc"],
+    "Miền Trung": ["miền Trung", "Trung Bộ", "Bắc Trung Bộ", "Nam Trung Bộ", "các tỉnh miền Trung"],
+    "Miền Nam": ["miền Nam", "Nam Bộ", "phía Nam", "các tỉnh phía Nam", "Nam Bộ"],
+    "Tây Nguyên": ["Tây Nguyên", "cao nguyên", "các tỉnh Tây Nguyên"],
+    "Đồng bằng sông Cửu Long": ["Đồng bằng sông Cửu Long", "ĐBSCL", "đồng bằng Cửu Long", "vùng đồng bằng sông Cửu Long"],
+    "Đồng bằng sông Hồng": ["Đồng bằng sông Hồng", "vùng châu thổ sông Hồng"]
+  }
+}

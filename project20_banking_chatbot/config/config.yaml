@@ -1,0 +1,201 @@
+# Scraper settings
+scraper:
+  target_urls:
+    - https://www.mbbank.com.vn/ca-nhan
+    - https://www.mbbank.com.vn/ca-nhan/san-pham/tiet-kiem
+    - https://www.mbbank.com.vn/ca-nhan/san-pham/the
+    - https://www.mbbank.com.vn/ca-nhan/san-pham/vay
+    - https://www.mbbank.com.vn/ca-nhan/lai-suat
+  
+  selectors:
+    product_title: "h1, h2.product-title, .title"
+    product_description: "p, .description, .content"
+    interest_rate: ".interest-rate, .rate"
+    terms_conditions: ".terms, .conditions"
+  
+  output:
+    raw_data_path: "data/raw/scraped_data.json"
+    processed_data_path: "data/processed/documents.json"
+
+# Embedding settings
+embedding:
+  model_name: "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+  dimension: 768
+  batch_size: 32
+  device: "cuda"  # or "cpu"
+  normalize_embeddings: true
+
+# Vector database settings
+vector_db:
+  type: "chromadb"  # chromadb, faiss, or hnswlib
+  
+  chromadb:
+    persist_directory: "data/embeddings/chroma_db"
+    collection_name: "mb_banking_docs"
+    distance_metric: "cosine"
+  
+  faiss:
+    index_path: "data/embeddings/faiss_index"
+    index_type: "IndexFlatIP"  # or "IndexIVFFlat"
+  
+  hnswlib:
+    index_path: "data/embeddings/hnswlib_index"
+    space: "cosine"
+    ef_construction: 200
+    M: 16
+
+# RAG settings
+rag:
+  retrieval:
+    top_k: 5
+    score_threshold: 0.7
+    rerank: true
+    rerank_model: "cross-encoder/ms-marco-MiniLM-L-12-v2"
+  
+  chunking:
+    strategy: "recursive"  # sentence, paragraph, recursive
+    chunk_size: 512
+    chunk_overlap: 50
+    separators: ["\n\n", "\n", ". ", " "]
+  
+  context:
+    max_context_length: 2000
+    include_metadata: true
+    context_template: |
+      Dựa trên thông tin sau đây về sản phẩm/dịch vụ của MB Bank:
+      
+      {context}
+      
+      Hãy trả lời câu hỏi của khách hàng một cách chính xác và thân thiện.
+
+# LLM settings
+llm:
+  provider: "openai"  # openai, ollama, huggingface
+  
+  openai:
+    model: "gpt-4-turbo-preview"
+    temperature: 0.7
+    max_tokens: 1000
+    top_p: 0.9
+    frequency_penalty: 0.0
+    presence_penalty: 0.0
+  
+  ollama:
+    base_url: "http://localhost:11434"
+    model: "qwen2.5:7b"  # or llama3.1:8b, mistral:7b
+    temperature: 0.7
+    num_ctx: 4096
+  
+  system_prompt: |
+    Bạn là trợ lý ảo thông minh của MB Bank, chuyên tư vấn về các sản phẩm và dịch vụ ngân hàng.
+    
+    Nhiệm vụ của bạn:
+    - Trả lời câu hỏi của khách hàng về sản phẩm tiết kiệm, vay vốn, thẻ, lãi suất
+    - Cung cấp thông tin chính xác dựa trên dữ liệu được cung cấp
+    - Giải thích rõ ràng, dễ hiểu, thân thiện
+    - Không bịa đặt thông tin không có trong tài liệu
+    - Nếu không biết, hãy thừa nhận và đề xuất liên hệ hotline
+    
+    Phong cách giao tiếp:
+    - Lịch sự, chuyên nghiệp
+    - Sử dụng tiếng Việt chuẩn
+    - Tránh thuật ngữ quá phức tạp
+    - Luôn đặt lợi ích khách hàng lên hàng đầu
+
+# Evaluation settings
+evaluation:
+  enabled: true
+  
+  metrics:
+    - name: "rouge"
+      enabled: true
+    - name: "bert_score"
+      enabled: true
+      model: "vinai/phobert-base"
+    - name: "ragas"
+      enabled: true
+      metrics: ["faithfulness", "answer_relevancy", "context_precision"]
+  
+  auto_eval:
+    enabled: true
+    sample_rate: 0.1  # Evaluate 10% of conversations
+  
+  human_feedback:
+    enabled: true
+    rating_scale: 5
+
+# Logging settings
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+  conversation:
+    enabled: true
+    path: "logs/conversations/"
+    fields:
+      - timestamp
+      - session_id
+      - user_id
+      - query
+      - response
+      - retrieved_docs
+      - llm_model
+      - latency
+      - feedback
+  
+  performance:
+    enabled: true
+    path: "logs/performance/"
+    metrics:
+      - response_time
+      - retrieval_time
+      - llm_time
+      - token_usage
+
+# API settings
+api:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+  reload: false
+  
+  cors:
+    enabled: true
+    allow_origins:
+      - "http://localhost:3000"
+      - "http://localhost:8501"
+    allow_methods: ["GET", "POST", "PUT", "DELETE"]
+    allow_headers: ["*"]
+  
+  rate_limiting:
+    enabled: true
+    requests_per_minute: 60
+  
+  authentication:
+    enabled: false
+    type: "api_key"
+
+# Cache settings
+cache:
+  enabled: true
+  backend: "memory"  # memory, redis
+  ttl: 3600
+  
+  redis:
+    host: "localhost"
+    port: 6379
+    db: 0
+    password: null
+
+# Database settings
+database:
+  conversations:
+    type: "mongodb"
+    connection_string: "mongodb://localhost:27017/"
+    database: "banking_chatbot"
+    collection: "conversations"
+  
+  feedback:
+    type: "postgresql"
+    connection_string: "postgresql://user:password@localhost:5432/chatbot"
+    table: "user_feedback"

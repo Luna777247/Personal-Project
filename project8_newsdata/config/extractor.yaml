@@ -1,0 +1,59 @@
+# Configuration for Disaster Information Extractor v4.1
+
+model:
+  spacy_models:
+    - vi_core_news_lg
+    - vi_core_news_md
+    - en_core_web_sm
+  
+  vietnamese_ner_models:
+    - NlpHUST/ner-vietnamese-electra-base
+    - uitnlp/vibert4news-base-cased
+    - vinai/phobert-base
+  
+  confidence_threshold: 0.85
+
+location:
+  fuzzy_match_threshold: 0.85
+  context_window: 150
+  max_candidates: 10
+  min_confidence: 0.6
+
+impact:
+  casualty_patterns:
+    - '(?:hơn|trên|khoảng|gần|tới|đến)?\s*(\d+(?:[,\.]\d+)?)\s*(?:người|nạn nhân)'
+    - '(\d+(?:[,\.]\d+)?)\s*(?:người|nạn nhân)\s*(?:thiệt mạng|tử vong|chết)'
+    - '(?:bị thương|thương vong).*?(\d+(?:[,\.]\d+)?)\s*người'
+  
+  property_patterns:
+    - '(?:thiệt hại|thất thoát|mất|hư hỏng).*?(\d+(?:[,\.]\d+)?)\s*(?:tỷ|triệu|nghìn)\s*(?:đồng|VNĐ)'
+    - '(\d+(?:[,\.]\d+)?)\s*(?:tỷ|triệu)\s*(?:đồng|VNĐ).*?(?:thiệt hại|thất thoát)'
+  
+  severity_thresholds:
+    low: 10
+    medium: 50
+    high: 100
+    critical: 500
+
+quality:
+  min_quality_score: 0.4
+  
+  weights:
+    location_confidence: 0.30
+    impact_consistency: 0.25
+    source_reliability: 0.20
+    temporal_validity: 0.15
+    completeness: 0.10
+  
+  required_fields:
+    - source
+    - title
+    - content
+    - date
+
+processing:
+  batch_size: 100
+  max_workers: 4
+  timeout: 300
+  use_multiprocessing: true
+  chunk_size: 1000

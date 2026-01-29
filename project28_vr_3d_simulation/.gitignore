@@ -1,0 +1,144 @@
+# Project 28 VR/3D Simulation - Git Ignore File
+
+## Unity Specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# [Aa]ssets/AssetStoreTools*
+
+# Rider IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Visual Studio
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# MonoDevelop
+.monodevelop/
+*.userprefs
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.dylib
+
+# Python virtual environment
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Node.js / WebXR
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm/
+
+# Blender backups
+*.blend1
+*.blend2
+*.blend~
+
+# Asset caches
+Assets/AssetStoreTools*
+
+# Certificates and secrets
+*.key
+*.pem
+*.pfx
+secrets.json
+.env
+.env.local
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# IDE files
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Build outputs
+dist/
+build/
+out/
+
+# WebXR builds
+webxr/dist/
+webxr/.next/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Credentials and API keys
+client_secret*.json
+*.credentials
+api_keys.txt
+
+# Large binary files
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Keep only important config files
+!/ProjectSettings.json
+!/package.json
+!/requirements.txt
+!/webxr/package.json
+
+# Ignore autosaved scenes
+*_AUTOSAVE.unity
+
+# Ignore export files
+export/
+*.fbx
+*.obj
+*.unitypackage

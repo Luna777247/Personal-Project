@@ -1,0 +1,77 @@
+{
+  "dataset_name": "California Housing",
+  "description": ".. _california_housing_dataset:\n\nCalifornia Housing dataset\n--------------------------\n\n**Data Set Characteristics:**\n\n:Number of Instances: 20640\n\n:Number of Attributes: 8 numeric, predictive attributes and the target\n\n:Attribute Information:\n    - MedInc        median income in block group\n    - HouseAge      median house age in block group\n    - AveRooms      average number of rooms per household\n    - AveBedrms     average number of bedrooms per household\n    - Population    block group population\n    - AveOccup      average number of household members\n    - Latitude      block group latitude\n    - Longitude     block group longitude\n\n:Missing Attribute Values: None\n\nThis dataset was obtained from the StatLib repository.\nhttps://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.html\n\nThe target variable is the median house value for California districts,\nexpressed in hundreds of thousands of dollars ($100,000).\n\nThis dataset was derived from the 1990 U.S. census, using one row per census\nblock group. A block group is the smallest geographical unit for which the U.S.\nCensus Bureau publishes sample data (a block group typically has a population\nof 600 to 3,000 people).\n\nA household is a group of people residing within a home. Since the average\nnumber of rooms and bedrooms in this dataset are provided per household, these\ncolumns may take surprisingly large values for block groups with few households\nand many empty houses, such as vacation resorts.\n\nIt can be downloaded/loaded using the\n:func:`sklearn.datasets.fetch_california_housing` function.\n\n.. rubric:: References\n\n- Pace, R. Kelley and Ronald Barry, Sparse Spatial Autoregressions,\n  Statistics and Probability Letters, 33:291-297, 1997.\n",
+  "features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ],
+  "target": "Median house value (in $100,000s)",
+  "fetch_timestamp": "2025-12-10T07:43:45.617060",
+  "statistics": {
+    "total_samples": 20640,
+    "num_features": 8,
+    "target_stats": {
+      "mean": 2.068558169089147,
+      "std": 1.1539561587441483,
+      "min": 0.14999,
+      "max": 5.00001,
+      "median": 1.797
+    },
+    "feature_stats": {
+      "MedInc": {
+        "mean": 3.8706710029069766,
+        "std": 1.8998217179452732,
+        "min": 0.4999,
+        "max": 15.0001
+      },
+      "HouseAge": {
+        "mean": 28.639486434108527,
+        "std": 12.585557612111637,
+        "min": 1.0,
+        "max": 52.0
+      },
+      "AveRooms": {
+        "mean": 5.428999742190376,
+        "std": 2.4741731394243205,
+        "min": 0.8461538461538461,
+        "max": 141.9090909090909
+      },
+      "AveBedrms": {
+        "mean": 1.096675149606208,
+        "std": 0.47391085679546435,
+        "min": 0.3333333333333333,
+        "max": 34.06666666666667
+      },
+      "Population": {
+        "mean": 1425.4767441860465,
+        "std": 1132.4621217653375,
+        "min": 3.0,
+        "max": 35682.0
+      },
+      "AveOccup": {
+        "mean": 3.0706551594363742,
+        "std": 10.386049562213591,
+        "min": 0.6923076923076923,
+        "max": 1243.3333333333333
+      },
+      "Latitude": {
+        "mean": 35.63186143410853,
+        "std": 2.1359523974571117,
+        "min": 32.54,
+        "max": 41.95
+      },
+      "Longitude": {
+        "mean": -119.56970445736432,
+        "std": 2.003531723502581,
+        "min": -124.35,
+        "max": -114.31
+      }
+    }
+  }
+}

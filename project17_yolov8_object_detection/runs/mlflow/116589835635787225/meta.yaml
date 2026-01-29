@@ -1,0 +1,6 @@
+artifact_location: file:D:/project/Personal Project/project17_yolov8_object_detection/runs/mlflow/116589835635787225
+creation_time: 1765327682560
+experiment_id: '116589835635787225'
+last_update_time: 1765327682560
+lifecycle_stage: active
+name: runs/train

@@ -1,0 +1,43 @@
+{
+  "name": "project28-vr-webxr",
+  "version": "1.0.0",
+  "description": "WebXR implementation of VR/3D Simulation for Education and Environment",
+  "type": "module",
+  "main": "js/app.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "serve": "python -m http.server 8000"
+  },
+  "dependencies": {
+    "three": "^r162",
+    "babylonjs": "^6.0.0",
+    "babylonjs-loaders": "^6.0.0",
+    "three-stdlib": "^1.30.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-basic-ssl": "^1.0.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "webxr",
+    "vr",
+    "three.js",
+    "babylon.js",
+    "education",
+    "simulation",
+    "environment"
+  ],
+  "author": "AI Assistant",
+  "license": "MIT"
+}

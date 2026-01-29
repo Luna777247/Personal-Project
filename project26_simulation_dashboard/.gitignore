@@ -1,0 +1,37 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+venv/
+.pytest_cache/
+.coverage
+
+# Frontend
+node_modules/
+build/
+dist/
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Data
+*.csv
+*.json
+data/raw/
+data/processed/
+
+# Results
+results/
+experiments/
+output/

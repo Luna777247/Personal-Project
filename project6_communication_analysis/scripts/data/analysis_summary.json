@@ -1,0 +1,13 @@
+{
+  "total_campaigns": 20,
+  "total_budget": 470518.18,
+  "average_roi": 99.54499999999999,
+  "average_effectiveness": 32.730000000000004,
+  "top_channels": [
+    "Events",
+    "Paid Ads",
+    "Email"
+  ],
+  "sentiment_correlation": -0.22610161662265976,
+  "generated_at": "2025-12-09T12:29:51.043918"
+}

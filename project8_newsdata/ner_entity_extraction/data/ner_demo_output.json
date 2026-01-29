@@ -1,0 +1,50 @@
+{
+  "article": {
+    "title": "Bão số 12 gây thiệt hại nặng nề tại Hà Nội",
+    "content": "Bão số 12 đã đổ bộ vào khu vực Hà Nội hôm qua, gây ra lũ lụt nghiêm trọng. Hàng trăm ngôi nhà bị sạt lở.",
+    "url": "https://example.com/article1",
+    "source": "VNExpress"
+  },
+  "entities": [
+    {
+      "text": "Hà Nội",
+      "label": "LOCATION",
+      "start": 31,
+      "end": 37,
+      "confidence": 0.8
+    },
+    {
+      "text": "bão",
+      "label": "DISASTER_TYPE",
+      "start": 0,
+      "end": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "lũ",
+      "label": "DISASTER_TYPE",
+      "start": 54,
+      "end": 56,
+      "confidence": 0.8
+    },
+    {
+      "text": "sạt lở",
+      "label": "DISASTER_TYPE",
+      "start": 97,
+      "end": 103,
+      "confidence": 0.8
+    },
+    {
+      "text": "hôm qua",
+      "label": "TIME",
+      "start": 38,
+      "end": 45,
+      "confidence": 0.8
+    }
+  ],
+  "metadata": {
+    "extractor": "SimpleNERExtractor",
+    "timestamp": "2024-12-11T13:40:00Z",
+    "entity_count": 5
+  }
+}

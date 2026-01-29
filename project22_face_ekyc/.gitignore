@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Models
+models/*.onnx
+models/*.pth
+models/*.pkl
+models/*.h5
+models/buffalo_*
+models/retinaface/
+models/arcface/
+models/insightface/
+
+# Data
+data/*.jpg
+data/*.jpeg
+data/*.png
+data/*.mp4
+data/*.avi
+data/*.db
+data/raw/
+data/processed/
+
+# Logs
+logs/
+*.log
+
+# Test files
+test_images/
+demo_*.jpg
+demo_*.png
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Documentation builds
+docs/_build/
+site/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Monitoring
+prometheus-data/
+grafana-data/

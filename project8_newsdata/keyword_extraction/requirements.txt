@@ -1,0 +1,6 @@
+# Requirements for Keyword-based Disaster Information Extraction
+# Phiên bản đơn giản, chỉ cần dependencies cơ bản
+
+pandas>=1.5.0        # Data processing and CSV export
+# Không cần thêm dependencies phức tạp khác
+# Hệ thống hoạt động với Python standard library + pandas

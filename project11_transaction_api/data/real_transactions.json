@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "mock_txn_000001",
+    "amount": 1966.45,
+    "currency": "AUD",
+    "description": "Utility Bill",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-29T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000002",
+    "amount": 3402.56,
+    "currency": "GBP",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-02T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000003",
+    "amount": 4055.97,
+    "currency": "EUR",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-05-31T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000004",
+    "amount": 123.81,
+    "currency": "GBP",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-30T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000005",
+    "amount": 1692.92,
+    "currency": "USD",
+    "description": "Grocery Shopping",
+    "status": "FAILED",
+    "transaction_date": "2025-12-09T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000006",
+    "amount": 241.79,
+    "currency": "USD",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-26T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000007",
+    "amount": 969.35,
+    "currency": "GBP",
+    "description": "Utility Bill",
+    "status": "COMPLETED",
+    "transaction_date": "2025-09-21T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000008",
+    "amount": 1276.51,
+    "currency": "AUD",
+    "description": "Restaurant Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2024-12-11T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000009",
+    "amount": 4147.97,
+    "currency": "GBP",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-11T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000010",
+    "amount": 3940.75,
+    "currency": "USD",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-02T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000011",
+    "amount": 2804.2,
+    "currency": "CAD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-18T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000012",
+    "amount": 3594.36,
+    "currency": "AUD",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2024-12-31T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000013",
+    "amount": 1257.26,
+    "currency": "USD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-24T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000014",
+    "amount": 238.32,
+    "currency": "USD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-20T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000015",
+    "amount": 3801.0,
+    "currency": "EUR",
+    "description": "ATM Withdrawal",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-23T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000016",
+    "amount": 2195.61,
+    "currency": "AUD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-19T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000017",
+    "amount": 3451.32,
+    "currency": "USD",
+    "description": "Restaurant Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-25T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000018",
+    "amount": 178.78,
+    "currency": "GBP",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-19T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000019",
+    "amount": 3475.72,
+    "currency": "AUD",
+    "description": "Gas Station",
+    "status": "PENDING",
+    "transaction_date": "2025-06-22T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000020",
+    "amount": 4494.6,
+    "currency": "AUD",
+    "description": "ATM Withdrawal",
+    "status": "PENDING",
+    "transaction_date": "2025-03-12T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000021",
+    "amount": 2156.18,
+    "currency": "GBP",
+    "description": "ATM Withdrawal",
+    "status": "COMPLETED",
+    "transaction_date": "2025-05-21T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000022",
+    "amount": 373.97,
+    "currency": "CAD",
+    "description": "Grocery Shopping",
+    "status": "PENDING",
+    "transaction_date": "2025-10-25T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000023",
+    "amount": 219.37,
+    "currency": "EUR",
+    "description": "Restaurant Payment",
+    "status": "PENDING",
+    "transaction_date": "2025-02-07T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000024",
+    "amount": 2751.81,
+    "currency": "CAD",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-12T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000025",
+    "amount": 2101.73,
+    "currency": "AUD",
+    "description": "Salary Deposit",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-05T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000026",
+    "amount": 2413.4,
+    "currency": "EUR",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-26T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000027",
+    "amount": 4079.84,
+    "currency": "CAD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-20T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000028",
+    "amount": 3956.65,
+    "currency": "CAD",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-04-10T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000029",
+    "amount": 630.87,
+    "currency": "AUD",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-03T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000030",
+    "amount": 4086.44,
+    "currency": "CAD",
+    "description": "Restaurant Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-27T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000031",
+    "amount": 1960.41,
+    "currency": "AUD",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-04-07T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000032",
+    "amount": 2770.16,
+    "currency": "CAD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-05T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000033",
+    "amount": 3609.19,
+    "currency": "AUD",
+    "description": "Salary Deposit",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-28T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000034",
+    "amount": 317.96,
+    "currency": "AUD",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-05-01T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000035",
+    "amount": 3086.96,
+    "currency": "GBP",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-14T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000036",
+    "amount": 1656.98,
+    "currency": "AUD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-29T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000037",
+    "amount": 682.98,
+    "currency": "AUD",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-08-19T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000038",
+    "amount": 775.54,
+    "currency": "USD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-27T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000039",
+    "amount": 1384.84,
+    "currency": "AUD",
+    "description": "ATM Withdrawal",
+    "status": "COMPLETED",
+    "transaction_date": "2025-12-03T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000040",
+    "amount": 3830.91,
+    "currency": "AUD",
+    "description": "ATM Withdrawal",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-05T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000041",
+    "amount": 2946.27,
+    "currency": "EUR",
+    "description": "ATM Withdrawal",
+    "status": "CANCELLED",
+    "transaction_date": "2025-04-28T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000042",
+    "amount": 4018.8,
+    "currency": "CAD",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-04-10T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000043",
+    "amount": 2693.72,
+    "currency": "AUD",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-05-02T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000044",
+    "amount": 3224.09,
+    "currency": "CAD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-19T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000045",
+    "amount": 4310.34,
+    "currency": "GBP",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-22T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000046",
+    "amount": 3885.5,
+    "currency": "CAD",
+    "description": "Restaurant Payment",
+    "status": "CANCELLED",
+    "transaction_date": "2025-02-24T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000047",
+    "amount": 4683.39,
+    "currency": "USD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-23T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000048",
+    "amount": 321.46,
+    "currency": "USD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-25T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000049",
+    "amount": 3881.09,
+    "currency": "CAD",
+    "description": "Online Transfer",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-08T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000050",
+    "amount": 2323.34,
+    "currency": "CAD",
+    "description": "ATM Withdrawal",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-11T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000051",
+    "amount": 4820.19,
+    "currency": "EUR",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-17T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000052",
+    "amount": 2912.59,
+    "currency": "AUD",
+    "description": "Salary Deposit",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-21T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000053",
+    "amount": 2642.93,
+    "currency": "CAD",
+    "description": "Utility Bill",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-23T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000054",
+    "amount": 366.11,
+    "currency": "USD",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-04-24T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000055",
+    "amount": 4801.11,
+    "currency": "USD",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-28T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000056",
+    "amount": 2525.09,
+    "currency": "GBP",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-12T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000057",
+    "amount": 165.05,
+    "currency": "GBP",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-27T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000058",
+    "amount": 4189.95,
+    "currency": "USD",
+    "description": "Restaurant Payment",
+    "status": "PENDING",
+    "transaction_date": "2025-11-10T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000059",
+    "amount": 720.45,
+    "currency": "USD",
+    "description": "Grocery Shopping",
+    "status": "FAILED",
+    "transaction_date": "2025-11-18T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000060",
+    "amount": 83.34,
+    "currency": "GBP",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-22T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000061",
+    "amount": 2633.93,
+    "currency": "EUR",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-12T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000062",
+    "amount": 2935.12,
+    "currency": "GBP",
+    "description": "Restaurant Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-12T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000063",
+    "amount": 2691.51,
+    "currency": "USD",
+    "description": "Restaurant Payment",
+    "status": "PENDING",
+    "transaction_date": "2025-09-16T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000064",
+    "amount": 621.07,
+    "currency": "USD",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-01T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000065",
+    "amount": 2602.33,
+    "currency": "EUR",
+    "description": "Salary Deposit",
+    "status": "COMPLETED",
+    "transaction_date": "2025-08-03T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000066",
+    "amount": 2105.67,
+    "currency": "USD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-08-19T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000067",
+    "amount": 2120.38,
+    "currency": "USD",
+    "description": "Mobile Payment",
+    "status": "PENDING",
+    "transaction_date": "2025-04-19T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000068",
+    "amount": 530.33,
+    "currency": "CAD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-09-23T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000069",
+    "amount": 2549.41,
+    "currency": "EUR",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-10T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000070",
+    "amount": 1550.15,
+    "currency": "GBP",
+    "description": "Salary Deposit",
+    "status": "COMPLETED",
+    "transaction_date": "2024-12-10T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000071",
+    "amount": 1544.25,
+    "currency": "CAD",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-03T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000072",
+    "amount": 4888.92,
+    "currency": "USD",
+    "description": "Online Transfer",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-09T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000073",
+    "amount": 1723.25,
+    "currency": "CAD",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2024-12-22T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000074",
+    "amount": 1301.04,
+    "currency": "EUR",
+    "description": "Restaurant Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-12-09T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000075",
+    "amount": 3236.24,
+    "currency": "CAD",
+    "description": "Mobile Payment",
+    "status": "PENDING",
+    "transaction_date": "2024-12-18T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000076",
+    "amount": 4782.3,
+    "currency": "CAD",
+    "description": "Salary Deposit",
+    "status": "COMPLETED",
+    "transaction_date": "2025-08-29T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000077",
+    "amount": 3023.04,
+    "currency": "EUR",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-06T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000078",
+    "amount": 1760.76,
+    "currency": "USD",
+    "description": "Subscription Service",
+    "status": "COMPLETED",
+    "transaction_date": "2025-04-27T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000079",
+    "amount": 1773.59,
+    "currency": "CAD",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-08T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000080",
+    "amount": 4220.72,
+    "currency": "EUR",
+    "description": "Restaurant Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-25T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000081",
+    "amount": 3835.54,
+    "currency": "CAD",
+    "description": "Subscription Service",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-17T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000082",
+    "amount": 4770.97,
+    "currency": "CAD",
+    "description": "ATM Withdrawal",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-24T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000083",
+    "amount": 490.76,
+    "currency": "USD",
+    "description": "Utility Bill",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-13T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000084",
+    "amount": 3938.02,
+    "currency": "AUD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-07T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000085",
+    "amount": 1063.78,
+    "currency": "AUD",
+    "description": "Utility Bill",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-08T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000086",
+    "amount": 4891.76,
+    "currency": "CAD",
+    "description": "Insurance Premium",
+    "status": "FAILED",
+    "transaction_date": "2025-10-18T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000087",
+    "amount": 25.21,
+    "currency": "GBP",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-08T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000088",
+    "amount": 4053.37,
+    "currency": "EUR",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-08-09T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000089",
+    "amount": 1671.02,
+    "currency": "USD",
+    "description": "Online Transfer",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-22T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000090",
+    "amount": 2174.87,
+    "currency": "USD",
+    "description": "Salary Deposit",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-08T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000091",
+    "amount": 846.38,
+    "currency": "USD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-02T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000092",
+    "amount": 2247.11,
+    "currency": "AUD",
+    "description": "Rent Payment",
+    "status": "PENDING",
+    "transaction_date": "2025-08-08T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000093",
+    "amount": 1116.33,
+    "currency": "CAD",
+    "description": "Restaurant Payment",
+    "status": "CANCELLED",
+    "transaction_date": "2025-03-06T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000094",
+    "amount": 2790.17,
+    "currency": "CAD",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-12T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000095",
+    "amount": 3333.54,
+    "currency": "GBP",
+    "description": "Online Transfer",
+    "status": "PENDING",
+    "transaction_date": "2025-10-02T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000096",
+    "amount": 2244.13,
+    "currency": "CAD",
+    "description": "Restaurant Payment",
+    "status": "PENDING",
+    "transaction_date": "2025-03-19T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000097",
+    "amount": 1301.63,
+    "currency": "USD",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-28T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000098",
+    "amount": 2649.0,
+    "currency": "AUD",
+    "description": "Subscription Service",
+    "status": "PENDING",
+    "transaction_date": "2025-10-07T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000099",
+    "amount": 1321.36,
+    "currency": "AUD",
+    "description": "Online Transfer",
+    "status": "PENDING",
+    "transaction_date": "2025-08-05T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000100",
+    "amount": 4986.85,
+    "currency": "USD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-09-20T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000101",
+    "amount": 1096.25,
+    "currency": "EUR",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-27T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000102",
+    "amount": 176.25,
+    "currency": "GBP",
+    "description": "Restaurant Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-25T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000103",
+    "amount": 1394.71,
+    "currency": "GBP",
+    "description": "Subscription Service",
+    "status": "CANCELLED",
+    "transaction_date": "2025-07-22T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000104",
+    "amount": 3755.79,
+    "currency": "AUD",
+    "description": "Utility Bill",
+    "status": "COMPLETED",
+    "transaction_date": "2025-12-03T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000105",
+    "amount": 1202.03,
+    "currency": "CAD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2024-12-24T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000106",
+    "amount": 1415.08,
+    "currency": "EUR",
+    "description": "Restaurant Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-09-05T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000107",
+    "amount": 4314.54,
+    "currency": "AUD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-02T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000108",
+    "amount": 2029.47,
+    "currency": "EUR",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-18T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000109",
+    "amount": 1557.75,
+    "currency": "USD",
+    "description": "ATM Withdrawal",
+    "status": "COMPLETED",
+    "transaction_date": "2024-12-18T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000110",
+    "amount": 4945.99,
+    "currency": "EUR",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-25T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000111",
+    "amount": 1744.95,
+    "currency": "EUR",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-08-13T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000112",
+    "amount": 2523.97,
+    "currency": "CAD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-05-18T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000113",
+    "amount": 2534.64,
+    "currency": "CAD",
+    "description": "Utility Bill",
+    "status": "CANCELLED",
+    "transaction_date": "2025-12-08T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000114",
+    "amount": 1200.88,
+    "currency": "USD",
+    "description": "Online Purchase",
+    "status": "FAILED",
+    "transaction_date": "2025-05-09T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000115",
+    "amount": 4063.55,
+    "currency": "EUR",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-04T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000116",
+    "amount": 2961.58,
+    "currency": "GBP",
+    "description": "Online Transfer",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-16T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000117",
+    "amount": 2707.84,
+    "currency": "AUD",
+    "description": "Salary Deposit",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-25T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000118",
+    "amount": 3195.88,
+    "currency": "GBP",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-28T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000119",
+    "amount": 4504.03,
+    "currency": "GBP",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-27T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000120",
+    "amount": 2512.05,
+    "currency": "EUR",
+    "description": "ATM Withdrawal",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-17T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000121",
+    "amount": 1961.86,
+    "currency": "CAD",
+    "description": "Salary Deposit",
+    "status": "COMPLETED",
+    "transaction_date": "2025-09-21T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000122",
+    "amount": 1870.28,
+    "currency": "EUR",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-12-01T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000123",
+    "amount": 1561.53,
+    "currency": "USD",
+    "description": "ATM Withdrawal",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-18T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000124",
+    "amount": 4191.89,
+    "currency": "EUR",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-26T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000125",
+    "amount": 2021.63,
+    "currency": "USD",
+    "description": "Online Purchase",
+    "status": "PENDING",
+    "transaction_date": "2025-04-21T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000126",
+    "amount": 2089.61,
+    "currency": "GBP",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-05-05T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000127",
+    "amount": 242.33,
+    "currency": "USD",
+    "description": "ATM Withdrawal",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-08T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000128",
+    "amount": 4460.29,
+    "currency": "CAD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2024-12-22T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000129",
+    "amount": 2181.62,
+    "currency": "CAD",
+    "description": "Subscription Service",
+    "status": "PENDING",
+    "transaction_date": "2025-09-27T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000130",
+    "amount": 3024.35,
+    "currency": "EUR",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-12-01T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000131",
+    "amount": 4791.79,
+    "currency": "GBP",
+    "description": "Insurance Premium",
+    "status": "FAILED",
+    "transaction_date": "2025-06-19T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000132",
+    "amount": 4451.46,
+    "currency": "USD",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-11T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000133",
+    "amount": 597.33,
+    "currency": "USD",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-09-26T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000134",
+    "amount": 3650.97,
+    "currency": "CAD",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-10T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000135",
+    "amount": 1863.36,
+    "currency": "GBP",
+    "description": "Salary Deposit",
+    "status": "COMPLETED",
+    "transaction_date": "2025-02-19T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000136",
+    "amount": 3141.96,
+    "currency": "CAD",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-08-14T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000137",
+    "amount": 885.55,
+    "currency": "USD",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-14T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000138",
+    "amount": 4582.93,
+    "currency": "EUR",
+    "description": "Online Transfer",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-24T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000139",
+    "amount": 3315.63,
+    "currency": "CAD",
+    "description": "Salary Deposit",
+    "status": "CANCELLED",
+    "transaction_date": "2025-02-11T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000140",
+    "amount": 1137.06,
+    "currency": "EUR",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-19T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000141",
+    "amount": 3953.78,
+    "currency": "AUD",
+    "description": "Restaurant Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-10T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000142",
+    "amount": 3440.02,
+    "currency": "GBP",
+    "description": "Subscription Service",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-22T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000143",
+    "amount": 628.87,
+    "currency": "GBP",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-05-04T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000144",
+    "amount": 527.52,
+    "currency": "CAD",
+    "description": "Insurance Premium",
+    "status": "PENDING",
+    "transaction_date": "2025-03-02T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000145",
+    "amount": 1283.91,
+    "currency": "AUD",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-30T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000146",
+    "amount": 2426.2,
+    "currency": "AUD",
+    "description": "Online Transfer",
+    "status": "PENDING",
+    "transaction_date": "2025-03-31T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000147",
+    "amount": 2155.44,
+    "currency": "GBP",
+    "description": "Online Transfer",
+    "status": "COMPLETED",
+    "transaction_date": "2025-05-23T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000148",
+    "amount": 2758.49,
+    "currency": "USD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-22T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000149",
+    "amount": 857.89,
+    "currency": "GBP",
+    "description": "Rent Payment",
+    "status": "FAILED",
+    "transaction_date": "2025-05-10T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000150",
+    "amount": 3613.59,
+    "currency": "EUR",
+    "description": "ATM Withdrawal",
+    "status": "CANCELLED",
+    "transaction_date": "2025-03-01T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000151",
+    "amount": 4756.85,
+    "currency": "EUR",
+    "description": "ATM Withdrawal",
+    "status": "FAILED",
+    "transaction_date": "2025-04-16T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000152",
+    "amount": 3102.58,
+    "currency": "AUD",
+    "description": "Utility Bill",
+    "status": "PENDING",
+    "transaction_date": "2024-12-18T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000153",
+    "amount": 803.35,
+    "currency": "EUR",
+    "description": "Subscription Service",
+    "status": "COMPLETED",
+    "transaction_date": "2025-08-30T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000154",
+    "amount": 3667.27,
+    "currency": "USD",
+    "description": "Restaurant Payment",
+    "status": "FAILED",
+    "transaction_date": "2025-04-29T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000155",
+    "amount": 3997.36,
+    "currency": "EUR",
+    "description": "Utility Bill",
+    "status": "FAILED",
+    "transaction_date": "2025-07-17T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000156",
+    "amount": 489.03,
+    "currency": "AUD",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-09-13T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000157",
+    "amount": 629.25,
+    "currency": "EUR",
+    "description": "Mobile Payment",
+    "status": "PENDING",
+    "transaction_date": "2025-08-19T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000158",
+    "amount": 2209.87,
+    "currency": "EUR",
+    "description": "Rent Payment",
+    "status": "PENDING",
+    "transaction_date": "2025-09-01T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000159",
+    "amount": 2784.75,
+    "currency": "AUD",
+    "description": "Restaurant Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-20T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000160",
+    "amount": 2495.34,
+    "currency": "GBP",
+    "description": "Salary Deposit",
+    "status": "PENDING",
+    "transaction_date": "2025-08-05T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000161",
+    "amount": 2921.9,
+    "currency": "EUR",
+    "description": "Grocery Shopping",
+    "status": "CANCELLED",
+    "transaction_date": "2025-08-10T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000162",
+    "amount": 878.62,
+    "currency": "AUD",
+    "description": "Online Transfer",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-04T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000163",
+    "amount": 503.55,
+    "currency": "GBP",
+    "description": "ATM Withdrawal",
+    "status": "COMPLETED",
+    "transaction_date": "2025-04-12T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000164",
+    "amount": 3334.11,
+    "currency": "CAD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-04T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000165",
+    "amount": 4720.59,
+    "currency": "EUR",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-08-31T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000166",
+    "amount": 2003.91,
+    "currency": "EUR",
+    "description": "Online Transfer",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-06T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000167",
+    "amount": 542.29,
+    "currency": "GBP",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-07T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000168",
+    "amount": 2599.61,
+    "currency": "GBP",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-17T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000169",
+    "amount": 1288.24,
+    "currency": "AUD",
+    "description": "Rent Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2024-12-12T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000170",
+    "amount": 4869.55,
+    "currency": "USD",
+    "description": "Online Transfer",
+    "status": "COMPLETED",
+    "transaction_date": "2025-09-07T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000171",
+    "amount": 2493.87,
+    "currency": "CAD",
+    "description": "Subscription Service",
+    "status": "COMPLETED",
+    "transaction_date": "2025-06-11T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000172",
+    "amount": 2969.6,
+    "currency": "CAD",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-10T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000173",
+    "amount": 4951.91,
+    "currency": "GBP",
+    "description": "Online Transfer",
+    "status": "COMPLETED",
+    "transaction_date": "2025-12-01T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000174",
+    "amount": 3179.84,
+    "currency": "CAD",
+    "description": "Insurance Premium",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-29T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000175",
+    "amount": 1016.54,
+    "currency": "AUD",
+    "description": "Restaurant Payment",
+    "status": "FAILED",
+    "transaction_date": "2025-02-13T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000176",
+    "amount": 3146.27,
+    "currency": "GBP",
+    "description": "Online Purchase",
+    "status": "CANCELLED",
+    "transaction_date": "2025-12-07T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000177",
+    "amount": 3067.38,
+    "currency": "EUR",
+    "description": "Online Transfer",
+    "status": "PENDING",
+    "transaction_date": "2025-01-10T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000178",
+    "amount": 1554.56,
+    "currency": "USD",
+    "description": "Utility Bill",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-16T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000179",
+    "amount": 1124.67,
+    "currency": "USD",
+    "description": "Utility Bill",
+    "status": "PENDING",
+    "transaction_date": "2025-01-25T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000180",
+    "amount": 209.98,
+    "currency": "AUD",
+    "description": "Restaurant Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-04T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000181",
+    "amount": 4143.03,
+    "currency": "USD",
+    "description": "Gas Station",
+    "status": "PENDING",
+    "transaction_date": "2025-04-22T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000182",
+    "amount": 3005.93,
+    "currency": "AUD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-09-28T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000183",
+    "amount": 1433.56,
+    "currency": "EUR",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-29T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000184",
+    "amount": 502.35,
+    "currency": "EUR",
+    "description": "Rent Payment",
+    "status": "CANCELLED",
+    "transaction_date": "2025-11-07T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000185",
+    "amount": 4671.4,
+    "currency": "CAD",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-09-03T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000186",
+    "amount": 1387.07,
+    "currency": "GBP",
+    "description": "Subscription Service",
+    "status": "COMPLETED",
+    "transaction_date": "2025-08-26T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000187",
+    "amount": 2132.74,
+    "currency": "USD",
+    "description": "Restaurant Payment",
+    "status": "PENDING",
+    "transaction_date": "2025-08-23T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000188",
+    "amount": 2391.73,
+    "currency": "USD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-07-07T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000189",
+    "amount": 4368.8,
+    "currency": "EUR",
+    "description": "Subscription Service",
+    "status": "COMPLETED",
+    "transaction_date": "2025-04-19T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000190",
+    "amount": 45.92,
+    "currency": "CAD",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-29T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000191",
+    "amount": 4171.45,
+    "currency": "CAD",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-11-15T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000192",
+    "amount": 3006.86,
+    "currency": "GBP",
+    "description": "Online Purchase",
+    "status": "COMPLETED",
+    "transaction_date": "2025-03-20T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000193",
+    "amount": 2589.31,
+    "currency": "GBP",
+    "description": "Utility Bill",
+    "status": "PENDING",
+    "transaction_date": "2025-12-03T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000194",
+    "amount": 3266.29,
+    "currency": "AUD",
+    "description": "Mobile Payment",
+    "status": "COMPLETED",
+    "transaction_date": "2025-09-04T11:07:13.236061",
+    "payment_method": "paypal",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000195",
+    "amount": 66.44,
+    "currency": "CAD",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2024-12-15T11:07:13.236061",
+    "payment_method": "cash",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000196",
+    "amount": 2058.35,
+    "currency": "AUD",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-04-05T11:07:13.236061",
+    "payment_method": "credit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000197",
+    "amount": 3894.74,
+    "currency": "GBP",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-05-04T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000198",
+    "amount": 3734.25,
+    "currency": "GBP",
+    "description": "Online Transfer",
+    "status": "PENDING",
+    "transaction_date": "2025-01-19T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000199",
+    "amount": 2941.95,
+    "currency": "CAD",
+    "description": "Grocery Shopping",
+    "status": "COMPLETED",
+    "transaction_date": "2025-10-19T11:07:13.236061",
+    "payment_method": "debit_card",
+    "source": "MOCK_DATA"
+  },
+  {
+    "id": "mock_txn_000200",
+    "amount": 1073.13,
+    "currency": "USD",
+    "description": "Gas Station",
+    "status": "COMPLETED",
+    "transaction_date": "2025-01-25T11:07:13.236061",
+    "payment_method": "bank_transfer",
+    "source": "MOCK_DATA"
+  }
+]

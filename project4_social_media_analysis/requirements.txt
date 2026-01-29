@@ -1,0 +1,34 @@
+# Social Media Analysis Requirements
+# =================================
+
+# Core data processing
+pandas==2.0.3
+numpy==1.24.3
+requests==2.31.0
+
+# Data visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+wordcloud==1.9.2
+
+# Machine learning and NLP
+scikit-learn==1.3.0
+nltk==3.8.1
+textblob==0.17.1
+
+# Social Media APIs
+tweepy==4.14.0
+praw==7.7.1
+
+# Web scraping
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# File handling
+openpyxl==3.1.2
+python-dotenv==1.0.0
+
+# Development
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0

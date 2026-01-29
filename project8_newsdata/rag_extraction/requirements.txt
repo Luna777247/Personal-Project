@@ -1,0 +1,59 @@
+# RAG-Based Disaster Information Extraction Requirements
+
+# Core LLM APIs (same as llm_extraction)
+openai>=1.0.0
+anthropic>=0.7.0
+groq>=0.1.0
+
+# Vector Databases
+chromadb>=0.4.0
+qdrant-client>=1.6.0
+pymilvus>=2.3.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+transformers>=4.30.0
+torch>=2.0.0
+faiss-cpu>=1.7.0
+
+# Text Processing & Chunking
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.5
+langchain-anthropic>=0.0.5
+tiktoken>=0.5.0
+
+# Vietnamese NLP
+underthesea>=6.0.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Async Processing
+aiohttp>=3.8.0
+asyncio
+
+# Caching & Utils
+cachetools>=5.0.0
+ratelimit>=2.2.0
+
+# Data Validation
+jsonschema>=4.0.0
+pydantic>=2.0.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# Logging & Monitoring
+logging
+colorama>=0.4.0
+
+# Optional: Local LLM support
+# llama-cpp-python>=0.2.0
+# ctransformers>=0.2.0
+
+# Development
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0

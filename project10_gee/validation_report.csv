@@ -1,0 +1,7 @@
+Method,IoU,Precision,Recall
+adaptive_landcover,0.000,0.000,0.000
+ems,0.000,0.000,0.000
+kmeans,0.000,0.000,0.000
+adaptive_meanstd,0.000,0.000,0.000
+ensemble,0.000,0.000,0.000
+fusion_sar_optical_weighted,0.000,0.000,0.000

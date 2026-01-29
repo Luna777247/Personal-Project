@@ -1,0 +1,22 @@
+[
+  {
+    "article_title": "Bão số 12 gây thiệt hại nặng nề tại Hà Nội",
+    "article_url": "https://example.com/article1",
+    "article_source": "VNExpress",
+    "entities": [],
+    "processing_time": 6.413459777832031e-05,
+    "model_used": "PhoNER",
+    "confidence_score": 0.0,
+    "entity_count": 0
+  },
+  {
+    "article_title": "Động đất mạnh tại Kon Tum",
+    "article_url": "https://example.com/article2",
+    "article_source": "TuoiTre",
+    "entities": [],
+    "processing_time": 5.602836608886719e-05,
+    "model_used": "PhoNER",
+    "confidence_score": 0.0,
+    "entity_count": 0
+  }
+]

@@ -1,0 +1,463 @@
+{
+  "projectName": "Project 28 - VR/3D Simulation for Education and Environment",
+  "version": "1.0.0",
+  "description": "Immersive VR experiences for environmental education using waste management, flood risk, and ecosystem simulations",
+  "author": "AI Assistant",
+  "targetPlatforms": [
+    "Meta Quest 3",
+    "HTC Vive",
+    "PlayStation VR2",
+    "WebXR (Browser)",
+    "Android Cardboard VR",
+    "iOS Cardboard VR"
+  ],
+  "unitySettings": {
+    "unityVersion": "2022.3 LTS",
+    "scriptingBackend": "IL2CPP",
+    "apiCompatibilityLevel": ".NET Framework",
+    "targetFramerate": {
+      "quest": 72,
+      "pcVR": 90,
+      "webXR": 60,
+      "mobileVR": 60
+    }
+  },
+  "scenarios": {
+    "WasteManagement": {
+      "name": "Waste Processing Facility",
+      "description": "Interactive waste sorting and recycling education",
+      "features": [
+        "Trash sorting mechanics",
+        "Conveyor belt interaction",
+        "Contamination detection",
+        "Performance metrics",
+        "Educational feedback"
+      ],
+      "estimatedPlaytime": "15-20 minutes",
+      "educationalGrade": "6-12",
+      "learningObjectives": [
+        "Understand waste hierarchy",
+        "Identify recyclable materials",
+        "Appreciate circular economy"
+      ]
+    },
+    "FloodRisk": {
+      "name": "Flood Risk Simulation",
+      "description": "Real-time flood dynamics and disaster preparedness",
+      "features": [
+        "Real-time water physics (SPH)",
+        "Multi-scenario rainfall",
+        "Building vulnerability assessment",
+        "Evacuation planning",
+        "Climate scenarios (1-yr, 10-yr, 100-yr, 2050, 2100)"
+      ],
+      "estimatedPlaytime": "20-25 minutes",
+      "educationalGrade": "8-12",
+      "learningObjectives": [
+        "Recognize flood hazards",
+        "Understand risk assessment",
+        "Plan emergency response",
+        "See climate change impacts"
+      ],
+      "researchAlignment": "RIVERS Project"
+    },
+    "ForestEcosystem": {
+      "name": "Forest Ecosystem Simulation",
+      "description": "Biodiversity and ecosystem dynamics learning",
+      "features": [
+        "Species population simulation",
+        "Food web interactions",
+        "Lifecycle visualization",
+        "Environmental stressors",
+        "Carbon cycle visualization"
+      ],
+      "estimatedPlaytime": "20-30 minutes",
+      "educationalGrade": "6-12",
+      "learningObjectives": [
+        "Recognize biodiversity importance",
+        "Understand food chains",
+        "See climate change impacts",
+        "Learn ecosystem services"
+      ],
+      "researchAlignment": "SIMPLE Project"
+    }
+  },
+  "technologyStack": {
+    "gameEngine": [
+      "Unity 3D 2022 LTS"
+    ],
+    "3DModeling": [
+      "Blender 4.0+",
+      "Substance Painter (optional)",
+      "Mixamo (free animations)"
+    ],
+    "webVR": [
+      "Three.js or Babylon.js",
+      "WebXR Device API",
+      "Node.js/Express"
+    ],
+    "programming": [
+      "C# (Unity scripts)",
+      "JavaScript/TypeScript (WebXR)",
+      "Python (data processing)"
+    ],
+    "physics": [
+      "PhysX (Unity built-in)",
+      "SPH (Smoothed Particle Hydrodynamics)",
+      "Obi Rope (cloth simulation - optional)"
+    ],
+    "audio": [
+      "Wwise (professional)",
+      "FMOD (alternative)",
+      "Unity Audio (built-in)"
+    ],
+    "dataIntegration": [
+      "NOAA Weather API",
+      "Copernicus Climate Data",
+      "GDAL (geospatial)",
+      "Geopandas (spatial analysis)"
+    ]
+  },
+  "fileStructure": {
+    "scenes": {
+      "WasteManagement": [
+        "WasteProcessing.unity",
+        "SortingLine.unity",
+        "RecyclingPlant.unity"
+      ],
+      "FloodRisk": [
+        "FloodSimulation.unity",
+        "CityDistrict.unity",
+        "RuralArea.unity"
+      ],
+      "ForestEcosystem": [
+        "ForestBiodiversity.unity",
+        "Lifecycle.unity",
+        "ClimateImpact.unity"
+      ]
+    },
+    "scripts": {
+      "Core": [
+        "VRInteractionManager.cs",
+        "DataStreamManager.cs",
+        "UIManager.cs"
+      ],
+      "Scenarios": [
+        "WasteManager.cs",
+        "FloodSimulator.cs",
+        "EcosystemManager.cs"
+      ],
+      "Physics": [
+        "WaterPhysics.cs",
+        "ParticleEffects.cs",
+        "EnvironmentPhysics.cs"
+      ],
+      "Interaction": [
+        "HandTracking.cs",
+        "GazeInteraction.cs",
+        "ObjectManipulation.cs"
+      ]
+    },
+    "assets": {
+      "Models": [
+        "Waste/",
+        "Buildings/",
+        "Flora/",
+        "Fauna/"
+      ],
+      "Materials": [
+        "Water/",
+        "Terrain/",
+        "UI/"
+      ],
+      "Prefabs": [
+        "WasteItems/",
+        "Animals/",
+        "Mechanisms/"
+      ],
+      "Audio": [
+        "SFX/",
+        "Music/",
+        "Ambient/"
+      ]
+    },
+    "webxr": [
+      "index.html",
+      "js/app.js",
+      "js/interaction.js",
+      "js/dataSync.js",
+      "css/styles.css"
+    ],
+    "blenderModels": [
+      "WasteProcessing.blend",
+      "FloodScenario.blend",
+      "ForestEcosystem.blend"
+    ],
+    "documentation": [
+      "README.md",
+      "QUICKSTART.md",
+      "ARCHITECTURE.md",
+      "SCENE_DESIGN.md",
+      "VR_INTERACTION.md",
+      "DEPLOYMENT.md"
+    ]
+  },
+  "performanceTargets": {
+    "metaQuest3": {
+      "fps": 72,
+      "maxMemory": 2048,
+      "maxDrawCalls": 1000,
+      "latency": 20
+    },
+    "htcVive": {
+      "fps": 90,
+      "maxMemory": 3000,
+      "maxDrawCalls": 1000,
+      "latency": 20
+    },
+    "webXR": {
+      "fps": 60,
+      "maxMemory": 500,
+      "maxDrawCalls": 500,
+      "latency": 50
+    },
+    "mobileCardboard": {
+      "fps": 60,
+      "maxMemory": 1000,
+      "maxDrawCalls": 300,
+      "latency": 100
+    }
+  },
+  "interactionSystems": {
+    "handTracking": {
+      "supported": true,
+      "platforms": [
+        "Meta Quest 3",
+        "HTC Vive (with controllers)",
+        "WebXR compatible devices"
+      ],
+      "gestures": [
+        "Pinch",
+        "Point",
+        "Grab",
+        "Thumbs Up",
+        "Peace Sign"
+      ]
+    },
+    "gazeInteraction": {
+      "supported": true,
+      "platforms": [
+        "All VR platforms",
+        "Eye-tracking optional"
+      ],
+      "features": [
+        "Dwell-based selection",
+        "Gaze-based UI navigation",
+        "Accessibility mode (no hands required)"
+      ]
+    },
+    "locomotion": {
+      "modes": [
+        "Teleport (comfortable for all users)",
+        "Smooth movement (optional)",
+        "Climbing mechanic (multi-level spaces)"
+      ]
+    }
+  },
+  "dataIntegration": {
+    "realTimeData": [
+      {
+        "name": "Weather",
+        "source": "NOAA API",
+        "updateFrequency": "1/hour",
+        "fields": [
+          "temperature",
+          "humidity",
+          "windSpeed",
+          "rainfallRate"
+        ]
+      },
+      {
+        "name": "Flood Forecast",
+        "source": "Global Flood Monitor (UNOSAT)",
+        "updateFrequency": "6/day",
+        "fields": [
+          "floodProbability",
+          "floodSeverity",
+          "affectedAreas"
+        ]
+      },
+      {
+        "name": "Climate Data",
+        "source": "Copernicus Climate Data",
+        "updateFrequency": "1/month",
+        "fields": [
+          "temperatureAnomaly",
+          "precipitation",
+          "co2Levels"
+        ]
+      }
+    ],
+    "staticData": [
+      "Satellite imagery (basemaps)",
+      "Building footprints (vulnerability)",
+      "Land use classification",
+      "Species distribution maps"
+    ]
+  },
+  "educationalMetrics": {
+    "tracking": [
+      "Engagement time",
+      "Interaction count",
+      "Decision accuracy",
+      "Learning gain (pre/post assessment)",
+      "Scenario completion time"
+    ],
+    "feedback": [
+      "Real-time performance metrics",
+      "Achievement badges",
+      "Progress tracking",
+      "Comparison with peers (optional leaderboards)"
+    ]
+  },
+  "researchAlignment": {
+    "SIMPLE": {
+      "description": "VR Participatory Learning for Sustainable Intensification",
+      "features": ["Immersive stakeholder engagement", "Collaborative scenarios", "Decision support"]
+    },
+    "RIVERS": {
+      "description": "Risk-based Governance of Flood Risks in a Multi-scale Perspective",
+      "features": ["Flood risk visualization", "Multi-scenario assessment", "Community awareness"]
+    },
+    "LowTechVR": {
+      "description": "Low-cost VR for Education in Emerging Markets",
+      "features": ["Cardboard VR support", "Mobile optimization", "Offline capability"]
+    },
+    "ACROSS": {
+      "description": "Agents and Complexity Research Group",
+      "features": ["Multi-agent simulation", "Serious game design", "Agent-based optimization"]
+    }
+  },
+  "developmentRoadmap": {
+    "phase1": {
+      "name": "Core Infrastructure",
+      "duration": "2 weeks",
+      "tasks": [
+        "VR Interaction framework",
+        "DataStreamManager setup",
+        "Scene templates",
+        "Input mapping"
+      ]
+    },
+    "phase2": {
+      "name": "Waste Management",
+      "duration": "2 weeks",
+      "tasks": [
+        "3D waste facility modeling",
+        "Interactive sorting system",
+        "Physics-based objects",
+        "Performance metrics"
+      ]
+    },
+    "phase3": {
+      "name": "Flood Risk Simulation",
+      "duration": "2 weeks",
+      "tasks": [
+        "Water physics (SPH)",
+        "Flood progression algorithm",
+        "Building vulnerability",
+        "Evacuation mechanics"
+      ]
+    },
+    "phase4": {
+      "name": "Forest Ecosystem",
+      "duration": "2 weeks",
+      "tasks": [
+        "Procedural forest generation",
+        "Species AI",
+        "Lifecycle visualization",
+        "Environmental stressors"
+      ]
+    },
+    "phase5": {
+      "name": "WebXR & Optimization",
+      "duration": "2 weeks",
+      "tasks": [
+        "Three.js conversion",
+        "Mobile optimization",
+        "Cardboard VR support",
+        "Performance profiling"
+      ]
+    },
+    "phase6": {
+      "name": "Testing & Deployment",
+      "duration": "2 weeks",
+      "tasks": [
+        "Cross-platform testing",
+        "Educational user testing",
+        "Documentation finalization",
+        "VR store deployment"
+      ]
+    }
+  },
+  "cvHighlights": {
+    "skills": [
+      "VR/XR Game Development (Unity C#)",
+      "3D Modeling & Animation (Blender)",
+      "Real-time Physics Simulation",
+      "Hand & Eye Tracking",
+      "WebXR Development",
+      "Performance Optimization",
+      "Educational Game Design",
+      "Geospatial Data Integration",
+      "Multi-platform Development"
+    ],
+    "technologies": [
+      "Unity 3D",
+      "C#",
+      "JavaScript/TypeScript",
+      "Blender",
+      "WebXR",
+      "Three.js / Babylon.js",
+      "Real-time Physics",
+      "NOAA APIs",
+      "Geospatial Data"
+    ],
+    "researchContributions": [
+      "SIMPLE: Participatory VR Learning Platform",
+      "RIVERS: Flood Risk Visualization Tool",
+      "Low-Tech VR: Affordable Education Technology",
+      "Environmental Education Innovation"
+    ]
+  },
+  "requirements": {
+    "development": {
+      "os": [
+        "Windows 10/11",
+        "macOS 12+",
+        "Linux (Ubuntu 20.04+)"
+      ],
+      "ram": "16GB minimum, 32GB recommended",
+      "gpu": "NVIDIA GTX 1070+, RTX 3060+, AMD RX 5700+",
+      "storage": "100GB+ for tools and assets",
+      "internet": "For API testing and asset downloads"
+    },
+    "deployment": {
+      "vrHardware": [
+        "Meta Quest 3",
+        "HTC Vive",
+        "PlayStation VR2",
+        "Cardboard VR"
+      ],
+      "browser": [
+        "Chrome/Chromium 88+",
+        "Edge 88+",
+        "Firefox 83+ (experimental)"
+      ],
+      "mobile": "Android 8.0+ with ARCore"
+    }
+  },
+  "license": "MIT License - Open source",
+  "contact": "For support, see README.md and documentation",
+  "lastUpdated": "2024"
+}

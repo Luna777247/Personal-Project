@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Money Transfer</title>
+</head>
+<body>
+    <h1>Money Transfer</h1>
+    <form method="POST">  <!-- No CSRF token -->
+        <label>Amount:</label>
+        <input type="number" name="amount" required><br>
+        <label>To User ID:</label>
+        <input type="number" name="to_user" required><br>
+        <button type="submit">Transfer</button>
+    </form>
+</body>
+</html>

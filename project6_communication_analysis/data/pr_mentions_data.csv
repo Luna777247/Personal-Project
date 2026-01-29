@@ -1,0 +1,151 @@
+source,publication,title,date,sentiment,topic,reach,advertising_value,tone_score
+Radio,Radio Outlet 0,Article about Company Announcement 0,2025-11-10 16:47:24.551472,Neutral,Company Announcement,204767,6600.29,-0.1964158839750087
+Radio,Radio Outlet 1,Article about Brand Mention 1,2025-09-16 16:47:24.551550,Neutral,Brand Mention,598536,13184.28,-0.27771506296175535
+Radio,Radio Outlet 2,Article about Company Announcement 2,2025-12-03 16:47:24.551601,Positive,Company Announcement,665656,24027.88,0.8526402513956037
+Online News,Online News Outlet 3,Article about Company Announcement 3,2025-10-03 16:47:24.551644,Neutral,Company Announcement,249955,1254.52,-0.17903669588403082
+Newspaper,Newspaper Outlet 4,Article about Product Review 4,2025-10-09 16:47:24.551681,Neutral,Product Review,63410,720.95,-0.06322424692445133
+TV,TV Outlet 5,Article about Product Review 5,2025-11-01 16:47:24.551715,Negative,Product Review,647295,19071.74,-0.04245668259455093
+Radio,Radio Outlet 6,Article about Product Review 6,2025-10-27 16:47:24.551747,Neutral,Product Review,945830,26825.77,-0.22871724438124386
+Social Media,Social Media Outlet 7,Article about Brand Mention 7,2025-11-05 16:47:24.551779,Positive,Brand Mention,40053,283.25,-0.2453071168880121
+Newspaper,Newspaper Outlet 8,Article about Industry News 8,2025-10-09 16:47:24.551810,Neutral,Industry News,875951,28758.05,0.2840669355014161
+TV,TV Outlet 9,Article about Company Announcement 9,2025-12-05 16:47:24.551841,Positive,Company Announcement,308198,13316.35,-0.9927553224308858
+Newspaper,Newspaper Outlet 10,Article about Product Review 10,2025-11-07 16:47:24.551873,Positive,Product Review,355437,13527.92,0.6855821983345953
+Online News,Online News Outlet 11,Article about Company Announcement 11,2025-10-12 16:47:24.551904,Negative,Company Announcement,115858,1744.01,-0.767448592818248
+Blog,Blog Outlet 12,Article about Industry News 12,2025-11-04 16:47:24.551936,Neutral,Industry News,34461,246.04,-0.06649253389340956
+Newspaper,Newspaper Outlet 13,Article about Brand Mention 13,2025-11-03 16:47:24.551967,Negative,Brand Mention,842486,20450.54,-0.6569516843720031
+Blog,Blog Outlet 14,Article about Brand Mention 14,2025-11-29 16:47:24.551998,Positive,Brand Mention,33292,55.04,0.8768096159344887
+Blog,Blog Outlet 15,Article about Company Announcement 15,2025-10-18 16:47:24.552029,Negative,Company Announcement,28371,93.66,-0.19295400672212026
+Radio,Radio Outlet 16,Article about Brand Mention 16,2025-10-10 16:47:24.552060,Positive,Brand Mention,159185,1991.55,-0.5808528174971337
+Blog,Blog Outlet 17,Article about Product Review 17,2025-10-31 16:47:24.552091,Positive,Product Review,20737,187.65,-0.339016105534069
+TV,TV Outlet 18,Article about Brand Mention 18,2025-10-17 16:47:24.552122,Positive,Brand Mention,973834,34632.3,0.6415620318474133
+TV,TV Outlet 19,Article about Company Announcement 19,2025-10-27 16:47:24.552153,Neutral,Company Announcement,644792,23106.53,0.21538304290166316
+Blog,Blog Outlet 20,Article about Industry News 20,2025-11-21 16:47:24.552184,Positive,Industry News,34338,285.91,-0.4954373140590984
+Online News,Online News Outlet 21,Article about Brand Mention 21,2025-11-20 16:47:24.552214,Neutral,Brand Mention,60122,661.47,0.2856412113248757
+Social Media,Social Media Outlet 22,Article about Brand Mention 22,2025-10-01 16:47:24.552245,Positive,Brand Mention,17172,85.14,0.3522506748717644
+Newspaper,Newspaper Outlet 23,Article about Industry News 23,2025-11-24 16:47:24.552275,Positive,Industry News,390768,15806.76,0.19601178033860656
+Radio,Radio Outlet 24,Article about Brand Mention 24,2025-10-03 16:47:24.552306,Neutral,Brand Mention,161760,3684.2,0.011704850707325187
+Social Media,Social Media Outlet 25,Article about Industry News 25,2025-11-17 16:47:24.552337,Positive,Industry News,49846,171.49,0.29848295888637755
+TV,TV Outlet 26,Article about Industry News 26,2025-10-14 16:47:24.552368,Neutral,Industry News,572634,27719.43,-0.12049477863801308
+Online News,Online News Outlet 27,Article about Industry News 27,2025-10-21 16:47:24.552399,Positive,Industry News,17821,169.09,-0.7027313656085137
+Radio,Radio Outlet 28,Article about Brand Mention 28,2025-09-11 16:47:24.552429,Positive,Brand Mention,497555,18937.8,-0.6923959311433894
+TV,TV Outlet 29,Article about Product Review 29,2025-09-17 16:47:24.552460,Neutral,Product Review,537968,24692.04,0.12212188392059142
+Blog,Blog Outlet 30,Article about Brand Mention 30,2025-10-17 16:47:24.552491,Neutral,Brand Mention,19959,199.47,0.20831624230830986
+Online News,Online News Outlet 31,Article about Industry News 31,2025-10-12 16:47:24.552521,Neutral,Industry News,359707,3214.64,-0.12833657248086114
+Newspaper,Newspaper Outlet 32,Article about Brand Mention 32,2025-12-05 16:47:24.552552,Negative,Brand Mention,510181,21438.13,0.4145667330422633
+Social Media,Social Media Outlet 33,Article about Company Announcement 33,2025-12-07 16:47:24.552583,Positive,Company Announcement,24310,46.43,-0.3932363732777642
+Radio,Radio Outlet 34,Article about Product Review 34,2025-11-02 16:47:24.552614,Positive,Product Review,182821,3274.68,-0.8163377069645885
+TV,TV Outlet 35,Article about Industry News 35,2025-11-20 16:47:24.552644,Positive,Industry News,983134,38795.19,-0.6545932691360785
+Radio,Radio Outlet 36,Article about Industry News 36,2025-09-24 16:47:24.552675,Positive,Industry News,977965,48139.21,0.10940050348462238
+Blog,Blog Outlet 37,Article about Company Announcement 37,2025-11-23 16:47:24.552705,Neutral,Company Announcement,10652,98.12,0.04050002632236677
+Online News,Online News Outlet 38,Article about Industry News 38,2025-11-16 16:47:24.552735,Negative,Industry News,31958,203.67,0.3723604754060599
+Newspaper,Newspaper Outlet 39,Article about Product Review 39,2025-10-27 16:47:24.552766,Neutral,Product Review,29299,1351.53,-0.05970638341165749
+Online News,Online News Outlet 40,Article about Brand Mention 40,2025-09-30 16:47:24.552798,Positive,Brand Mention,39472,656.5,-0.11906611077988494
+Social Media,Social Media Outlet 41,Article about Brand Mention 41,2025-10-12 16:47:24.552831,Neutral,Brand Mention,44852,419.61,-0.1591266669925786
+Blog,Blog Outlet 42,Article about Industry News 42,2025-09-11 16:47:24.552862,Neutral,Industry News,18129,157.54,-0.16594345204911612
+Online News,Online News Outlet 43,Article about Company Announcement 43,2025-10-20 16:47:24.552892,Neutral,Company Announcement,393911,4991.99,-0.06322815110531449
+Online News,Online News Outlet 44,Article about Product Review 44,2025-11-27 16:47:24.552923,Neutral,Product Review,228942,4433.5,-0.11096615756559844
+Blog,Blog Outlet 45,Article about Company Announcement 45,2025-11-03 16:47:24.552954,Negative,Company Announcement,15965,93.95,-0.1243278742870424
+Radio,Radio Outlet 46,Article about Industry News 46,2025-12-06 16:47:24.552984,Positive,Industry News,563507,17055.49,-0.0494358559815844
+Radio,Radio Outlet 47,Article about Brand Mention 47,2025-11-15 16:47:24.553015,Positive,Brand Mention,170223,4244.3,0.17191498309500397
+Social Media,Social Media Outlet 48,Article about Company Announcement 48,2025-09-21 16:47:24.553046,Positive,Company Announcement,10785,69.76,0.5650102099409398
+Social Media,Social Media Outlet 49,Article about Industry News 49,2025-10-27 16:47:24.553076,Negative,Industry News,18959,107.26,-0.6407319589251006
+Social Media,Social Media Outlet 50,Article about Brand Mention 50,2025-10-07 16:47:24.553107,Negative,Brand Mention,17620,43.0,0.7263401638172604
+Social Media,Social Media Outlet 51,Article about Industry News 51,2025-09-19 16:47:24.553150,Positive,Industry News,43402,431.0,0.469633054085145
+Newspaper,Newspaper Outlet 52,Article about Industry News 52,2025-11-05 16:47:24.553188,Positive,Industry News,276827,12126.62,0.7755879883254426
+Newspaper,Newspaper Outlet 53,Article about Product Review 53,2025-10-07 16:47:24.553221,Neutral,Product Review,894855,11874.99,0.0003151641042478115
+Newspaper,Newspaper Outlet 54,Article about Industry News 54,2025-09-27 16:47:24.553253,Negative,Industry News,857936,20330.91,0.6362447365658919
+Social Media,Social Media Outlet 55,Article about Brand Mention 55,2025-11-05 16:47:24.553285,Neutral,Brand Mention,20692,117.86,-0.28912829219536595
+TV,TV Outlet 56,Article about Company Announcement 56,2025-09-20 16:47:24.553316,Positive,Company Announcement,600846,15217.01,-0.6143418156185496
+Blog,Blog Outlet 57,Article about Company Announcement 57,2025-09-23 16:47:24.553347,Neutral,Company Announcement,21500,65.22,-0.12993816963760696
+TV,TV Outlet 58,Article about Brand Mention 58,2025-10-30 16:47:24.553379,Positive,Brand Mention,206427,6688.68,0.05478064749195832
+Social Media,Social Media Outlet 59,Article about Company Announcement 59,2025-10-02 16:47:24.553411,Neutral,Company Announcement,44842,186.46,0.17171656209890013
+Online News,Online News Outlet 60,Article about Company Announcement 60,2025-09-24 16:47:24.553442,Positive,Company Announcement,53631,520.0,-0.21981101872646236
+Social Media,Social Media Outlet 61,Article about Product Review 61,2025-10-03 16:47:24.553475,Positive,Product Review,49906,288.06,-0.8406034418616242
+Social Media,Social Media Outlet 62,Article about Industry News 62,2025-11-28 16:47:24.553507,Positive,Industry News,17497,106.64,0.9708302746359905
+TV,TV Outlet 63,Article about Company Announcement 63,2025-09-25 16:47:24.553538,Positive,Company Announcement,254741,7654.83,-0.6240990382337215
+Social Media,Social Media Outlet 64,Article about Brand Mention 64,2025-11-04 16:47:24.553569,Positive,Brand Mention,16775,31.17,0.08985372846476869
+Social Media,Social Media Outlet 65,Article about Company Announcement 65,2025-12-08 16:47:24.553601,Neutral,Company Announcement,47934,120.45,-0.28459133716527957
+Radio,Radio Outlet 66,Article about Company Announcement 66,2025-11-02 16:47:24.553634,Positive,Company Announcement,350073,10392.83,-0.772973749687466
+Social Media,Social Media Outlet 67,Article about Product Review 67,2025-10-07 16:47:24.553668,Positive,Product Review,15468,32.18,-0.5472675467313461
+Blog,Blog Outlet 68,Article about Product Review 68,2025-10-15 16:47:24.553700,Neutral,Product Review,6942,56.52,0.21079143019858954
+Radio,Radio Outlet 69,Article about Product Review 69,2025-11-15 16:47:24.553732,Negative,Product Review,345977,14006.7,0.4240221730636009
+Blog,Blog Outlet 70,Article about Brand Mention 70,2025-12-01 16:47:24.553765,Positive,Brand Mention,16738,28.63,-0.7144487547486815
+Online News,Online News Outlet 71,Article about Product Review 71,2025-10-26 16:47:24.553799,Neutral,Product Review,413599,7865.34,-0.18313616945947808
+Online News,Online News Outlet 72,Article about Brand Mention 72,2025-11-20 16:47:24.553832,Negative,Brand Mention,149106,2016.35,-0.47811977894415647
+Social Media,Social Media Outlet 73,Article about Company Announcement 73,2025-09-17 16:47:24.553866,Neutral,Company Announcement,21956,135.55,0.23493134011824252
+Social Media,Social Media Outlet 74,Article about Company Announcement 74,2025-10-15 16:47:24.553899,Positive,Company Announcement,9196,77.96,-0.4218584200650213
+TV,TV Outlet 75,Article about Industry News 75,2025-10-28 16:47:24.553932,Positive,Industry News,387252,5745.33,-0.07798888503974966
+TV,TV Outlet 76,Article about Brand Mention 76,2025-11-15 16:47:24.553970,Negative,Brand Mention,766096,11167.36,-0.9916397192882715
+Newspaper,Newspaper Outlet 77,Article about Company Announcement 77,2025-10-06 16:47:24.554007,Neutral,Company Announcement,24800,1081.59,0.04770715457756658
+Blog,Blog Outlet 78,Article about Company Announcement 78,2025-11-24 16:47:24.554040,Negative,Company Announcement,12791,79.07,0.9186657292877825
+TV,TV Outlet 79,Article about Product Review 79,2025-10-24 16:47:24.554074,Positive,Product Review,171683,2540.11,-0.333223086872676
+Online News,Online News Outlet 80,Article about Company Announcement 80,2025-10-26 16:47:24.554106,Positive,Company Announcement,56167,1088.27,0.9298454820567126
+Radio,Radio Outlet 81,Article about Company Announcement 81,2025-10-28 16:47:24.554139,Neutral,Company Announcement,988358,17743.04,0.017438343927099587
+Blog,Blog Outlet 82,Article about Company Announcement 82,2025-09-17 16:47:24.554172,Positive,Company Announcement,29767,140.74,0.05589159671811528
+Radio,Radio Outlet 83,Article about Industry News 83,2025-09-25 16:47:24.554205,Neutral,Industry News,82154,3755.81,0.27527622229126886
+Online News,Online News Outlet 84,Article about Industry News 84,2025-12-05 16:47:24.554238,Positive,Industry News,197978,2838.51,0.9711734017118794
+Blog,Blog Outlet 85,Article about Brand Mention 85,2025-09-14 16:47:24.554272,Positive,Brand Mention,1533,12.56,-0.16188952021465886
+Blog,Blog Outlet 86,Article about Industry News 86,2025-12-01 16:47:24.554307,Positive,Industry News,46973,134.87,0.3178387580746036
+Blog,Blog Outlet 87,Article about Company Announcement 87,2025-10-22 16:47:24.554343,Neutral,Company Announcement,12574,69.35,0.2704585350216175
+TV,TV Outlet 88,Article about Brand Mention 88,2025-11-29 16:47:24.554378,Neutral,Brand Mention,459289,19316.26,-0.017448890906507364
+Social Media,Social Media Outlet 89,Article about Brand Mention 89,2025-10-19 16:47:24.554473,Negative,Brand Mention,38617,115.86,0.5421805411549439
+TV,TV Outlet 90,Article about Brand Mention 90,2025-12-01 16:47:24.554529,Neutral,Brand Mention,922331,13337.68,-0.10619499030365553
+Newspaper,Newspaper Outlet 91,Article about Industry News 91,2025-09-26 16:47:24.554573,Positive,Industry News,173449,7176.15,0.581990614760981
+Online News,Online News Outlet 92,Article about Company Announcement 92,2025-10-25 16:47:24.554615,Neutral,Company Announcement,408043,7018.36,0.062128853909702575
+Social Media,Social Media Outlet 93,Article about Industry News 93,2025-10-18 16:47:24.554653,Neutral,Industry News,32597,144.69,-0.17430661671284267
+Newspaper,Newspaper Outlet 94,Article about Industry News 94,2025-09-18 16:47:24.554690,Positive,Industry News,521179,19632.21,-0.11273316817706047
+TV,TV Outlet 95,Article about Industry News 95,2025-10-30 16:47:24.554730,Positive,Industry News,756816,24864.97,0.7690150882967406
+TV,TV Outlet 96,Article about Product Review 96,2025-10-16 16:47:24.554765,Negative,Product Review,826353,39837.61,0.026223132257108706
+Online News,Online News Outlet 97,Article about Brand Mention 97,2025-11-17 16:47:24.554802,Neutral,Brand Mention,80885,1072.34,-0.1710461839704823
+Blog,Blog Outlet 98,Article about Company Announcement 98,2025-09-23 16:47:24.554836,Neutral,Company Announcement,26285,242.47,0.027839115624277988
+Online News,Online News Outlet 99,Article about Product Review 99,2025-11-05 16:47:24.554868,Positive,Product Review,153181,2983.19,0.9227013426130035
+Blog,Blog Outlet 100,Article about Industry News 100,2025-10-07 16:47:24.554900,Neutral,Industry News,28274,280.93,0.04496531565495221
+Newspaper,Newspaper Outlet 101,Article about Industry News 101,2025-10-01 16:47:24.554933,Positive,Industry News,950240,17518.69,0.9716004533148141
+Online News,Online News Outlet 102,Article about Industry News 102,2025-09-12 16:47:24.554967,Positive,Industry News,390905,5419.61,0.2238573924949303
+Radio,Radio Outlet 103,Article about Industry News 103,2025-11-23 16:47:24.555002,Neutral,Industry News,496633,23614.39,-0.16308095155826233
+TV,TV Outlet 104,Article about Brand Mention 104,2025-10-13 16:47:24.555033,Positive,Brand Mention,298536,10414.42,0.6045434046766729
+Newspaper,Newspaper Outlet 105,Article about Industry News 105,2025-10-23 16:47:24.555065,Positive,Industry News,527083,11478.86,-0.08538723783041613
+Newspaper,Newspaper Outlet 106,Article about Company Announcement 106,2025-10-22 16:47:24.555097,Neutral,Company Announcement,112093,4070.55,-0.21476854853002664
+Radio,Radio Outlet 107,Article about Product Review 107,2025-11-18 16:47:24.555131,Negative,Product Review,123989,4137.7,-0.5436867785505932
+Blog,Blog Outlet 108,Article about Brand Mention 108,2025-10-01 16:47:24.555178,Positive,Brand Mention,47401,411.48,0.3403315497074626
+Blog,Blog Outlet 109,Article about Industry News 109,2025-10-15 16:47:24.555217,Positive,Industry News,5269,35.7,-0.8938754866776797
+Radio,Radio Outlet 110,Article about Brand Mention 110,2025-11-14 16:47:24.555252,Neutral,Brand Mention,498435,14827.59,0.25536908315050394
+TV,TV Outlet 111,Article about Industry News 111,2025-12-09 16:47:24.555284,Neutral,Industry News,163944,2371.75,-0.08678576479522601
+Online News,Online News Outlet 112,Article about Product Review 112,2025-10-05 16:47:24.555319,Neutral,Product Review,287882,3322.27,-0.003793175466648868
+Newspaper,Newspaper Outlet 113,Article about Brand Mention 113,2025-09-26 16:47:24.555355,Positive,Brand Mention,849638,10917.41,-0.2854056359429522
+Radio,Radio Outlet 114,Article about Brand Mention 114,2025-09-13 16:47:24.555405,Positive,Brand Mention,167477,3198.44,0.014223222643288125
+Social Media,Social Media Outlet 115,Article about Industry News 115,2025-10-05 16:47:24.555445,Neutral,Industry News,21739,76.31,-0.0869799443451231
+Social Media,Social Media Outlet 116,Article about Industry News 116,2025-09-12 16:47:24.555482,Neutral,Industry News,5779,36.41,0.14736124496488134
+Radio,Radio Outlet 117,Article about Industry News 117,2025-11-06 16:47:24.555518,Neutral,Industry News,535280,7164.68,0.23678405207805303
+Blog,Blog Outlet 118,Article about Product Review 118,2025-11-17 16:47:24.555551,Positive,Product Review,36297,48.4,0.43890904644893736
+Newspaper,Newspaper Outlet 119,Article about Company Announcement 119,2025-11-24 16:47:24.555584,Negative,Company Announcement,119642,4342.8,-0.2530499022930828
+Radio,Radio Outlet 120,Article about Brand Mention 120,2025-10-25 16:47:24.555617,Neutral,Brand Mention,375641,15769.81,-0.009053054406386096
+Blog,Blog Outlet 121,Article about Industry News 121,2025-11-14 16:47:24.555649,Positive,Industry News,29231,166.95,0.5678065763274183
+Social Media,Social Media Outlet 122,Article about Product Review 122,2025-11-03 16:47:24.555681,Negative,Product Review,44280,287.38,0.14891497795345354
+Blog,Blog Outlet 123,Article about Company Announcement 123,2025-10-28 16:47:24.555712,Positive,Company Announcement,26639,154.26,-0.9814285307680481
+Radio,Radio Outlet 124,Article about Brand Mention 124,2025-12-02 16:47:24.555743,Positive,Brand Mention,273166,6921.24,-0.19594083939137774
+Social Media,Social Media Outlet 125,Article about Company Announcement 125,2025-11-27 16:47:24.555776,Neutral,Company Announcement,9576,36.79,-0.15616736984125393
+TV,TV Outlet 126,Article about Company Announcement 126,2025-11-14 16:47:24.555809,Positive,Company Announcement,991289,23505.87,0.7047434005694773
+TV,TV Outlet 127,Article about Brand Mention 127,2025-10-05 16:47:24.555841,Positive,Brand Mention,817580,16766.63,0.2322083356436333
+Newspaper,Newspaper Outlet 128,Article about Company Announcement 128,2025-11-20 16:47:24.555876,Neutral,Company Announcement,535426,22176.25,-0.08728992150704737
+Blog,Blog Outlet 129,Article about Product Review 129,2025-10-05 16:47:24.555916,Negative,Product Review,18155,137.38,0.9058799430616902
+Online News,Online News Outlet 130,Article about Brand Mention 130,2025-10-20 16:47:24.555953,Positive,Brand Mention,479068,4653.98,-0.17128209730636024
+Radio,Radio Outlet 131,Article about Industry News 131,2025-11-11 16:47:24.555990,Positive,Industry News,412564,4630.53,-0.4802770317623781
+Radio,Radio Outlet 132,Article about Brand Mention 132,2025-09-23 16:47:24.556031,Neutral,Brand Mention,791153,24680.12,-0.04285977437007693
+Social Media,Social Media Outlet 133,Article about Industry News 133,2025-11-17 16:47:24.556069,Positive,Industry News,32945,177.43,-0.19294536090122527
+Newspaper,Newspaper Outlet 134,Article about Brand Mention 134,2025-10-30 16:47:24.556112,Positive,Brand Mention,664197,30109.13,-0.6102548757877373
+Radio,Radio Outlet 135,Article about Product Review 135,2025-09-12 16:47:24.556178,Positive,Product Review,177406,5570.18,0.3914759338537246
+Social Media,Social Media Outlet 136,Article about Company Announcement 136,2025-10-17 16:47:24.556215,Negative,Company Announcement,11033,74.21,0.0873733864557591
+Blog,Blog Outlet 137,Article about Company Announcement 137,2025-09-21 16:47:24.556251,Positive,Company Announcement,18621,33.72,-0.7355186874743165
+Social Media,Social Media Outlet 138,Article about Product Review 138,2025-10-27 16:47:24.556285,Neutral,Product Review,7571,12.63,-0.26023681365515733
+Newspaper,Newspaper Outlet 139,Article about Industry News 139,2025-10-12 16:47:24.556320,Positive,Industry News,987475,20568.83,-0.7780091765589676
+Newspaper,Newspaper Outlet 140,Article about Company Announcement 140,2025-11-21 16:47:24.556355,Neutral,Company Announcement,466898,4749.02,-0.04139111969996989
+Social Media,Social Media Outlet 141,Article about Company Announcement 141,2025-09-27 16:47:24.556388,Positive,Company Announcement,11685,13.39,0.0071261592251301575
+TV,TV Outlet 142,Article about Product Review 142,2025-11-15 16:47:24.556427,Neutral,Product Review,950319,16087.03,0.09910558735265768
+Newspaper,Newspaper Outlet 143,Article about Brand Mention 143,2025-11-03 16:47:24.556462,Neutral,Brand Mention,525874,22309.72,0.16040414252637136
+Blog,Blog Outlet 144,Article about Brand Mention 144,2025-10-14 16:47:24.556496,Positive,Brand Mention,43838,271.43,0.017521042859528047
+Radio,Radio Outlet 145,Article about Product Review 145,2025-09-30 16:47:24.556527,Neutral,Product Review,182243,3137.39,0.22992812839700155
+TV,TV Outlet 146,Article about Product Review 146,2025-09-17 16:47:24.556559,Positive,Product Review,953350,39338.11,0.6188307586849484
+Newspaper,Newspaper Outlet 147,Article about Product Review 147,2025-11-10 16:47:24.556593,Positive,Product Review,96159,3181.33,0.012140818330762526
+Online News,Online News Outlet 148,Article about Brand Mention 148,2025-11-15 16:47:24.556629,Negative,Brand Mention,214224,3098.94,0.44196281108409563
+Radio,Radio Outlet 149,Article about Product Review 149,2025-10-08 16:47:24.556665,Positive,Product Review,128239,2000.3,0.19805407092661143
